@@ -16,6 +16,7 @@
         <?php echo js('default.js');?>
 
         <?php if(isset($js)) echo js($js); ?>
+        <link href="../../../public/css/default.css" rel="stylesheet" type="text/css" />
     </head>
     
     <body>
@@ -23,30 +24,48 @@
     		<div class="header">
     			
     			<!-- Main header -->
-    			Ovde ide ceo header
+    			<div class="logo"></div>
+    		    <div class="banner"></div>
     		</div>
-    		<div class="nav">
+            
+	        <div class="nav_corporate"></div>
+          <div class="nav">
     			
     			<!-- Main navigation -->
-				<a href="<?php echo BASE_PATH.'home'.DS; ?>" title="Home" >Home</a>
-		    	<a href="<?php echo BASE_PATH.'who-we-are'.DS; ?>" title="Who we are" >Who we are</a>
-		    	<a href="<?php echo BASE_PATH.'our-goals'.DS; ?>" title="Our goals" >Our goals</a>
-		    	<a href="<?php echo BASE_PATH.'our-projects'.DS; ?>" title="Our projects" >Our projects</a>
-		    	<a href="<?php echo BASE_PATH.'news'.DS; ?>" title="News" >News</a>
-		    	<a href="<?php echo BASE_PATH.'contact'.DS; ?>" title="Contact" >Contact</a>
-    		</div>
+                <div class="btn_Home"><a href="<?php echo BASE_PATH.'home'.DS; ?>" title="Home" >Home</a></div>
+		    	<div class="btn_WhoWeAre"><a href="<?php echo BASE_PATH.'who-we-are'.DS; ?>" title="Who we are" >Who we are</a></div>
+		    	<div class="btn_OurGoals"><a href="<?php echo BASE_PATH.'our-goals'.DS; ?>" title="Our goals" >Our goals</a></div>
+		    	<div class="btn_OurProjects"><a href="<?php echo BASE_PATH.'our-projects'.DS; ?>" title="Our projects" >Our projects</a></div>
+		    	<div class="btn_News"><a href="<?php echo BASE_PATH.'news'.DS; ?>" title="News" >News</a></div>
+		    	<div class="btn_Contact"><a href="<?php echo BASE_PATH.'contact'.DS; ?>" title="Contact" >Contact</a></div>    		</div>
     		
-    		<div class="news">
-    			Ovde idu vesti
-    		</div>
+    		<div class="lang_srb"><img src="<?php echo IMAGE_PATH.'main_flag_srb.jpg';?>" /></div>
+            <div class="lang_eng"><img src="<?php echo IMAGE_PATH.'main_flag_eng.jpg';?>" /></div>
     		
-    		<div class="content">
-    			<?php include('app'.DS.VIEW_PATH.DS.$controller.DS.$action.'View.php'); ?>	
-    		</div>
-
-			<div class="footer">
-				Ovde ide footer
+            
+            <div class="content_bg">
+            	<div class="news">
+            		<div class="news_title"><span class="plavi_text">Latest</span> news</div>
+                		<div class="latest_news">
+                			<div class="news_date">24-05-2010</div>
+                			<div class="news_text_title">Naslov vesti</div>
+                			<div class="news_text">Content Residential and commercial project, 250 apartments. Construction starts in September 2010!</div>
+                        
+                	    	<div class="news_break"></div>
+                		</div>
+			  </div>
+              
+    		
+    			<div class="content">
+    				<?php include('app'.DS.VIEW_PATH.DS.$controller.DS.$action.'View.php'); ?>	
+    			</div>
 			</div>
+			<div class="footer">
+            	<div class="footer_copyright">Content copyright ©2010 Aviv Arlon Serbia</div>
+                <div class="designBy">site by:
+                  <br />
+                  <span class="bluedesigns">Blue Designs</span></div>
+		    </div>
     	</div>
-    </body>
+</body>
 </html>
