@@ -9,7 +9,16 @@ switch($url['route']['action']){
 	/*			Home page											 */
 	case 'index': 
 				//Current language
-				$lng = substr($params[1], 0, 3);
+				if(isset($params[1]) && !empty($params[1])){
+					
+					switch($params[1]){
+						default:
+						case 'srb': $lng = 'srb';
+									break;
+						case 'eng': $lng = 'eng';
+									break;
+					}
+				}else $lng = 'srb';
 				
 				//Get current language
 				//$currentLng = getCurrentLanguage($lng);
