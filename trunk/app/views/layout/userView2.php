@@ -17,12 +17,11 @@
 
         <?php if(isset($js)) echo js($js); ?>
         <link href="../../../public/css/default.css" rel="stylesheet" type="text/css" />
-    
+        <script type="text/javascript" language="JavaScript1.2" src="stm31.js"></script>
     </head>
     
     <body>
-    <div class="main">
-   	<div class="wraper">
+    	<div class="wraper">
     		<div class="header">
     			
     			<!-- Main header -->
@@ -51,14 +50,9 @@
                 		<div class="latest_news">
                 			<div class="news_date">24-05-2010</div>
                 			<div class="news_text_title">Naslov vesti</div>
-                			<div class="news_text">Residential and commercial project, 250 apartments. Construction starts in September 2010!</div>
+                			<div class="news_text">Content Residential and commercial project, 250 apartments. Construction starts in September 2010!</div>
                         
                 	    	<div class="news_break"></div>
-                		</div>
-                        <div class="latest_news">
-                			<div class="news_date">24-05-2010</div>
-                			<div class="news_text_title">Naslov vesti</div>
-                			<div class="news_text">Residential and commercial project, 250 apartments. Construction starts in September 2010!</div>
                 		</div>
 			  </div>
               
@@ -66,14 +60,13 @@
     			<div class="content">
     				<?php include('app'.DS.VIEW_PATH.DS.$controller.DS.$action.'View.php'); ?>	
     			</div>
-            </div>
-   	</div>
-<div class="footer">
+			</div>
+			<div class="footer">
             	<div class="footer_copyright">Content copyright ©2010 Aviv Arlon Serbia</div>
                 <div class="designBy">site by:
                   <br />
                   <span class="bluedesigns">Blue Designs</span></div>
 		    </div>
-    </div>
+    	</div>
 </body>
 </html>
