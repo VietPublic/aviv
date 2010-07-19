@@ -1,7 +1,12 @@
-.wraper .header {
+.main .wraper .header {
 
 }
-.wraper .header .logo {
+.main_content .projects_imgs {
+	width: 620px;
+	margin-left: 0px;
+}
+
+.main .wraper .header .logo {
 	background-image: url(../images/main_logo.jpg);
 	background-repeat: no-repeat;
 	height: 263px;
@@ -22,13 +27,11 @@ body {
 	width: 642px;
 	margin-left: 3px;
 }
-.wraper {
+.main .wraper {
 	background-color: #FFFFFF;
 	width: 950px;
-	right: 23%;
 	top: 50px;
-	height: auto;
-	position: absolute;
+	float: left;
 }
 .wraper .nav_corporate {
 	background-image: url(../images/main_link_corporate.jpg);
@@ -132,7 +135,7 @@ body {
 .wraper .content {
 	width: 627px;
 	margin-left: 295px;
-	padding-left: 20px;
+	padding-left: 10px;
 	margin-top: 0px;
 }
 .wraper .content_bg {
@@ -140,16 +143,18 @@ body {
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	width: 930px;
-	height: 700px;
+	height: auto;
 	margin-left: 10px;
+	margin-bottom: 10px;
+	float: left;
 }
-.wraper .footer {
+.footer  {
 	height: 20px;
 	width: 950px;
 	float: left;
-	margin-top: 30px;
+	margin-top: 10px;
 }
-.wraper .footer .footer_copyright {
+.footer  .footer_copyright  {
 	font-family: "Segoe UI", Arial;
 	font-size: 10px;
 	font-weight: bold;
@@ -159,7 +164,7 @@ body {
 	z-index: 1000;
 	float: left;
 }
-.wraper .footer .designBy {
+.footer  .designBy  {
 	font-family: "Segoe UI", Arial;
 	color: #FFFFFF;
 	text-align: right;
@@ -360,16 +365,18 @@ body {
 	padding-top: 3px;
 }
 .main_content {
-	width: 600px;
+	width: 627px;
 	margin-top: 0px;
 	float: left;
+	margin-bottom: 50px;
+	padding-bottom: 50px;
 }
 .main_content .page_title {
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: bold;
 	width: 300px;
 	margin-top: 40px;
-	margin-left: 10px;
+	margin-left: 3px;
 	font-size: 18px;
 	margin-bottom: 30px;
 }
@@ -388,11 +395,34 @@ body {
 	font-size: 10px;
 	line-height: 14px;
 	color: #000000;
-	margin-left: 10px;
+	margin-left: 3px;
 	width: 580px;
 	text-align: justify;
 	margin-top: 20px;
+	margin-bottom: 50px;
+	float: left;
 }
+.main_content  .text_box_regular_small  {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 14px;
+	color: #000000;
+	margin-left: 3px;
+	width: 224px;
+	text-align: justify;
+	margin-top: 20px;
+	float: left;
+}
+.main_content .movie {
+	height: 226px;
+	width: 370px;
+	margin-left: 20px;
+	float: left;
+	background-color: #FF9999;
+	margin-top: 20px;
+}
+
+
 .wraper .content_bg .call_us {
 	background-image: url(../images/call_us.png);
 	background-repeat: no-repeat;
@@ -401,4 +431,24 @@ body {
 	height: 40px;
 	width: 285px;
 	margin-left: 0px;
+}
+
+
+.main_content .text_break {
+	background-image: url(../../../public/images/main_border.jpg);
+	background-repeat: repeat-x;
+	height: 1px;
+	width: 600px;
+	margin-top: 30px;
+	margin-right: 10px;
+	margin-left: 3px;
+	float: left;
+}
+.main_content .projects_imgs .imgs {
+	height: 89px;
+	width: 150px;
+	margin-right: 2px;
+	margin-left: 2px;
+	float: left;
+	margin-bottom: 20px;
 }
