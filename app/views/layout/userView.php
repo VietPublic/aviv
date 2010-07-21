@@ -16,7 +16,6 @@
         <?php echo js('default.js');?>
 
         <?php if(isset($js)) echo js($js); ?>
-        <link href="../../../public/css/default.css" rel="stylesheet" type="text/css" />
     
     </head>
     
@@ -31,16 +30,27 @@
     		</div>
             
 	        <div class="nav_corporate"></div>
-          <div class="nav">
-    			
+          	<div class="nav">
     			<!-- Main navigation -->
-                <div class="btn_Home"><a href="<?php echo BASE_PATH.'home'.DS; ?>" title="Home" >Home</a></div>
-		    	<div class="btn_WhoWeAre"><a href="<?php echo BASE_PATH.'who-we-are'.DS; ?>" title="Who we are" >Who we are</a></div>
-		    	<div class="btn_OurGoals"><a href="<?php echo BASE_PATH.'our-goals'.DS; ?>" title="Our goals" >Our goals</a></div>
-		    	<div class="btn_OurProjects"><a href="<?php echo BASE_PATH.'our-projects'.DS; ?>" title="Our projects" >Our projects</a></div>
-		    	<div class="btn_News"><a href="<?php echo BASE_PATH.'news'.DS; ?>" title="News" >News</a></div>
-		    	<div class="btn_Contact"><a href="<?php echo BASE_PATH.'contact'.DS; ?>" title="Contact" >Contact</a></div>    		</div>
-    		
+    			<ul id="jsddm">
+				    <li><a href="<?php echo BASE_PATH.'home'.DS; ?>" title="Home" >Home</a></li>
+				    <li><a href="<?php echo BASE_PATH.'who-we-are'.DS; ?>" title="Who we are" >Who we are</a></li>
+				    <li><a href="<?php echo BASE_PATH.'our-goals'.DS; ?>" title="Our goals" >Our goals</a></li>
+				    <li>
+				    	<a href="<?php echo BASE_PATH.'our-projects'.DS; ?>" title="Our projects" >Our projects</a>
+				    	<ul>
+				            <li><a href="#">Slide Effect</a></li>
+				            <li><a href="#">Fade Effect</a></li>
+				            <li><a href="#">Opacity Mode</a></li>
+				            <li><a href="#">Drop Shadow</a></li>
+				            <li><a href="#">Semitransparent</a></li>
+				        </ul>
+				    </li>
+				    <li><a href="<?php echo BASE_PATH.'news'.DS; ?>" title="News" >News</a></li>
+					<li><a href="<?php echo BASE_PATH.'contact'.DS; ?>" title="Contact" >Contact</a></li>
+				</ul>
+    		</div>
+    			
     		<div class="lang_srb"><img src="<?php echo IMAGE_PATH.'main_flag_srb.jpg';?>" /></div>
             <div class="lang_eng"><img src="<?php echo IMAGE_PATH.'main_flag_eng.jpg';?>" /></div>
     		
