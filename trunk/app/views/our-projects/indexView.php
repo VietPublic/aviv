@@ -1,5 +1,3 @@
-
-<link href="../../../public/css/default.css" rel="stylesheet" type="text/css" />
 <div class="main_content">
   <div class="page_title"><span class="plavi_text">Zvezdara</span></div>
   
@@ -23,14 +21,14 @@
 
 The site is located in Zivka Davidovica street, Municipality of Zvezdara.
 
-Kralja Aleksandra Boulevard, one of the longest streets in Belgrade which serves as the main transportation artery connecting Belgrade downtown city center with suburban areas of Zvezdara and further, is in the nearest site’s vicinity.<br />
+Kralja Aleksandra Boulevard, one of the longest streets in Belgrade which serves as the main transportation artery connecting Belgrade downtown city center with suburban areas of Zvezdara and further, is in the nearest siteï¿½s vicinity.<br />
 <br />
 <br /><br />
 Accessibility
 
 The site is characterized by a very good driving accessibility due to its close proximity to Ustanicka street and Kralja Aleksandra Boulevard.
 
-Following Ustanicka street, the site is 5 km away from Autokomanda junction – an entrance into important international highways.
+Following Ustanicka street, the site is 5 km away from Autokomanda junction ï¿½ an entrance into important international highways.
   </div>
   
   

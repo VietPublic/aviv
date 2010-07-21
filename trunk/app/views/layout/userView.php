@@ -16,10 +16,6 @@
         <?php echo js('default.js');?>
 
         <?php if(isset($js)) echo js($js); ?>
-    <script type="text/javascript" src="../../../public/js/prototype.js"></script>
-<script type="text/javascript" src="../../../public/js/scriptaculous.js?load=effects"></script>
-<script type="text/javascript" src="../../../public/js/lightbox.js"></script>
-<link rel="stylesheet" href="../../../public/css/lightbox.css" type="text/css" media="screen" />
     </head>
     
     <body>
