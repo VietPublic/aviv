@@ -1,6 +1,9 @@
 .main .wraper .header {
 
 }
+.active{
+	font-weight: bold;	
+}
 .main_content .projects_imgs {
 	width: 620px;
 	margin-left: 0px;

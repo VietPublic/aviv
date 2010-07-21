@@ -32,7 +32,7 @@
           	<div class="nav">
     			<!-- Main navigation -->
     			<ul id="jsddm">
-				    <li><a href="<?php echo BASE_PATH.'home'.DS; ?>" title="Home" >Home</a></li>
+				    <li><a class="active" href="<?php echo BASE_PATH.'home'.DS; ?>" title="Home" >Home</a></li>
 				    <li><a href="<?php echo BASE_PATH.'who-we-are'.DS; ?>" title="Who we are" >Who we are</a></li>
 				    <li><a href="<?php echo BASE_PATH.'our-goals'.DS; ?>" title="Our goals" >Our goals</a></li>
 				    <li>
