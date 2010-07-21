@@ -1,0 +1,261 @@
+@charset "utf-8";
+#bg_content {
+	width: 950px;
+	background-color: #FFFFFF;
+	height: 900px;
+	margin-top: 40px;
+	position: absolute;
+	left: 13%;
+}
+#bg_content #logo {
+	background-image: url(images/mail_logo.jpg);
+	background-repeat: no-repeat;
+	height: 263px;
+	width: 285px;
+	margin-left: 10px;
+	float: left;
+}
+#bg_content #banner {
+	float: left;
+	margin-right: 10px;
+	height: 263px;
+	width: 642px;
+	margin-left: 3px;
+}
+#bg_content #btn_corporate {
+	background-image: url(images/main_link_corporate.jpg);
+	background-repeat: no-repeat;
+	height: 28px;
+	width: 285px;
+	margin-left: 10px;
+	float: left;
+}
+body {
+	background-color: #0000FF;
+	background-image: url(images/main_bg.jpg);
+	background-repeat: repeat;
+	margin-top: 0px;
+}
+#bg_content #main_menu {
+	background-color: #FFFFFF;
+	background-image: url(images/main_menu_bg.jpg);
+	background-repeat: no-repeat;
+	height: 28px;
+	width: 567px;
+	float: left;
+	margin-left: 3px;
+}
+#bg_content #flag_srb {
+	float: left;
+	height: 28px;
+	width: 36px;
+	margin-left: 1px;
+}
+#bg_content  #main_content_bg {
+	background-image: url(images/main_bg_content.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	float: left;
+	width: 950px;
+}
+#bg_content #main_content_bg #title_news {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #000000;
+	height: 25px;
+	width: 285px;
+	padding-left: 10px;
+	margin-top: 30px;
+	float: left;
+}
+.plavi_text {
+	color: #74D1F6;
+	padding-left: 10px;
+}
+#bg_content #main_content_bg #title_content {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	float: left;
+	height: 25px;
+	width: 642px;
+	margin-top: 30px;
+	margin-left: 3px;
+	padding-left: 3px;
+}
+#bg_content #main_menu #btn_nome_active {
+	font-family: AkzidenzGrotesk, Arial;
+	font-size: 13px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #74D1F6;
+	float: left;
+	height: 17px;
+	width: 55px;
+	margin-top: 3px;
+	text-align: center;
+	margin-left: 10px;
+	padding-top: 3px;
+	padding-right: 5px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+}
+#bg_content   #main_menu   #btn_whoWeAre_inactive a {
+	font-family: AkzidenzGrotesk, Arial;
+	font-size: 13px;
+	font-weight: bold;
+	color: #999999;
+	float: left;
+	height: 17px;
+	width: 80px;
+	margin-top: 3px;
+	text-align: center;
+	margin-left: 15px;
+	padding-top: 3px;
+	padding-right: 5px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	text-decoration: none;
+}
+#bg_content  #main_menu  #btn_ourGoals_inactive a {
+	font-family: AkzidenzGrotesk, Arial;
+	font-size: 13px;
+	font-weight: bold;
+	color: #999999;
+	float: left;
+	height: 17px;
+	width: 65px;
+	margin-top: 3px;
+	text-align: center;
+	margin-left: 22px;
+	padding-top: 3px;
+	padding-right: 5px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	text-decoration: none;
+}
+#bg_content #main_menu #btn_Ourprojects_inactive a {
+	font-family: AkzidenzGrotesk, Arial;
+	font-size: 13px;
+	font-weight: bold;
+	color: #999999;
+	float: left;
+	height: 17px;
+	width: 80px;
+	margin-top: 3px;
+	text-align: center;
+	margin-left: 24px;
+	padding-top: 3px;
+	padding-right: 5px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	text-decoration: none;
+}
+#bg_content  #main_menu  #btn_News_inactive  a {
+	font-family: AkzidenzGrotesk, Arial;
+	font-size: 13px;
+	font-weight: bold;
+	color: #999999;
+	float: left;
+	height: 17px;
+	width: 45px;
+	margin-top: 3px;
+	text-align: center;
+	margin-left: 17px;
+	padding-top: 3px;
+	padding-right: 5px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	text-decoration: none;
+}
+#bg_content #main_menu #btn_contact_inactive a {
+	font-family: AkzidenzGrotesk, Arial;
+	font-size: 13px;
+	font-weight: bold;
+	color: #999999;
+	float: left;
+	height: 17px;
+	width: 60px;
+	margin-top: 3px;
+	text-align: center;
+	margin-left: 15px;
+	padding-top: 3px;
+	padding-right: 5px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	text-decoration: none;
+	border: thin solid #000000;
+}
+#bg_content #main_menu #btn_whoWeAre_inactive a:hover {
+	font-family: AkzidenzGrotesk, Arial;
+	font-size: 13px;
+	font-weight: bold;
+	color: #FFFFFF;
+	float: left;
+	height: 17px;
+	width: 80px;
+	margin-top: 3px;
+	text-align: center;
+	margin-left: 15px;
+	padding-top: 3px;
+	padding-right: 5px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	text-decoration: none;
+	border: thin none #000000;
+	background-color: #74D1F6;
+}
+#bg_content #main_menu #btn_ourGoals_inactive a:hover {
+	font-family: AkzidenzGrotesk, Arial;
+	font-size: 13px;
+	font-weight: bold;
+	color: #FFFFFF;
+	float: left;
+	height: 17px;
+	width: 65px;
+	margin-top: 3px;
+	text-align: center;
+	margin-left: 22px;
+	padding-top: 3px;
+	padding-right: 5px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	text-decoration: none;
+	background-color: #74D1F6;
+}
+#bg_content #main_menu #btn_Ourprojects_inactive a:hover {
+	font-family: AkzidenzGrotesk, Arial;
+	font-size: 13px;
+	font-weight: bold;
+	color: #FFFFFF;
+	float: left;
+	height: 17px;
+	width: 80px;
+	margin-top: 3px;
+	text-align: center;
+	margin-left: 24px;
+	padding-top: 3px;
+	padding-right: 5px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	text-decoration: none;
+	border: thin none #000000;
+	background-color: #74D1F6;
+}
+#bg_content #main_menu #btn_News_inactive a:hover {
+	font-family: AkzidenzGrotesk, Arial;
+	font-size: 13px;
+	font-weight: bold;
+	color: #FFFFFF;
+	float: left;
+	height: 17px;
+	width: 45px;
+	margin-top: 3px;
+	text-align: center;
+	margin-left: 17px;
+	padding-top: 3px;
+	padding-right: 5px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	text-decoration: none;
+	background-color: #74D1F6;
+}
