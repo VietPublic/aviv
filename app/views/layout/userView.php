@@ -8,10 +8,12 @@
         <!-- Default css -->
         <?php echo css('default.css');?>
         <?php if(isset($css)) echo css($css);?>
+        <?php echo css('jquery.lightbox-0.5.css');?>
 
         <!-- jQuery library 1.3.1. -->
         <?php echo js('jquery-1.3.1.js');?>
-
+		<?php echo js('jquery.lightbox-0.5.min.js');?>
+		
         <!-- Default js -->
         <?php echo js('default.js');?>
 
