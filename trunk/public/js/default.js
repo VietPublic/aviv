@@ -2,7 +2,12 @@ $(document).ready(function(){
 
 	$('#jsddm > li').bind('mouseover', jsddm_open);
 	$('#jsddm > li').bind('mouseout',  jsddm_timer);
+
+	//Lightbox
+	$(".projects_imgs a").lightBox();
+
 });
+
 document.onclick = jsddm_close;
 
 var timeout    = 500;
