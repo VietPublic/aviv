@@ -18,6 +18,7 @@
         <?php echo js('default.js');?>
 
         <?php if(isset($js)) echo js($js); ?>
+        <link href="../../../public/css/default.css" rel="stylesheet" type="text/css" />
     </head>
     
     <body>
@@ -34,25 +35,23 @@
           	<div class="nav">
     			<!-- Main navigation -->
     			<ul id="jsddm">
-				    <li><a class="active" href="<?php echo BASE_PATH.'home'.DS; ?>" title="Home" >Home</a></li>
-				    <li><a href="<?php echo BASE_PATH.'who-we-are'.DS; ?>" title="Who we are" >Who we are</a></li>
-				    <li><a href="<?php echo BASE_PATH.'our-goals'.DS; ?>" title="Our goals" >Our goals</a></li>
+				    <li><a class="active" href="<?php echo BASE_PATH.'home'.DS; ?>" title="Home" >&nbsp;Home&nbsp;</a></li>
+				    <li><a href="<?php echo BASE_PATH.'who-we-are'.DS; ?>" title="Who we are" >&nbsp;Who we are&nbsp;</a></li>
+				    <li><a href="<?php echo BASE_PATH.'our-goals'.DS; ?>" title="Our goals" >&nbsp;Our goals&nbsp;</a></li>
 				    <li>
-				    	<a href="<?php echo BASE_PATH.'our-projects'.DS; ?>" title="Our projects" >Our projects</a>
+				    	<a href="<?php echo BASE_PATH.'our-projects'.DS; ?>" title="Our projects" >&nbsp;Our projects&nbsp;</a>
 				    	<ul>
-				            <li><a href="#">Slide Effect</a></li>
-				            <li><a href="#">Fade Effect</a></li>
-				            <li><a href="#">Opacity Mode</a></li>
-				            <li><a href="#">Drop Shadow</a></li>
-				            <li><a href="#">Semitransparent</a></li>
+				            <li><a href="#">&nbsp;Slide Effect&nbsp;</a></li>
+				            <li><a href="#">&nbsp;Fade Effect&nbsp;</a></li>
+				            
 				        </ul>
-				    </li>
-				    <li><a href="<?php echo BASE_PATH.'news'.DS; ?>" title="News" >News</a></li>
-					<li><a href="<?php echo BASE_PATH.'contact'.DS; ?>" title="Contact" >Contact</a></li>
+			      </li>
+				    <li><a href="<?php echo BASE_PATH.'news'.DS; ?>" title="News" >&nbsp;News&nbsp;</a></li>
+					<li><a href="<?php echo BASE_PATH.'contact'.DS; ?>" title="Contact" >&nbsp;Contact&nbsp;</a></li>
 				</ul>
-    		</div>
+	  </div>
     			
-    		<div class="lang_srb"><img src="<?php echo IMAGE_PATH.'main_flag_srb.jpg';?>" /></div>
+	  <div class="lang_srb"><img src="<?php echo IMAGE_PATH.'main_flag_srb.jpg';?>" /></div>
             <div class="lang_eng"><img src="<?php echo IMAGE_PATH.'main_flag_eng.jpg';?>" /></div>
     		
             
