@@ -2,7 +2,6 @@
 
 }
 .active{
-	font-weight: normal;
 	color: #FFFFFF;
 	background-color: #74d1f6;
 }
@@ -47,12 +46,7 @@ body {
 	float: left;
 }
 .wraper .nav {
-	background-image: url(../images/main_menu_bg.jpg);
-	background-repeat: no-repeat;
-	height: 28px;
-	width: 567px;
-	margin-left: 0px;
-	float: left;
+
 }
 .wraper .lang_srb {
 	height: 28px;
@@ -703,15 +697,15 @@ body {
 	text-decoration: none;
 	white-space: nowrap;
 	background-color: #FFFFFF;
-	padding-top: 5px;
+	padding-top: 2px;
 	padding-right: 8px;
-	padding-bottom: 5px;
+	padding-bottom: 3px;
 	padding-left: 8px;
 	border-right-width: 2px;
 	border-bottom-width: 1px;
 	border-right-style: solid;
 	border-left-style: solid;
-	border-right-color: white;
+	border-right-color: #FFFFFF;
 	border-bottom-color: white;
 	border-left-color: white;
 	border-top-width: 1px;
@@ -720,18 +714,18 @@ body {
 	border-bottom-style: solid;
 	border-top-color: white;
 	text-align: center;
-	height: 13px;
-	float: none;
+	height: 18px;
 	color: #707070;
+	margin-top: 2px;
 }
 #jsddm li a:hover{
 	display: block;
 	text-decoration: none;
 	white-space: nowrap;
 	background-color: #74d1f6;
-	padding-top: 5px;
+	padding-top: 2px;
 	padding-right: 8px;
-	padding-bottom: 5px;
+	padding-bottom: 3px;
 	padding-left: 8px;
 	border-right-width: 2px;
 	border-bottom-width: 1px;
@@ -746,9 +740,9 @@ body {
 	border-bottom-style: solid;
 	border-top-color: white;
 	text-align: center;
-	height: 13px;
-	float: none;
+	height: 18px;
 	color: #ffffff;
+	margin-top: 2px;
 }
 #jsddm li ul{
 	margin: 0;
@@ -765,70 +759,61 @@ body {
 	width: 80px;
 }
 #jsddm li ul li a{
-	
 	display: block;
 	text-decoration: none;
 	white-space: nowrap;
 	background-color: #74d1f6;
-	padding-top: 5px;
+	padding-top: 2px;
 	padding-right: 8px;
-	padding-bottom: 5px;
+	padding-bottom: 2px;
 	padding-left: 8px;
 	border-right-width: 2px;
-	border-bottom-width: 1px;
+	border-bottom-width: 0px;
 	border-right-style: solid;
 	border-left-style: solid;
-	border-right-color: white;
+	border-right-color: #ffffff;
 	border-bottom-color: white;
 	border-left-color: white;
-	border-top-width: 1px;
+	border-top-width: 0px;
 	border-left-width: 2px;
 	border-top-style: none;
 	border-bottom-style: solid;
 	border-top-color: white;
 	text-align: center;
-	height: 13px;
+	height: 18px;
 	float: none;
 	color: #ffffff;
-	margin-top: 2px;
+	margin-top:1px;
 }
 #jsddm li ul li a:hover{
-	
 	display: block;
 	text-decoration: none;
 	white-space: nowrap;
 	background-color: #6ea1cf;
-	padding-top: 5px;
+	padding-top: 2px;
 	padding-right: 8px;
-	padding-bottom: 5px;
+	padding-bottom: 2px;
 	padding-left: 8px;
 	border-right-width: 2px;
-	border-bottom-width: 1px;
+	border-bottom-width: 0px;
 	border-right-style: solid;
 	border-left-style: solid;
 	border-right-color: white;
 	border-bottom-color: white;
 	border-left-color: white;
-	border-top-width: 1px;
+	border-top-width: 0px;
 	border-left-width: 2px;
 	border-top-style: none;
 	border-bottom-style: solid;
 	border-top-color: white;
 	text-align: center;
-	height: 13px;
+	height: 18px;
 	float: none;
 	color: #ffffff;
-	margin-top: 2px;
-
+	margin-top: 1px;
 }
 /** DROP DOWN MENU - END **/
->>>>>>> .r16
 
-.main_content .placeholder {
-	float: left;
-	height: 100px;
-	width: 500px;
-}
 .main_content .projects_imgs .who_we_are_img_description {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 9px;
@@ -839,4 +824,16 @@ body {
 	height: 20px;
 	width: 150px;
 	margin-bottom: 10px;
+}
+.main .wraper .nav #jsddm {
+	font-family: AkzidenzGrotesk, Arial;
+	font-size: 13px;
+	height: 26px;
+	width: 566px;
+	margin-top: 0px;
+	padding-top: 0px;
+	border: 1px solid #CCCCCC;
+	margin-left: 2px;
+	float: left;
+	padding-left: 10px;
 }
