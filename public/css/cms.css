@@ -316,51 +316,13 @@ img.right { float: right;margin: 3px 0px 10px 30px;}
 
 /** RULES FOR TABLE **/
 .entry table{}
-.entry table tbody{ padding: 5px; border: 1px solid #74949C;}
+.entry table tbody{ font-family: Arial, Helvetica, sans-serif; font-size: 11px; text-align: left; padding: 5px; border: 1px solid #74949C;}
 .entry table th{ background-color:#74D1F6; font-family: Arial, Helvetica, sans-serif;font-size: 11px; color: #FFFFFF; text-align: left; padding-top: 5px; padding-bottom: 5px;	padding-left: 3px;}
 .entry table tbody td{ border-right-width: 0px;	border-left-width: 0px;	border-right-style: none; border-left-style: none; border-top-width: 0px; border-bottom-width: 0px; border-top-style: none; border-bottom-style: none; font-family: Arial, Helvetica, sans-serif; font-size: 11px; text-align: left; padding-top: 3px; padding-bottom: 3px; padding-left: 5px; background-color: #FFFFFF;}
-/** stil za parne redove
 
-.entry table tbody td{
-	border-right-width: 0px;
-	border-left-width: 0px;
-	border-right-style: none;
-	border-left-style: none;
-	border-top-width: 0px;
-	border-bottom-width: 0px;
-	border-top-style: none;
-	border-bottom-style: none;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	text-align: left;
-	padding-top: 3px;
-	padding-bottom: 3px;
-	padding-left: 5px;
-	background-color: #90daf8;
-	color: #ffffff;
+.odd{ background-color: #90daf8; color: #ffffff;}
+.even{ background-color: #F0F0F0;}
 
-**/
-
-/** stil za over redove
-
-.entry table tbody td{
-	border-right-width: 0px;
-	border-left-width: 0px;
-	border-right-style: none;
-	border-left-style: none;
-	border-top-width: 0px;
-	border-bottom-width: 0px;
-	border-top-style: none;
-	border-bottom-style: none;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 11px;
-	text-align: left;
-	padding-top: 3px;
-	padding-bottom: 3px;
-	padding-left: 5px;
-	background-color: #F0F0F0;
-
-**/
 .entry table tbody td input{border: 1px solid #6ea1cf;background-color: #FFF;padding: 2px;}
 .entry table tbody td input:focus{border: 1px solid #6ea1cf;background-color: #F0F0F0;}
 .entry table tbody td textarea{ border: 1px solid #6EA1CF;font-family: Arial, Helvetica, sans-serif; font-size: 11px;}
