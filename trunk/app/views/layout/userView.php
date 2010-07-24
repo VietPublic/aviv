@@ -18,7 +18,6 @@
         <?php echo js('default.js');?>
 
         <?php if(isset($js)) echo js($js); ?>
-        <link href="../../../public/css/default.css" rel="stylesheet" type="text/css" />
     </head>
     
     <body>
@@ -54,8 +53,8 @@
 				</ul>
 	  </div>
     			
-	  <div class="lang_srb"><img src="<?php echo IMAGE_PATH.'main_flag_srb.jpg';?>" /></div>
-            <div class="lang_eng"><img src="<?php echo IMAGE_PATH.'main_flag_eng.jpg';?>" /></div>
+	  <div class="lang_srb"><img src="<?php echo IMAGE_PATH.'main_flag_srb.jpg';?>" alt="" title="" /></div>
+            <div class="lang_eng"><img src="<?php echo IMAGE_PATH.'main_flag_eng.jpg';?>" alt="" title="" /></div>
     		
             
             <div class="content_bg">
