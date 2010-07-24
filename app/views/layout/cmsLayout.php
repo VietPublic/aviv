@@ -22,10 +22,15 @@
     <body>
    	<!-- start header -->
 	<div id="header">
-		<h1>Aviv Arlon</h1>
-	
-		<p> Superior Construction Since 1963</p>
+		<div style="float: left;">
+			<h1>Aviv Arlon</h1>
+			<p> Superior Construction Since 1963</p>
+		</div>
+		<div style="float: right; margin: 30px 0px 0px 0px;">
+			<a style="font-size: 15px; color: #819AB2; font-weight: bold;" href="<?php echo BASE_PATH.'cms'.DS.'logout'.DS; ?>" >Logout</a>
+		</div>
 	</div>
+	
 	<!-- end header -->
 	<!-- start page -->
 		<div id="page">
@@ -39,42 +44,41 @@
 					<div id="sidebar">
 						<ul>
 							<li>
-								<h2>Categories</h2>
+								<h2>System administration</h2>
 	
 								<ul>
-									<li><a href="#">Aliquam liberonare</a></li>
-									<li><a href="#">Consectetuer adipiscing</a></li>
-									<li><a href="#">Metusin  pellentesque</a></li>
-									<li><a href="#">Suspendisse  maurisres</a></li>
-									<li><a href="#">Urnanet  molestie semper</a></li>
-	
-									<li><a href="#">Proin gravida  porttitor</a></li>
+									<li><a href="<?php echo BASE_PATH.'cms'.DS.'admin'.DS.'add'.DS; ?>">Add new admin</a></li>
+									<li><a href="<?php echo BASE_PATH.'cms'.DS.'admin'.DS; ?>">View existing admins</a></li>
 								</ul>
 							</li>
 							<li>
-								<h2>Blogroll</h2>
+								<h2>News</h2>
 								<ul>
-									<li><a href="#">Aliquam liberonare</a></li>
-	
-									<li><a href="#">Consectetuer adipiscing</a></li>
-									<li><a href="#">Metusin  pellentesque</a></li>
-									<li><a href="#">Suspendisse  maurisres</a></li>
-									<li><a href="#">Urnanet  molestie semper</a></li>
-									<li><a href="#">Proin gravida  porttitor</a></li>
+									<li><a href="<?php echo BASE_PATH.'cms'.DS.'news'.DS.'add'.DS; ?>">Add new</a></li>
+									<li><a href="<?php echo BASE_PATH.'cms'.DS.'news'.DS; ?>">View existing</a></li>
 								</ul>
 	
 							</li>
 							<li>
-								<h2>Archives</h2>
+								<h2>Page administration</h2>
 								<ul>
-									<li><a href="#">September</a> (23)</li>
-									<li><a href="#">August</a> (31)</li>
+									<li><a href="<?php echo BASE_PATH.'cms'.DS.'home'.DS.'edit'.DS; ?>">Home page</a></li>
+									<li><a href="<?php echo BASE_PATH.'cms'.DS.'who-we-are'.DS.'edit'.DS; ?>">Who we are page</a></li>
+									<li><a href="<?php echo BASE_PATH.'cms'.DS.'our-goals'.DS.'edit'.DS; ?>">Our goals</a></li>
+								</ul>
+							</li>
+							<li>
+								<h2>Our projects</h2>
+								<ul>
+									<li><a href="<?php echo BASE_PATH.'cms'.DS.'projects'.DS.'zvezdara'.DS; ?>">Zvezdara</a></li>
+									<li><a href="<?php echo BASE_PATH.'cms'.DS.'projects'.DS.'retail-park-pancevo'.DS; ?>">Retails Park Pancevo</a></li>
 	
-									<li><a href="#">July</a> (31)</li>
-									<li><a href="#">June</a> (30)</li>
-									<li><a href="#">May</a> (31)</li>
-									<li><a href="#">April</a> (30)</li>
-	
+								</ul>
+							</li>
+							<li>
+								<h2>Contact</h2>
+								<ul>
+									<li><a href="<?php echo BASE_PATH.'cms'.DS.'contact'.DS; ?>">Sent forms</a></li>
 								</ul>
 							</li>
 						</ul>
