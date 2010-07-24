@@ -697,22 +697,7 @@ body {
 	text-decoration: none;
 	white-space: nowrap;
 	background-color: #FFFFFF;
-	padding-top: 2px;
-	padding-right: 8px;
-	padding-bottom: 3px;
-	padding-left: 8px;
-	border-right-width: 2px;
-	border-bottom-width: 1px;
-	border-right-style: solid;
-	border-left-style: solid;
-	border-right-color: #FFFFFF;
-	border-bottom-color: white;
-	border-left-color: white;
-	border-top-width: 1px;
-	border-left-width: 2px;
-	border-top-style: none;
-	border-bottom-style: solid;
-	border-top-color: white;
+	padding: 2px 20px;
 	text-align: center;
 	height: 18px;
 	color: #707070;
@@ -723,27 +708,13 @@ body {
 	text-decoration: none;
 	white-space: nowrap;
 	background-color: #74d1f6;
-	padding-top: 2px;
-	padding-right: 8px;
-	padding-bottom: 3px;
-	padding-left: 8px;
-	border-right-width: 2px;
-	border-bottom-width: 1px;
-	border-right-style: solid;
-	border-left-style: solid;
-	border-right-color: white;
-	border-bottom-color: white;
-	border-left-color: white;
-	border-top-width: 1px;
-	border-left-width: 2px;
-	border-top-style: none;
-	border-bottom-style: solid;
-	border-top-color: white;
+	padding: 2px 20px;
 	text-align: center;
 	height: 18px;
 	color: #ffffff;
 	margin-top: 2px;
 }
+
 #jsddm li ul{
 	margin: 0;
 	padding: 0;
@@ -763,10 +734,7 @@ body {
 	text-decoration: none;
 	white-space: nowrap;
 	background-color: #74d1f6;
-	padding-top: 2px;
-	padding-right: 8px;
-	padding-bottom: 2px;
-	padding-left: 8px;
+	padding: 2px 20px;
 	border-right-width: 2px;
 	border-bottom-width: 0px;
 	border-right-style: solid;
@@ -790,10 +758,7 @@ body {
 	text-decoration: none;
 	white-space: nowrap;
 	background-color: #6ea1cf;
-	padding-top: 2px;
-	padding-right: 8px;
-	padding-bottom: 2px;
-	padding-left: 8px;
+	padding: 2px 20px;
 	border-right-width: 2px;
 	border-bottom-width: 0px;
 	border-right-style: solid;
@@ -836,4 +801,7 @@ body {
 	margin-left: 2px;
 	float: left;
 	padding-left: 10px;
+}
+.menu_border{
+	border-left: 1px solid #CCC;
 }

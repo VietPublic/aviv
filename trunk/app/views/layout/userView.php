@@ -35,19 +35,19 @@
           	<div class="nav">
     			<!-- Main navigation -->
     			<ul id="jsddm">
-				    <li><a class="active" href="<?php echo BASE_PATH.'home'.DS; ?>" title="Home" >&nbsp;&nbsp;Home&nbsp;&nbsp;&nbsp;</a></li>
-				    <li><a href="<?php echo BASE_PATH.'who-we-are'.DS; ?>" title="Who we are" >&nbsp;&nbsp;Who we are&nbsp;&nbsp;&nbsp;</a></li>
-				    <li><a href="<?php echo BASE_PATH.'our-goals'.DS; ?>" title="Our goals" >&nbsp;&nbsp;Our goals&nbsp;&nbsp;&nbsp;</a></li>
+				    <li><a href="<?php echo BASE_PATH.'home'.DS; ?>" title="Home" >Home</a></li>
+				    <li><a class="menu_border" href="<?php echo BASE_PATH.'who-we-are'.DS; ?>" title="Who we are" >Who we are</a></li>
+				    <li><a class="menu_border" href="<?php echo BASE_PATH.'our-goals'.DS; ?>" title="Our goals" >Our goals</a></li>
 				    <li>
-				    	<a href="<?php echo BASE_PATH.'our-projects'.DS; ?>" title="Our projects" >&nbsp;&nbsp;Our projects&nbsp;&nbsp;&nbsp;</a>
+				    	<a class="menu_border" href="<?php echo BASE_PATH.'our-projects'.DS; ?>" title="Our projects" >Our projects</a>
 				    	<ul>
 				            <li><a href="#">&nbsp;&nbsp;Slide Effect&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
 				            <li><a href="#">&nbsp;&nbsp;Fade Effect&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
 				            
 				        </ul>
-			      </li>
-				    <li><a href="<?php echo BASE_PATH.'news'.DS; ?>" title="News" >&nbsp;&nbsp;&nbsp;News&nbsp;&nbsp;&nbsp;</a></li>
-					<li><a href="<?php echo BASE_PATH.'contact'.DS; ?>" title="Contact" >&nbsp;&nbsp;Contact&nbsp;&nbsp;&nbsp;</a></li>
+			       </li>
+				    <li><a class="menu_border" href="<?php echo BASE_PATH.'news'.DS; ?>" title="News" >News</a></li>
+					<li><a class="menu_border" href="<?php echo BASE_PATH.'contact'.DS; ?>" title="Contact" >Contact</a></li>
 				</ul>
 	  </div>
     			
