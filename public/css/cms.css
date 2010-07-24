@@ -346,3 +346,11 @@ img.right {
 	float: right;
 	margin: 3px 0px 10px 30px;
 }
+/** RULES FOR TABLE **/
+.entry table thead td{}
+.entry table tbody td{}
+.entry table tbody td input{}
+.entry table tbody td input:focus{}
+.entry table tbody td textarea{}
+.entry table tfoot td{}
+.entry table tfoot td input{ ovde ide stil za dugme}
