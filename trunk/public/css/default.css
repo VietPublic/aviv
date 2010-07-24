@@ -891,7 +891,7 @@ body {
 	font-size: 12px;
 	color: #00aeef;
 	text-align: center;
-	vertical-align: top;
+	margin-left: 12px;
 }
 
 /** WARNING MESSAGE **/
@@ -904,11 +904,6 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 18px;
 	color: #3d85c6;
-}
-.contact_star_white {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 18px;
-	color: #FFFFFF;
 }
 
 .main_content .contact {
