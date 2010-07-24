@@ -17,9 +17,9 @@
 							<td>xxx</td>
 							<td>xxx</td>
 							<td>
-								<a href="javascript:;" class="j_edit" title="Edit"><!-- edit --></a>
-							</td>
-						</tr>
+								<a href="javascript:;" class="j_edit" title="Edit"><!-- edit -->
+								</a>							</td>
+					  </tr>
 						<tr class="even"> 
 							<td>xxx</td>
 							<td>xxx</td>
