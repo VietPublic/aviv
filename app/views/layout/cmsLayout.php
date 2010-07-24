@@ -16,7 +16,7 @@
         <?php echo js('cms.js');?>
 
         <?php if(isset($js)) echo js($js); ?>
-        <link href="../../../public/css/cms.css" rel="stylesheet" type="text/css" />
+       
     </head>
     
     <body>
