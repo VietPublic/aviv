@@ -1,4 +1,3 @@
-
 <div class="main_content">
   <div class="page_title"><span class="plavi_text">Our</span> Goals</div>
   

@@ -1,12 +1,11 @@
-
-
-
 <div class="main_content">
   <div class="page_title"><span class="plavi_text">Who</span> We Are</div>
   
   <div class="text_box_regular">
-    <p>We are a highly experienced team of real estate professionals with decades of joint experience in all aspects of real estate development and investment.</p>
-    <p>Adding to the mix is the wide range of partnerships in areas of acquisition, development, management and financing that we have cultivated over the many years through our multiple projects.</p>
+   We are a highly experienced team of real estate professionals with decades of joint experience in all aspects of real estate development and investment.<br />
+<br />
+
+    Adding to the mix is the wide range of partnerships in areas of acquisition, development, management and financing that we have cultivated over the many years through our multiple projects.
   </div>
   
   <div class="text_break"></div>

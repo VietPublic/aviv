@@ -89,7 +89,7 @@ body {
 	width: 210px;
 	height: 300px;
 	line-height: 16px;
-	margin-left: 0px;
+	margin-left: 3px;
 }
 .main_content .contact_form {
 	float: left;
@@ -101,7 +101,7 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
 	font-weight: bold;
-	color: #CCCCCC;
+	color: #999999;
 	float: left;
 	height: 20px;
 	width: 70px;
@@ -115,7 +115,7 @@ body {
 	font-weight: bold;
 	text-decoration: underline;
 	float: left;
-	width: 170px;
+	width: 185px;
 	margin-top: 20px;
 	margin-left: 5px;
 	height: 20px;
@@ -127,7 +127,7 @@ body {
 	line-height: 16px;
 	color: #000000;
 	text-decoration: none;
-	width: 170px;
+	width: 185px;
 	margin-left: 90px;
 	float: left;
 }
@@ -407,11 +407,12 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	font-weight: bold;
-	margin-top: 20px;
+	margin-top: 0px;
 	line-height: 16px;
 	width: 580px;
 	text-align: justify;
 	margin-left: 3px;
+	float: left;
 }
 .main_content .text_box_regular {
 	font-family: Arial, Helvetica, sans-serif;
@@ -421,7 +422,7 @@ body {
 	margin-left: 3px;
 	width: 580px;
 	text-align: justify;
-	margin-top: 20px;
+	margin-top: 0px;
 	margin-bottom: 10px;
 	float: left;
 }
@@ -475,7 +476,7 @@ body {
 	background-repeat: repeat-x;
 	height: 1px;
 	width: 605px;
-	margin-top: 30px;
+	margin-top: 20px;
 	margin-right: 10px;
 	margin-left: 3px;
 	float: left;
@@ -833,4 +834,19 @@ body {
 	text-decoration: underline;
 	text-align: center;
 	margin-top: 7px;
+}
+.main .wraper .content_bg .news .latest_news .news_text a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #74d1f6;
+	text-decoration: underline;
+}
+
+.main .wraper .content_bg .news .latest_news .news_text a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #74d1f6;
+	text-decoration: none;
 }

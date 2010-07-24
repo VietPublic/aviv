@@ -1,4 +1,3 @@
-
 <div class="main_content">
   <div class="page_title"><span class="plavi_text">Welcome</span> to Aviv Arlon Serbia</div>
   
