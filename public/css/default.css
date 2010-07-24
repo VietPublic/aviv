@@ -849,11 +849,68 @@ body {
 	text-decoration: none;
 }
 /** CONTACT PAGE **/
-.contact table tbody th{ text-align: left; font-family: Arial, Helvetica, sans-serif; font-size: 12px; vertical-align: top;}
-.inputs table tbody td input{border: 1px solid #CCC; margin: 0px 0px 5px 0px; width: 340px; padding: 3px; font-family: Arial, Helvetica, sans-serif; font-size: 10px; color: #999;}
-.inputs table tbody td span{font-size: 12px; color: #93DDFA;}
-.inputs table tbody td textarea{border: 1px solid #CCC; margin: 0px 0px 5px 0px; width: 340px; height: 150px; padding: 3px;font-family: Arial, Helvetica, sans-serif; font-size: 10px; color: #999;}
-.inputs table tfoot td input{ border: 1px solid #CCC; padding: 2px; width: 80px; height: 30px; cursor: pointer;}
+.contact table tbody th{
+	text-align: left;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	vertical-align: top;
+	line-height: 16px;
+	font-weight: normal;
+	color: #000000;
+}
+.inputs table tbody td input{
+	border: 1px solid #adcceb;
+	margin: 0px 0px 5px 0px;
+	width: 300px;
+	padding: 3px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #999;
+}
+.inputs table tbody td span{
+
+}
+.inputs table tbody td textarea{
+	border: 1px solid #adcceb;
+	margin: 0px 0px 5px 0px;
+	width: 300px;
+	height: 150px;
+	padding: 3px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #999;
+}
+.inputs table tfoot td input{
+	border: 1px solid #adcceb;
+	padding: 2px;
+	width: 70px;
+	height: 20px;
+	cursor: pointer;
+	background-color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #00aeef;
+	text-align: center;
+	vertical-align: top;
+}
 
 /** WARNING MESSAGE **/
 .j_warning {border:solid 1px #CC3333!important; background-color:#FFCCCC!important; color:#CC3333!important;}
+
+
+
+
+.contact_star {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #3d85c6;
+}
+.contact_star_white {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #FFFFFF;
+}
+
+.main_content .contact {
+	margin-left: 5px;
+}
