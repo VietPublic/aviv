@@ -385,7 +385,7 @@ body {
 	width: 627px;
 	margin-top: 0px;
 	float: left;
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 	padding-bottom: 50px;
 }
 .main_content .page_title {
@@ -403,10 +403,10 @@ body {
 	font-size: 11px;
 	font-weight: bold;
 	margin-top: 20px;
-	margin-left: 10px;
 	line-height: 16px;
 	width: 580px;
 	text-align: justify;
+	margin-left: 3px;
 }
 .main_content .text_box_regular {
 	font-family: Arial, Helvetica, sans-serif;
@@ -417,7 +417,7 @@ body {
 	width: 580px;
 	text-align: justify;
 	margin-top: 20px;
-	margin-bottom: 50px;
+	margin-bottom: 10px;
 	float: left;
 }
 .main_content  .text_box_regular_small  {
@@ -727,7 +727,7 @@ body {
 #jsddm li ul li{
 	float: none;
 	display: inline;
-	width: 80px;
+	width: 200px;
 }
 #jsddm li ul li a{
 	display: block;
@@ -747,11 +747,12 @@ body {
 	border-top-style: none;
 	border-bottom-style: solid;
 	border-top-color: white;
-	text-align: center;
+	text-align: left;
 	height: 18px;
 	float: none;
 	color: #ffffff;
 	margin-top:1px;
+	width: 120px;
 }
 #jsddm li ul li a:hover{
 	display: block;
@@ -771,11 +772,12 @@ body {
 	border-top-style: none;
 	border-bottom-style: solid;
 	border-top-color: white;
-	text-align: center;
+	text-align: left;
 	height: 18px;
 	float: none;
 	color: #ffffff;
 	margin-top: 1px;
+	width: 120px;
 }
 /** DROP DOWN MENU - END **/
 

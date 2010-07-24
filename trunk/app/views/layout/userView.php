@@ -41,8 +41,8 @@
 				    <li>
 				    	<a class="menu_border" href="<?php echo BASE_PATH.'our-projects'.DS; ?>" title="Our projects" >Our projects</a>
 				    	<ul>
-				            <li><a href="#">&nbsp;&nbsp;Slide Effect&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-				            <li><a href="#">&nbsp;&nbsp;Fade Effect&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+				            <li><a href="#">&nbsp;&nbsp;Retail Park Pancevo&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+				            <li><a href="#">&nbsp;&nbsp;Zvezdara&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
 				            
 				        </ul>
 			       </li>

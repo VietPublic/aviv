@@ -1,6 +1,7 @@
 <script src="DWConfiguration/ActiveContent/IncludeFiles/AC_ActiveX.js" type="text/javascript"></script>
 <script src="DWConfiguration/ActiveContent/IncludeFiles/AC_RunActiveContent.js" type="text/javascript"></script>
 
+
 <div class="main_content">
   <div class="page_title"><span class="plavi_text">Zvezdara</span></div>
   
@@ -16,7 +17,7 @@
   
   <div class="text_break"></div>
   <div class="text_projects">
-  		<div class="text_box_regular_small">LOCATION<br />
+  		<div class="text_box_regular_small"><span class="text_bold">LOCATION</span><br />
 <br />
 <br />
 
@@ -31,8 +32,7 @@ Accessibility
 
 The site is characterized by a very good driving accessibility due to its close proximity to Ustanicka street and Kralja Aleksandra Boulevard.
 
-Following Ustanicka street, the site is 5 km away from Autokomanda junction � an entrance into important international highways.
-  </div>
+Following Ustanicka street, the site is 5 km away from Autokomanda junction � an entrance into important international highways.  </div>
   
   
   
