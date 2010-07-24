@@ -21,30 +21,40 @@
 	  					<table cellpadding="0" cellspacing="0" width="89%">
 <tbody>
 	  							<tr>
-	  								<td>
-	  									<span class="contact_star">*</span>
-								    <input name="contact[name]" type="text" value="full name" id="name"/></td>
+	  							<td>
+	  								<span class="contact_star">*</span>
+								    <input name="contact[name]" type="text" value="full name" id="name"/>
+						 		</td>
   							  </tr>
-	  							<tr>
-	  								<td><span class="contact_star">*</span>
-							      <input name="contact[email]" type="text" value="email" id="email"/></td>
+	  						  <tr>
+	  							<td>
+	  								<span class="contact_star">*</span>
+							      	<input name="contact[email]" type="text" value="email" id="email"/>
+							    </td>
+							  </tr>
+  							  <tr>
+	  							<td>
+  								  	<input name="contact[company]" type="text" value="company" style="margin-left: 12px; width: 300px;"/>
+  								</td>
   							  </tr>
-	  							<tr>
-	  								<td><span class="contact_star_white">*</span>
-  								  <input name="contact[company]" type="text" value="company" id="company"/></td>
+  							  <tr>
+	  							<td>
+  								  	<input name="contact[plone]" type="text" value="phone" style="margin-left: 12px; width: 300px;"/>
+  								</td>
   							  </tr>
-	  							<tr>
-	  								<td valign="top"><span class="contact_star">*</span>
-							      <textarea name="contact[message]" cols="" rows="">message</textarea>	  								</td>
+	  						  <tr>
+	  							<td valign="top">
+	  								<span class="contact_star" style="vertical-align: top;">*</span>
+							    	<textarea name="contact[message]" cols="" rows="" id="message">message</textarea>	  								
+							    </td>
   							  </tr>
 	  						</tbody>
 	  						<tfoot>
 	  							<tr>
-	  								<td>
-	  									<div align="center">
-	  									  <input name="" type="button" value="send"/>
-								        </div></td>
-  							  </tr>
+	  								<td align="center">
+  										<input name="" type="button" value="send"/>
+									</td>
+  							  	</tr>
 	  						</tfoot>
 	  					</table>
   					</form>
