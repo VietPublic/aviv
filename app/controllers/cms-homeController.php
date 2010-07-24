@@ -33,8 +33,9 @@ switch($url['route']['action']){
 	/*			Home page											 */
 	case 'submit': 
 
-				if($_SESSION['cms'] = getUser($params, false)){
+				if($user = getUser($params, false)){
 					//Go on home page
+					$_SESSION['cms'] = $user;
 					header("Location: ".BASE_PATH.'cms'.DS.'home'.DS);
 					exit;
 				}else{
@@ -50,6 +51,17 @@ switch($url['route']['action']){
 	case 'home': 
 
 				$subtitle = "CMS admin panel";
+				break;
+				
+	/*****************************************************************/
+	/*			Home page											 */
+	case 'logout': 
+
+				$_SESSION['cms'] = null;
+				header("Location: ".BASE_PATH."login".DS);
+				exit;
+				$subtitle = "";
+				break;
 				
 	/*****************************************************************/
 	/*			Default page if no action							 */

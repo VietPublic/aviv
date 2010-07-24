@@ -55,6 +55,11 @@ $routes = array(
 					  	'action' 		=> 'submit', 
 					  	'layout' 		=> 'empty'
 				),
+				array(	'url' 			=> '/^logout\/?$/', 
+						'controller' 	=> 'cms-home', 
+					  	'action' 		=> 'logout', 
+					  	'layout' 		=> 'empty'
+				),
 				array(	'url' 			=> '/^cms\/home\/?$/', 
 						'controller' 	=> 'cms-home', 
 					  	'action' 		=> 'home', 
