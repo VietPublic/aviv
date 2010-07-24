@@ -21,9 +21,9 @@
     <body>
    <!-- start header -->
 	<div id="header">
-		<h1>accomplishable</h1>
+		<h1>AVIV ARLON</h1>
 	
-		<p> design By Free CSS Templates</p>
+		<p> Superior Construction Since 1963</p>
 	</div>
 	<!-- end header -->
 	<!-- start page -->

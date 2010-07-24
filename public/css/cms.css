@@ -67,27 +67,33 @@ hr {
 
 #header {
 	width: 920px;
-	height: 100px;
+	height: 50px;
 	margin: 0 auto;
 }
 
 #header h1, #header p {
-	margin: 0;
 	padding: 0;
+	margin-top: 20;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0;
 }
 
 #header h1 {
-	font-size: 52px;
-	color: #20A001;
+	font-size: 30px;
+	color: #211d70;
 }
 
 #header p {
-	margin-top: -15px;
-	padding: 0px 0px 0px 4px;
-	font-size: 20px;
+	margin-top: -7px;
+	font-size: 14px;
 	font-weight: normal;
-	color: #86EA66;
+	color: #211d70;
 	text-transform: lowercase;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
 }
 
 #header a {
@@ -101,17 +107,19 @@ hr {
 	width: 980px;
 	margin: 0 auto;
 	padding: 0px;
-	background: url(images/img02.jpg) repeat-y left top;
+	background-image: url(../images/img02.jpg);
+	background-repeat: repeat-y;
+	background-position: left top;
 }
 
 #page-bgtop {
-	background: url(images/img01.jpg) no-repeat left top;
+	background: url(../images/img01.jpg) no-repeat left top;
 	margin: 0px;
 	padding: 0px;
 }
 
 #page-bgbtm {
-	background: url(images/img03.jpg) no-repeat left bottom;
+	background: url(../images/img03.jpg) no-repeat left bottom;
 	padding: 30px 40px 30px 30px;
 }
 
@@ -132,7 +140,7 @@ hr {
 .title {
 	margin: 0px;
 	padding-bottom: 25px;
-	background: url(images/img05.jpg) repeat-x left bottom;
+	background: url(../images/img05.jpg) repeat-x left bottom;
 }
 
 .title a {
@@ -158,7 +166,7 @@ hr {
 	width: 120px;
 	height: 26px;
 	padding: 2px 0px 0px 0px;
-	background: url(images/img06.jpg) no-repeat left top;
+	background: url(../images/img06.jpg) no-repeat left top;
 	text-align: center;
 }
 
@@ -167,7 +175,7 @@ hr {
 	width: 120px;
 	height: 26px;
 	padding: 2px 0px 0px 0px;
-	background: url(images/img06.jpg) no-repeat left top;
+	background: url(../images/img06.jpg) no-repeat left top;
 	text-align: center;
 }
 
@@ -255,7 +263,7 @@ hr {
 	width: 185px;
 	height: 32px;
 	padding: 6px 0px 0px 15px;
-	background: url(images/img04.jpg) no-repeat left top;
+	background: url(../images/img04.jpg) no-repeat left top;
 	font-size: 18px;
 	color: #FFFFFF;
 }
@@ -353,4 +361,4 @@ img.right {
 .entry table tbody td input:focus{}
 .entry table tbody td textarea{}
 .entry table tfoot td{}
-.entry table tfoot td input{ ovde ide stil za dugme}
+.entry table tfoot td input{font-family:Arial, Helvetica, sans-serif; font-size:10px; font-weight: bold; color: #74d1f6; background-color: #FFFFFF; text-align: center; width: 80px;}
