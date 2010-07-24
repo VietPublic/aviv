@@ -63,15 +63,15 @@
             		<div class="news_title"><span class="plavi_text">Latest</span> news</div>
                 		<div class="latest_news">
                 			<div class="news_date">24-05-2010</div>
-                			<div class="news_text_title">Naslov vesti</div>
-                			<div class="news_text">Residential and commercial project, 250 apartments. Construction starts in September 2010!</div>
+                			<div class="news_text_title">Zvezdara</div>
+                			<div class="news_text">Residential and commercial project, 250 apartments. Construction starts in September 2010! <a href="#">More...</a></div>
                         
                 	    	<div class="news_break"></div>
                 		</div>
                         <div class="latest_news">
                 			<div class="news_date">24-05-2010</div>
-                			<div class="news_text_title">Naslov vesti</div>
-                			<div class="news_text">Residential and commercial project, 250 apartments. Construction starts in September 2010!</div>
+                			<div class="news_text_title">First Retail Park in Serbia</div>
+                			<div class="news_text">Located on 7,3 ha, envisaged construction of total 30.000 m2 GBA with 700 parking places <a href="#">More...</a></div>
                 		</div>
 			  </div>
               
