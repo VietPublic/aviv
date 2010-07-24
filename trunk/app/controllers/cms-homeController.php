@@ -9,7 +9,7 @@ switch($url['route']['action']){
 	/*			Home page											 */
 	case 'login': 
 				
-				$subtitle = "";
+				$subtitle = "CMS admin panel";
 				break;
 
 	/*****************************************************************/
