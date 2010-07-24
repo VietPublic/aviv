@@ -18,11 +18,11 @@
 							<td>xxx</td>
 							<td>xxx</td>
 						</tr>
-						<tr class="even">
+						<tr class="even"> 
 							<td>xxx</td>
 							<td>xxx</td>
 							<td>xxx</td>
-							<td>xxx</td>
+						  <td>xxx</td>
 						</tr>
 						<tr class="odd">
 							<td>xxx</td>
@@ -36,7 +36,7 @@
 							<td>xxx</td>
 							<td>xxx</td>
 						</tr>
-					</tbody>
+				  </tbody>
 					<tfoot>
 						<tr>
 							<td colspan="4">
