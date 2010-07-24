@@ -11,6 +11,7 @@
         <?php echo js('jquery-1.3.1.js');?>
         <!-- Default js -->
         <?php echo js('login.js');?>
+        <link href="../../../public/css/cms.css" rel="stylesheet" type="text/css" />
     </head>
     
     <body>
@@ -23,10 +24,13 @@
 	
 		<!-- start page -->
 		<div id="page">
+        	
 			<!-- start content -->
-			<div id="content">
-				<?php include('app'.DS.VIEW_PATH.DS.$controller.DS.$action.'View.php'); ?>	
-			</div>
+				<div id="content">
+					<?php include('app'.DS.VIEW_PATH.DS.$controller.DS.$action.'View.php'); ?>	
+				</div>
+             
+           
 		</div>
 	</body>
 </html>

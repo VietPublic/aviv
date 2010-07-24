@@ -16,12 +16,13 @@
         <?php echo js('cms.js');?>
 
         <?php if(isset($js)) echo js($js); ?>
+        <link href="../../../public/css/cms.css" rel="stylesheet" type="text/css" />
     </head>
     
     <body>
    	<!-- start header -->
 	<div id="header">
-		<h1>AVIV ARLON</h1>
+		<h1>Aviv Arlon</h1>
 	
 		<p> Superior Construction Since 1963</p>
 	</div>

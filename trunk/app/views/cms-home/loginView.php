@@ -1,10 +1,11 @@
+
 <div class="post">
 	<h2 class="title">Login</h2>
 	<p class="byline"><small>Your current IP address is: <?php echo $_SERVER['REMOTE_ADDR'];?></small></p>
 	<div class="entry">
 		<form name="form" action="<?php echo BASE_PATH.'submit'.DS; ?>" method="post">
-			<table cellpadding="0" cellspacing="0" style="width: 400px; padding: 10px; border: 1px solid #74949C;">
-				<tbody>
+			<table cellpadding="0" cellspacing="0" style="width: 400px; padding: 10px; border: 1px solid #6ea1cf;">
+  <tbody>
 					<tr>
 						<td>
 							<p class="byline" style="margin:0px;">Username</p>
@@ -29,6 +30,6 @@
 					</tr>
 				</tfoot>
 			</table>
-		</form>
+	  </form>
 	</div>
 </div>
