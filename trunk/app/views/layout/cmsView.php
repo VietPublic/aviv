@@ -19,7 +19,7 @@
     </head>
     
     <body>
-   <!-- start header -->
+   	<!-- start header -->
 	<div id="header">
 		<h1>AVIV ARLON</h1>
 	

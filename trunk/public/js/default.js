@@ -8,7 +8,7 @@ $(document).ready(function(){
 	$(".news_gallery_top a").lightBox();
 	$(".news_gallery_bottom a").lightBox();
 	/** ALL FORMS **/
-	$("input[type='button'], textarea").click(function(){
+	$("input[type='button']").click(function(){
 		
 		var allOk = true;
 		//Go through all textarea
