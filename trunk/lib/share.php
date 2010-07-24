@@ -152,6 +152,10 @@ function hook($routes){
 		case 'empty':
 						include('app'.DS.VIEW_PATH.DS.'layout'.DS.'emptyView.php');
 						break;
+		//login view
+		case 'login':
+						include('app'.DS.VIEW_PATH.DS.'layout'.DS.'loginView.php');
+						break;
 		//CMS view
 		case 'cms':
 						include('app'.DS.VIEW_PATH.DS.'layout'.DS.'cmsView.php');
