@@ -4,9 +4,17 @@
   <div class="page_title"><span class="plavi_text">News</span></div>
    	<div class="news_box">
     	<div class="news_image">
-        	<div class="news_gallery"><a href="<?php echo IMAGE_PATH.'news_big_01.jpg';?>" title="XXX"><img src="<?php echo IMAGE_PATH.'news_gallery_small_01.jpg';?>" border="0" /></a>
-            <a href="<?php echo IMAGE_PATH.'news_big_02.jpg';?>" title="XXX"></a>
-              <a href="<?php echo IMAGE_PATH.'news_big_03.jpg';?>" title="XXX"></a>            </div>
+        	<div class="news_gallery">
+	        	<a href="<?php echo IMAGE_PATH.'news_big_01.jpg';?>" title="XXX">
+	        		<img src="<?php echo IMAGE_PATH.'news_gallery_small_01.jpg';?>" border="0" title="" alt=""/>
+	        	</a>
+	            <a href="<?php echo IMAGE_PATH.'news_big_02.jpg';?>" title="XXX" style="display: none;">
+	            	<img src="<?php echo IMAGE_PATH.'news_gallery_small_02.jpg';?>" border="0" title="" alt=""/>
+	            </a>
+	            <a href="<?php echo IMAGE_PATH.'news_big_03.jpg';?>" title="XXX" style="display: none;">
+	            	<img src="<?php echo IMAGE_PATH.'news_gallery_small_03.jpg';?>" border="0" title="" alt=""/>
+	            </a>
+          	</div>
           <div class="news_gallery_text">Photo gallery</div>
         </div>
         
@@ -36,7 +44,11 @@ Having this concept of shopping Retail Park put Pancevo at first place among oth
    	</div>
     <div class="news_box">
     	<div class="news_image">
-        	<div class="news_gallery"><img src="<?php echo IMAGE_PATH.'news_gallery_small_02.jpg';?>" /></div>
+        	<div class="news_gallery">
+        		<a href="<?php echo IMAGE_PATH.'news_gallery_small_02.jpg';?>" title="test">
+        			<img src="<?php echo IMAGE_PATH.'news_gallery_small_02.jpg';?>" alt="" title="" />
+        		</a>
+        	</div>
             <div class="news_gallery_text">Photo gallery</div>
         </div>
         

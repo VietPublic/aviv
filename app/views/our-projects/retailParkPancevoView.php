@@ -1,5 +1,3 @@
-<script src="DWConfiguration/ActiveContent/IncludeFiles/AC_ActiveX.js" type="text/javascript"></script>
-<script src="DWConfiguration/ActiveContent/IncludeFiles/AC_RunActiveContent.js" type="text/javascript"></script>
 <div class="main_content">
   <div class="page_title"><span class="plavi_text">Zvezdara</span></div>
   
