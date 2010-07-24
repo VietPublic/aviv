@@ -4,8 +4,9 @@ $(document).ready(function(){
 	$('#jsddm > li').bind('mouseout',  jsddm_timer);
 
 	//Lightbox
-	$(".projects_imgs a, .image_box_projects a, .news_gallery a").lightBox();
-	
+	$(".projects_imgs a, .image_box_projects a").lightBox();
+	$(".news_gallery_top a").lightBox();
+	$(".news_gallery_bottom a").lightBox();
 	/** ALL FORMS **/
 	$("input[type='button']").click(function(){
 		
