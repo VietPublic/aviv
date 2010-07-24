@@ -6,7 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=7" />
 		
         <!-- Default css -->
-        <?php echo css('login.css');?>
+        <?php echo css('cms.css');?>
         <!-- jQuery library 1.3.1. -->
         <?php echo js('jquery-1.3.1.js');?>
         <!-- Default js -->
@@ -14,8 +14,19 @@
     </head>
     
     <body>
-   xx
-	<?php include('app'.DS.VIEW_PATH.DS.$controller.DS.$action.'View.php'); ?>	
-
+	   	<!-- start header -->
+		<div id="header">
+			<h1>CMS admin panel</h1>
+			<p>design by Dusan Novakovic :-)</p>
+		</div>
+		<!-- end header -->
+	
+		<!-- start page -->
+		<div id="page">
+			<!-- start content -->
+			<div id="content">
+				<?php include('app'.DS.VIEW_PATH.DS.$controller.DS.$action.'View.php'); ?>	
+			</div>
+		</div>
 	</body>
 </html>
