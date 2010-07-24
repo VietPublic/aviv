@@ -41,10 +41,10 @@
 				    <li><a class="menu_border" href="<?php echo BASE_PATH.'who-we-are'.DS; ?>" title="Who we are" >Who we are</a></li>
 				    <li><a class="menu_border" href="<?php echo BASE_PATH.'our-goals'.DS; ?>" title="Our goals" >Our goals</a></li>
 				    <li>
-				    	<a class="menu_border" href="<?php echo BASE_PATH.'our-projects'.DS; ?>" title="Our projects" >Our projects</a>
+				    	<a class="menu_border" href="javascript:;" title="Our projects" >Our projects</a>
 				    	<ul>
-				            <li><a href="#">&nbsp;&nbsp;Retail Park Pancevo&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-				            <li><a href="#">&nbsp;&nbsp;Zvezdara&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+				            <li><a href="<?php echo BASE_PATH.'our-projects'.DS.'retail-park-pancevo'.DS; ?>">Retail Park Pancevo</a></li>
+				            <li><a href="<?php echo BASE_PATH.'our-projects'.DS.'zvezdara'.DS; ?>">Zvezdara</a></li>
 				            
 				        </ul>
 			       </li>
