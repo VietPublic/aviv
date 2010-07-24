@@ -422,7 +422,7 @@ body {
 	margin-left: 3px;
 	width: 580px;
 	text-align: justify;
-	margin-top: 0px;
+	margin-top: 15px;
 	margin-bottom: 10px;
 	float: left;
 }
@@ -476,9 +476,7 @@ body {
 	background-repeat: repeat-x;
 	height: 1px;
 	width: 605px;
-	margin-top: 20px;
-	margin-right: 10px;
-	margin-left: 3px;
+	margin: 20px 10px 15px 3px;
 	float: left;
 }
 .main_content .projects_imgs .imgs {
@@ -850,3 +848,12 @@ body {
 	color: #74d1f6;
 	text-decoration: none;
 }
+/** CONTACT PAGE **/
+.contact table tbody th{ text-align: left; font-family: Arial, Helvetica, sans-serif; font-size: 12px; vertical-align: top;}
+.inputs table tbody td input{border: 1px solid #CCC; margin: 0px 0px 5px 0px; width: 340px; padding: 3px; font-family: Arial, Helvetica, sans-serif; font-size: 10px; color: #999;}
+.inputs table tbody td span{font-size: 12px; color: #93DDFA;}
+.inputs table tbody td textarea{border: 1px solid #CCC; margin: 0px 0px 5px 0px; width: 340px; height: 150px; padding: 3px;font-family: Arial, Helvetica, sans-serif; font-size: 10px; color: #999;}
+.inputs table tfoot td input{ border: 1px solid #CCC; padding: 2px; width: 80px; height: 30px; cursor: pointer;}
+
+/** WARNING MESSAGE **/
+.j_warning {border:solid 1px #CC3333!important; background-color:#FFCCCC!important; color:#CC3333!important;}

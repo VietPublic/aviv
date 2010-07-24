@@ -1,55 +1,61 @@
 <div class="main_content">
-  <div class="page_title"><span class="plavi_text">Contact</span> Us</div>
-  
-  
-  
-  
-  <div class="address">Aviv Arlon Holding d.o.o.<br />
-
-Vladimira Popovica 6,<br />
-
-Belgrade, Serbia
-
-<br />
-<br />
-
-tel: +381 11 3121 608, 3121 609<br />
-
-fax: +381 11 3121 610<br />
-<br />
-
-
-e-mail: office@avivarlon.rs<br />
-
-www.avivarlon.com</div>
-
-  <div class="contact_form">
-    
-    <div class="fild_box_name">
-    	  <div class="star_place">*</div>
-    	 
-    	  <input name="full_name" type="text" value="full name" size="70" />
-    </div>
-    
-    <div class="fild_box_email">
-    <div class="star_place">*</div>
-    	  <input name="email" type="text" value="email" size="70" />
-    </div>
-    <div class="fild_box_email">
-    <div class="star_place"> </div>
-    	  <input name="company" type="text" value="company" size="70" />
-    </div>
-    <div class="fild_box_email">
-    <div class="star_place"> </div>
-    	  <input name="phone" type="text" value="phone" size="70" />
-    </div>
-    <div class="fild_box_comment">
-    <div class="star_place">*</div>
-    	  <textarea name="message" cols="65" rows="3">message</textarea>
-    </div>
-    
-    <div class="contact_btn">
-      <input name="send" type="button" value="send" />
-    </div>
+  <div class="page_title">
+  	<span class="plavi_text">Contact</span> Us
   </div>
+  <div style="clear: both;"><!-- empty --></div>
+  <div class="contact">
+  	<table cellpadding="0" cellspacing="0" width="100%">
+  		<tbody>
+  			<tr>
+  				<th style="width: 40%;">
+  					Aviv Arlon Holding d.o.o.<br/>
+  					Vladimira Popovica 6,<br/>
+  					Belgrade, Serbia<br/><br/>
+  					tel: +381 11 3121 608, 3121 609<br />
+					fax: +381 11 3121 610<br />
+					e-mail: office@avivarlon.rs<br />
+					www.avivarlon.com
+  				</th>
+  				<td  style="width: 60%;" class="inputs">
+  					<form name="form" action="<?php echo BASE_PATH.'submit'.DS; ?>" method="post">
+	  					<table cellpadding="0" cellspacing="0" width="100%">
+	  						<tbody>
+	  							<tr>
+	  								<td>
+	  									<input name="contact[name]" type="text" value="full name" id="name"/>
+	  									<span>*</span>
+	  								</td>
+	  							</tr>
+	  							<tr>
+	  								<td>
+	  									 <input name="contact[email]" type="text" value="email" id="email"/>
+	  									 <span>*</span>
+	  								</td>
+	  							</tr>
+	  							<tr>
+	  								<td>
+	  									 <input name="contact[company]" type="text" value="company" id="company"/>
+	  									 <span>*</span>
+	  								</td>
+	  							</tr>
+	  							<tr>
+	  								<td>
+	  									<textarea name="contact[message]" cols="" rows="">message</textarea>
+	  								</td>
+	  							</tr>
+	  						</tbody>
+	  						<tfoot>
+	  							<tr>
+	  								<td>
+	  									<input name="" type="button" value="send"/>
+	  								</td>
+	  							</tr>
+	  						</tfoot>
+	  					</table>
+  					</form>
+  				</td>
+  			</tr>
+  		</tbody>
+  	  </table>
+	</div>
 </div>
