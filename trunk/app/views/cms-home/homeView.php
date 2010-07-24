@@ -36,7 +36,7 @@
 								<a href="javascript:;" class="j_view" title="View"><!-- view --></a>
 							</td>
 						</tr>
-						<tr class="over">
+						<tr class="even">
 							<td>xxx</td>
 							<td>xxx</td>
 							<td>xxx</td>
