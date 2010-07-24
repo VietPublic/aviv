@@ -16,19 +16,25 @@
 							<td>xxx</td>
 							<td>xxx</td>
 							<td>xxx</td>
-							<td>xxx</td>
+							<td>
+								<a href="javascript:;" class="j_edit" title="Edit"><!-- edit --></a>
+							</td>
 						</tr>
 						<tr class="even"> 
 							<td>xxx</td>
 							<td>xxx</td>
 							<td>xxx</td>
-						  <td>xxx</td>
+						  	<td>
+								<a href="javascript:;" class="j_delete" title="Dekete"><!-- delete --></a>
+							</td>
 						</tr>
 						<tr class="odd">
 							<td>xxx</td>
 							<td>xxx</td>
 							<td>xxx</td>
-							<td>xxx</td>
+							<td>
+								<a href="javascript:;" class="j_view" title="View"><!-- view --></a>
+							</td>
 						</tr>
 						<tr class="over">
 							<td>xxx</td>
