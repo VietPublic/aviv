@@ -242,7 +242,7 @@ hr {
 #sidebar li li {
 	margin: 0 0 0 0;
 	padding: 0 10px;
-	line-height: 35px;
+	line-height: 20px;
 	border-bottom: 1px #A3F389 dashed;
 }
 
@@ -334,6 +334,13 @@ img.right { float: right;margin: 3px 0px 10px 30px;}
 /** WARNING MESSAGE **/
 .j_warning {border:solid 1px #CC3333!important; background-color:#FFCCCC!important; color:#CC3333!important;}
 .post .entry .text_over_table {	margin-bottom: 10px;}
-.j_edit {	background-image:url(../images/edit.png); background-repeat: no-repeat; background-position: center center;}
-.j_delete {	background-image:url(../images/delete.png); background-repeat: no-repeat; background-position: center center;}
-.j_view {	background-image:url(../images/view.png); background-repeat: no-repeat; background-position: center center;}
+.j_edit {
+	background-image:url(../images/edit.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 24px;
+	width: 24px;
+	display: block;
+}
+.j_delete {	background-image:url(../images/delete.png); background-repeat: no-repeat; background-position: center center; height: 24px; width: 24px; display: block;}
+.j_view {	background-image:url(../images/view.png); background-repeat: no-repeat; background-position: center center; height: 24px; width: 24px; display: block;}
