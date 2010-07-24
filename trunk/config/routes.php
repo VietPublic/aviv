@@ -50,6 +50,11 @@ $routes = array(
 					  	'action' 		=> 'login', 
 					  	'layout' 		=> 'login'
 				),
+				array(	'url' 			=> '/^submit\/?$/', 
+						'controller' 	=> 'cms-home', 
+					  	'action' 		=> 'submit', 
+					  	'layout' 		=> 'empty'
+				),
 				array(	'url' 			=> '/^cms\/home\/?$/', 
 						'controller' 	=> 'cms-home', 
 					  	'action' 		=> 'home', 

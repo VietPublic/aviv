@@ -150,19 +150,19 @@ function hook($routes){
 	switch($url['route']['layout']){
 		//No view
 		case 'empty':
-						include('app'.DS.VIEW_PATH.DS.'layout'.DS.'emptyView.php');
+						include('app'.DS.VIEW_PATH.DS.'layout'.DS.'emptyLayout.php');
 						break;
 		//login view
 		case 'login':
-						include('app'.DS.VIEW_PATH.DS.'layout'.DS.'loginView.php');
+						include('app'.DS.VIEW_PATH.DS.'layout'.DS.'loginLayout.php');
 						break;
 		//CMS view
 		case 'cms':
-						include('app'.DS.VIEW_PATH.DS.'layout'.DS.'cmsView.php');
+						include('app'.DS.VIEW_PATH.DS.'layout'.DS.'cmsLayout.php');
 						break;
 		//User view
 		case 'user':
-						include('app'.DS.VIEW_PATH.DS.'layout'.DS.'userView.php');
+						include('app'.DS.VIEW_PATH.DS.'layout'.DS.'userLayout.php');
 						break;
 	}
 	

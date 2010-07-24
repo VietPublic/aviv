@@ -2,7 +2,7 @@
 	<h2 class="title">Login</h2>
 	<p class="byline"><small>Your current IP address is: <?php echo $_SERVER['REMOTE_ADDR'];?></small></p>
 	<div class="entry">
-		<form name="form" action="<?php echo BASE_PATH.'cms'.DS.'submit'.DS; ?>" method="post">
+		<form name="form" action="<?php echo BASE_PATH.'submit'.DS; ?>" method="post">
 			<table cellpadding="0" cellspacing="0" style="width: 400px; padding: 10px;">
 				<tbody>
 					<tr>
