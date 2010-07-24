@@ -254,9 +254,13 @@ hr {
 
 #sidebar li li {
 	margin: 0 0 0 0;
-	padding: 0 0 0 0;
+	padding: 0 10px;
 	line-height: 35px;
 	border-bottom: 1px #A3F389 dashed;
+}
+
+#sidebar li li:hover {
+	background-color: #6EA1D0;
 }
 
 #sidebar h2 {
