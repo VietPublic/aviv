@@ -27,7 +27,7 @@
 			<p> Superior Construction Since 1963</p>
 		</div>
 		<div style="float: right; margin: 30px 0px 0px 0px;">
-			<a style="font-size: 15px; color: #819AB2; font-weight: bold;" href="<?php echo BASE_PATH.'cms'.DS.'logout'.DS; ?>" >Logout</a>
+			<a style="font-size: 15px; color: #819AB2; font-weight: bold;" href="<?php echo BASE_PATH.'logout'.DS; ?>" >Logout</a>
 		</div>
 	</div>
 	
@@ -47,8 +47,8 @@
 								<h2>System administration</h2>
 	
 								<ul>
-									<li><a href="<?php echo BASE_PATH.'cms'.DS.'admin'.DS.'add'.DS; ?>">Add new admin</a></li>
-									<li><a href="<?php echo BASE_PATH.'cms'.DS.'admin'.DS; ?>">View existing admins</a></li>
+									<li><a href="<?php echo BASE_PATH.'cms'.DS.'users'.DS.'add'.DS; ?>">Add new admin</a></li>
+									<li><a href="<?php echo BASE_PATH.'cms'.DS.'users'.DS; ?>">View existing admins</a></li>
 								</ul>
 							</li>
 							<li>
@@ -62,16 +62,16 @@
 							<li>
 								<h2>Page administration</h2>
 								<ul>
-									<li><a href="<?php echo BASE_PATH.'cms'.DS.'home'.DS.'edit'.DS; ?>">Home page</a></li>
-									<li><a href="<?php echo BASE_PATH.'cms'.DS.'who-we-are'.DS.'edit'.DS; ?>">Who we are page</a></li>
-									<li><a href="<?php echo BASE_PATH.'cms'.DS.'our-goals'.DS.'edit'.DS; ?>">Our goals</a></li>
+									<li><a href="<?php echo BASE_PATH.'cms'.DS.'pages'.DS.'?p=home'; ?>">Home page</a></li>
+									<li><a href="<?php echo BASE_PATH.'cms'.DS.'pages'.DS.'?p=who-we-are'; ?>">Who we are page</a></li>
+									<li><a href="<?php echo BASE_PATH.'cms'.DS.'pages'.DS.'?p=our-goals'; ?>">Our goals</a></li>
 								</ul>
 							</li>
 							<li>
 								<h2>Our projects</h2>
 								<ul>
-									<li><a href="<?php echo BASE_PATH.'cms'.DS.'projects'.DS.'zvezdara'.DS; ?>">Zvezdara</a></li>
-									<li><a href="<?php echo BASE_PATH.'cms'.DS.'projects'.DS.'retail-park-pancevo'.DS; ?>">Retails Park Pancevo</a></li>
+									<li><a href="<?php echo BASE_PATH.'cms'.DS.'projects'.DS.'?p=zvezdara'; ?>">Zvezdara</a></li>
+									<li><a href="<?php echo BASE_PATH.'cms'.DS.'projects'.DS.'?p=retail-park-pancevo'; ?>">Retails Park Pancevo</a></li>
 	
 								</ul>
 							</li>
