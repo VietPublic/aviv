@@ -125,10 +125,8 @@ Having this concept of shopping Retail Park put Pancevo at first place among oth
     	<div class="news_image">
         	<div class="news_gallery_bottom">
         		<a href="<?php echo IMAGE_PATH.'news_gallery_small_02.jpg';?>" title="test">
-        			<img src="<?php echo IMAGE_PATH.'news_gallery_small_02.jpg';?>" alt="" title="" />
-        		</a>
-        	</div>
-            <div class="news_gallery_text">Photo gallery</div>
+        			<img src="<?php echo IMAGE_PATH.'news_gallery_small_02.jpg';?>" alt="" border="0" title="" />        		</a>        	</div>
+          <div class="news_gallery_text">Photo gallery</div>
         </div>
         
       <div class="news_text_area">
