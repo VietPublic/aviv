@@ -1,12 +1,10 @@
 <script src="DWConfiguration/ActiveContent/IncludeFiles/AC_ActiveX.js" type="text/javascript"></script>
 <script src="DWConfiguration/ActiveContent/IncludeFiles/AC_RunActiveContent.js" type="text/javascript"></script>
-
-
 <div class="main_content">
   <div class="page_title"><span class="plavi_text">Zvezdara</span></div>
   
   <div class="text_box_regular_small">
-    <strong>EATURES</strong><br />
+    <strong>FEATURES</strong><br />
 <br />
 
    The project envisages construction of residential complex comprising 277 apartments with underground parking places along with supermarket and supplementary retail shops with total GBA of 32.000 m2.<br />
@@ -42,17 +40,17 @@ Following Ustanicka street, the site is 5 km away from Autokomanda junction � 
   
   
   <div class="image_box_projects">
-  	<div class="imgs"><a href="<?php echo IMAGE_PATH.'zvezdara_img_big_01.jpg';?>" title="XXX"><img src="<?php echo IMAGE_PATH.'zvezdara_img_small_01.jpg';?>" border="0" /></a></div>
-    <div class="imgs"><a href="<?php echo IMAGE_PATH.'zvezdara_img_big_02.jpg';?>" title="XXX"><img src="<?php echo IMAGE_PATH.'zvezdara_img_small_02.jpg';?>" border="0" /></a></div>
-	<div class="projects_img_description">bla bla</div>
-      	<div class="projects_img_description">bla bla</div>
-   <div class="imgs"><a href="<?php echo IMAGE_PATH.'zvezdara_img_big_03.jpg';?>" title="XXX"><img src="<?php echo IMAGE_PATH.'zvezdara_img_small_03.jpg';?>" border="0" /></a></div>
-    <div class="imgs"><a href="<?php echo IMAGE_PATH.'zvezdara_img_big_04.jpg';?>" title="XXX"><img src="<?php echo IMAGE_PATH.'zvezdara_img_small_04.jpg';?>" border="0" /></a></div>
-    <div class="projects_img_description">bla bla</div>
-      	<div class="projects_img_description">bla bla</div>
-    <div class="imgs"><a href="<?php echo IMAGE_PATH.'zvezdara_img_big_05.jpg';?>" title="XXX"><img src="<?php echo IMAGE_PATH.'zvezdara_img_small_05.jpg';?>" border="0" /></a></div>
-    <div class="imgs"><a href="<?php echo IMAGE_PATH.'zvezdara_img_big_06.jpg';?>" title="XXX"><img src="<?php echo IMAGE_PATH.'zvezdara_img_small_06.jpg';?>" border="0" /></a></div>
-	<div class="projects_img_description">bla bla</div>
-      	<div class="projects_img_description">bla bla</div>
+  	<div class="imgs"><a href="<?php echo IMAGE_PATH.'zvezdara_img_big_01.jpg';?>" title="Map of surrounding area"><img src="<?php echo IMAGE_PATH.'zvezdara_img_small_01.jpg';?>" border="0" /></a></div>
+    <div class="imgs"><a href="<?php echo IMAGE_PATH.'zvezdara_img_big_02.jpg';?>" title="Zvezdara"><img src="<?php echo IMAGE_PATH.'zvezdara_img_small_02.jpg';?>" border="0" /></a></div>
+	<div class="projects_img_description">Map of surrounding area</div>
+   	<div class="projects_img_description">Zvezdara</div>
+   <div class="imgs"><a href="<?php echo IMAGE_PATH.'zvezdara_img_big_03.jpg';?>" title="Zvezdara"><img src="<?php echo IMAGE_PATH.'zvezdara_img_small_03.jpg';?>" border="0" /></a></div>
+    <div class="imgs"><a href="<?php echo IMAGE_PATH.'zvezdara_img_big_04.jpg';?>" title="Zvezdara"><img src="<?php echo IMAGE_PATH.'zvezdara_img_small_04.jpg';?>" border="0" /></a></div>
+    <div class="projects_img_description">Zvezdara</div>
+      	<div class="projects_img_description">Zvezdara</div>
+    <div class="imgs"><a href="<?php echo IMAGE_PATH.'zvezdara_img_big_05.jpg';?>" title="Zvezdara"><img src="<?php echo IMAGE_PATH.'zvezdara_img_small_05.jpg';?>" border="0" /></a></div>
+    <div class="imgs"><a href="<?php echo IMAGE_PATH.'zvezdara_img_big_06.jpg';?>" title="Zvezdara"><img src="<?php echo IMAGE_PATH.'zvezdara_img_small_06.jpg';?>" border="0" /></a></div>
+	<div class="projects_img_description">Zvezdara</div>
+      	<div class="projects_img_description">Zvezdara</div>
     </div>
 </div>

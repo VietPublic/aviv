@@ -31,8 +31,11 @@
     		    <div class="banner"></div>
     		</div>
             
-	        <div class="nav_corporate"></div>
-          	<div class="nav">
+	        <div class="nav_corporate">
+            
+            <div class="nnav_corporate_text"><a href="#">&gt;&gt; click here to visit our global web site &lt;&lt;</a></div>
+            </div>
+<div class="nav">
     			<!-- Main navigation -->
     			<ul id="jsddm">
 				    <li><a href="<?php echo BASE_PATH.'home'.DS; ?>" title="Home" >Home</a></li>
