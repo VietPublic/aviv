@@ -322,6 +322,7 @@ img.right { float: right;margin: 3px 0px 10px 30px;}
 
 .odd{ background-color: #90daf8; color: #ffffff;}
 .even{ background-color: #F0F0F0;}
+.over{}
 
 .entry table tbody td input{border: 1px solid #6ea1cf;background-color: #FFF;padding: 2px;}
 .entry table tbody td input:focus{border: 1px solid #6ea1cf;background-color: #F0F0F0;}
