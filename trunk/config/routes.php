@@ -92,6 +92,11 @@ $routes = array(
 					  	'action' 		=> 'submit', 
 					  	'layout' 		=> 'empty'
 				),
+				array(	'url' 			=> '/^cms\/users\/(?P<id>\d+)\/delete\/?$/', 
+						'controller' 	=> 'cms-users', 
+					  	'action' 		=> 'delete', 
+					  	'layout' 		=> 'empty'
+				),
 				//CMS NEWS
 				array(	'url' 			=> '/^cms\/news\/?$/', 
 						'controller' 	=> 'cms-news', 
@@ -103,7 +108,7 @@ $routes = array(
 					  	'action' 		=> 'add', 
 					  	'layout' 		=> 'cms'
 				),
-				array(	'url' 			=> '/^cms\/news\/add\/submit\/?$/', 
+				array(	'url' 			=> '/^cms\/news\/submit\/?$/', 
 						'controller' 	=> 'cms-news', 
 					  	'action' 		=> 'submit', 
 					  	'layout' 		=> 'cms'
@@ -113,7 +118,7 @@ $routes = array(
 					  	'action' 		=> 'edit', 
 					  	'layout' 		=> 'cms'
 				),
-				array(	'url' 			=> '/^cms\/news\/(?P<id>\d+)\/edit\/submit\/?$/', 
+				array(	'url' 			=> '/^cms\/news\/(?P<id>\d+)\/submit\/?$/', 
 						'controller' 	=> 'cms-news', 
 					  	'action' 		=> 'submit', 
 					  	'layout' 		=> 'empty'

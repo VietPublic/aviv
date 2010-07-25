@@ -21,19 +21,12 @@
 					<td><?php echo $u['username'];?></td>
 					<td><?php echo $u['modif'];?></td>
 					<td>
-						<a href="javascript:;" class="j_edit" title="Edit"><!-- edit --></a>
-						<a href="javascript:;" class="j_delete" title="Delete"><!-- delete --></a>
+						<a href="<?php echo BASE_PATH.'cms'.DS.'users'.DS.$u['id'].DS.'edit'.DS; ?>" class="j_edit" title="Edit"><!-- edit --></a>
+						<?php if($u['id'] != $_SESSION['cms']['id']):?><a href="<?php echo BASE_PATH.'cms'.DS.'users'.DS.$u['id'].DS.'delete'.DS; ?>" class="j_delete" title="Delete <?php echo $u['firstname']." ".$u['lastname']; ?>?"><!-- delete --></a><?php endif;?>
 					</td>
 			  </tr>
 			  <?php endforeach;?>
 		  </tbody>
-			<tfoot>
-				<tr>
-					<td colspan="4">
-						<button type="button" style="margin-right: 20px;">Save</button>
-					</td>
-				</tr>
-			</tfoot>
 		</table>
 		<?php else:?>
 		<div class="noResults">No data at the moment</div>
