@@ -30,9 +30,9 @@
 	</tbody>
 	<tfoot>
 		<tr>
-			<td colspan="2">
-				<button type="button">Submit</button>
+			<td colspan="2" align="right">
+			  <button type="button">Submit</button>
 			</td>
-		</tr>
+	  </tr>
 	</tfoot>
 </table>
