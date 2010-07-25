@@ -16,9 +16,20 @@ switch($url['route']['action']){
 	/*			Home page											 */
 	case 'index': 
 				
+				$users = getUsers();
 				$subtitle = "";
 				break;
 
+	/*****************************************************************/
+	/*			Home page											 */
+	case 'submit': 
+				
+				if(addUser($params)) header("Location: ".BASE_PATH.'cms'.DS.'users'.DS.'?q=success');
+				else header("Location: ".BASE_PATH.'cms'.DS.'users'.DS.'?q=error');
+				$subtitle = "";
+				break;
+				
+				
 	/*****************************************************************/
 	/*			Default page if no action							 */
 	default: 

@@ -44,6 +44,11 @@
 					<div id="sidebar">
 						<ul>
 							<li>
+								<h2>
+									<a href="<?php echo BASE_PATH.'cms'.DS.'home'.DS; ?>">Home</a>
+								</h2>							
+							</li>
+							<li>
 								<h2>System administration</h2>
 	
 								<ul>

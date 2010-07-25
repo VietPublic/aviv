@@ -31,7 +31,7 @@
 	<tfoot>
 		<tr>
 			<td colspan="2" align="right">
-			  <button type="button">Submit</button>
+			  <button type="button" style="margin-right: 75px;">Submit</button>
 			</td>
 	  </tr>
 	</tfoot>

@@ -77,7 +77,7 @@ $routes = array(
 					  	'action' 		=> 'add', 
 					  	'layout' 		=> 'cms'
 				),
-				array(	'url' 			=> '/^cms\/users\/add\/submit\/?$/', 
+				array(	'url' 			=> '/^cms\/users\/submit\/?$/', 
 						'controller' 	=> 'cms-users', 
 					  	'action' 		=> 'submit', 
 					  	'layout' 		=> 'empty'
@@ -87,7 +87,7 @@ $routes = array(
 					  	'action' 		=> 'edit', 
 					  	'layout' 		=> 'cms'
 				),
-				array(	'url' 			=> '/^cms\/users\/(?P<id>\d+)\/edit\/submit\/?$/', 
+				array(	'url' 			=> '/^cms\/users\/(?P<id>\d+)\/submit\/?$/', 
 						'controller' 	=> 'cms-users', 
 					  	'action' 		=> 'submit', 
 					  	'layout' 		=> 'empty'
