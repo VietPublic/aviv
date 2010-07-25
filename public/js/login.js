@@ -23,9 +23,9 @@ $(document).ready(function(){
 		});
 		
 		
-		if(allOk){
+		if(!allOk){
 			//Set form
-			$("form").submit();
+			return false;
 		}
 	});
 });

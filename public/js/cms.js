@@ -14,7 +14,7 @@ $(document).ready(function(){
 	});
 	
 	//Required fields
-	$("button[type='button']").click(function(){
+	$("button[type='submit']").click(function(){
 		
 		var allOk = true;
 		//Go through all textarea
@@ -26,7 +26,7 @@ $(document).ready(function(){
 		});
 		
 		//Go through all inputs with id
-		$("input[type='text'], input[type='password']").each(function(){
+		$("input[type='text'], input[type='password'], input[type='file']").each(function(){
 			if($(this).hasClass('j_required') && $(this).val().length <= 0){
 				$(this).addClass('j_warning');
 				allOk = false;
@@ -34,12 +34,21 @@ $(document).ready(function(){
 		});
 		
 		
-		if(allOk){
+		if(!allOk){
 			//Set form
-			$("form").submit();
+			return false;
 		}
 	});
 
+	//Confirm on delete
+	$(".j_delete").each(function(){
 		
+		$(this).click(function(){
+			var title = $(this).attr('title');
+			
+			if(confirm(title)) return true;
+			else return false;
+		});
+	});
 		
 });

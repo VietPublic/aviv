@@ -96,6 +96,35 @@
 <div id="footer">
 	<p>&copy;2007 All Rights Reserved &nbsp;&bull;&nbsp; Design by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a> &nbsp;&bull;&nbsp; Icons by <a href="http://www.famfamfam.com/">FAMFAMFAM</a>.</p>
 </div>
-				
+		<!-- Status msg -->
+        <?php
+        if(isset($_GET['q'])) {
+            switch($_GET['q']) {
+            //Success
+                case 'success':?>
+        <div id="j_message" class="msg success"><?php echo 'Your request has been successfully completed.'; ?></div>
+                    <?php
+                    break;
+                //Error
+                case 'error':?>
+        <div id="j_message" class="msg error"><?php echo 'There has been an error processing your request.'; ?></div>
+                    <?php
+                    break;
+                //Error no file
+                case 'error_no_file':?>
+        <div id="j_message" class="msg error"><?php echo 'There is no file to upload'; ?></div>
+                    <?php
+                    break;
+                default: //Error
+                    break;
+            }?>
+        <script language="javascript" type="text/javascript">
+            //FadeIn and FadeOut for messages
+            $(document).ready(function(){
+                $("#j_message").fadeIn(500).fadeOut(5000);
+            });
+        </script>
+        <?php
+        }?>		
 	</body>
 </html>

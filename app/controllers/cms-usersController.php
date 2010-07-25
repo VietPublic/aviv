@@ -29,7 +29,23 @@ switch($url['route']['action']){
 				$subtitle = "";
 				break;
 				
+	/*****************************************************************/
+	/*			Home page											 */
+	case 'edit': 
 				
+				$user = getUser($params['id']);
+				$subtitle = "Edit";
+				break;
+				
+	/*****************************************************************/
+	/*			Home page											 */
+	case 'delete': 
+				
+				removeUser($params['id']);
+				header("Location: ".BASE_PATH.'cms'.DS.'users'.DS.'?q=success');
+				$subtitle = "";
+				break;
+					
 	/*****************************************************************/
 	/*			Default page if no action							 */
 	default: 
