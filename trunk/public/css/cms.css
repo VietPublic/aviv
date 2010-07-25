@@ -325,7 +325,7 @@ img.right { float: right;margin: 3px 0px 10px 30px;}
 .entry table{}
 .entry table tbody{ font-family: Arial, Helvetica, sans-serif; font-size: 11px; text-align: left; padding: 5px; border: 1px solid #74949C;}
 .entry table th{ background-color:#74D1F6; font-family: Arial, Helvetica, sans-serif; font-size: 11px; color: #FFFFFF; text-align: left; padding-top: 7px; padding-bottom: 7px; padding-left: 10px; border-bottom-width: 1px; border-bottom-style: dotted; border-bottom-color: #FFFFFF;}
-.entry table tbody td{ border-right-width: 0px;	border-left-width: 0px;	border-right-style: none; border-left-style: none; border-top-width: 0px; border-bottom-width: 0px; border-top-style: none; border-bottom-style: none; font-family: Arial, Helvetica, sans-serif; font-size: 11px; text-align: left; padding-top: 3px; padding-bottom: 3px; padding-left: 5px; }
+.entry table tbody td{ border-right-width: 0px;	border-left-width: 0px;	border-right-style: none; border-left-style: none; border-top-width: 0px; border-bottom-width: 0px; border-top-style: none; border-bottom-style: none; font-family: Arial, Helvetica, sans-serif; font-size: 11px; text-align: left; padding-top: 3px; padding-bottom: 3px; padding-left: 10px; }
 
 .odd{ background-color:#FFFFFF}
 .even{ background-color: #F0F0F0;}
@@ -341,15 +341,15 @@ img.right { float: right;margin: 3px 0px 10px 30px;}
 /** WARNING MESSAGE **/
 .j_warning {border:solid 1px #CC3333!important; background-color:#FFCCCC!important; color:#CC3333!important;}
 .post .entry .text_over_table {	margin-bottom: 10px;}
-.j_edit {
-	background-image:url(../images/edit.png);
-	background-repeat: no-repeat;
-	background-position: center center;
-	height: 24px;
-	width: 24px;
-	display: block;
-}
-.j_delete {	background-image:url(../images/delete.png); background-repeat: no-repeat; background-position: center center; height: 24px; width: 24px; display: block;}
-.j_view {	background-image:url(../images/view.png); background-repeat: no-repeat; background-position: center center; height: 24px; width: 24px; display: block;}
+.j_edit {	background-image:url(../images/edit.png); background-repeat: no-repeat; background-position: center center;	height: 24px;	width: 24px; display: block; float:left}
+.j_delete {	background-image:url(../images/delete.png); background-repeat: no-repeat; background-position: center center; height: 24px; width: 24px; display: block; float:left}
+.j_view {	background-image:url(../images/view.png); background-repeat: no-repeat; background-position: center center; height: 24px; width: 24px; display: block; float:left;}
 
-.noResults{ background-color: #FFFFCC; border: 1px solid #74949C; padding: 10px; }
+.noResults{ background-color: #FFFFCC; border: 1px solid #74949C; padding: 10px; }.cms_image_title_news {
+	height: 66px;
+	width: 120px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
