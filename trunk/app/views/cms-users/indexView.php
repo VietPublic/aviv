@@ -16,9 +16,10 @@
 					$num = 0;
 					foreach($users as $u):?>
 				<tr class="<?php echo (++$num%2==0?"even":"odd");?>">
-					<td>xxx</td>
-					<td>xxx</td>
-					<td>xxx</td>
+					<td><?php echo $u['firstname'];?></td>
+					<td><?php echo $u['lastname'];?></td>
+					<td><?php echo $u['username'];?></td>
+					<td><?php echo $u['modif'];?></td>
 					<td>
 						<a href="javascript:;" class="j_edit" title="Edit"><!-- edit --></a>
 						<a href="javascript:;" class="j_delete" title="Delete"><!-- delete --></a>
@@ -29,13 +30,13 @@
 			<tfoot>
 				<tr>
 					<td colspan="4">
-						<button type="button">Save</button>
+						<button type="button" style="margin-right: 20px;">Save</button>
 					</td>
 				</tr>
 			</tfoot>
 		</table>
 		<?php else:?>
-		<div class="noResult">No data at the moment</div>
+		<div class="noResults">No data at the moment</div>
 		<?php endif;?>
   </div>
 </div>

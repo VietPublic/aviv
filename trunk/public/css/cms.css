@@ -329,14 +329,14 @@ img.right { float: right;margin: 3px 0px 10px 30px;}
 
 .odd{ background-color:#FFFFFF}
 .even{ background-color: #F0F0F0;}
-.over{background-color: #74D1F6; color: #ffffff;}
+.over{background-color: #E0E8FF; color: #ffffff;}
 
-.entry table tbody td input{border: 1px solid #6ea1cf;background-color: #FFF;padding: 2px;}
+.entry table tbody td input{border: 1px solid #6ea1cf;background-color: #FFF; padding: 8px;}
 .entry table tbody td input:focus{border: 1px solid #6ea1cf;background-color: #F0F0F0;}
 .entry table tbody td textarea{ border: 1px solid #6EA1CF;font-family: Arial, Helvetica, sans-serif; font-size: 11px;}
 .post .entry #radio{ border: 1px solid 6ea1cf; background-color: #FFFFFF;}
 .entry table tfoot td{}
-.entry table tfoot td button{ border: 1px solid #6EA1CF; color: #74D1F6; font-size: 10px; display: block; height: 20px; text-align: center; width: 90px; font-family: Arial, Helvetica, sans-serif; margin-top: 15px; margin-right: 50px;	margin-bottom: 5px;	margin-left: 0px; font-weight: bold;	background-color: #FFFFFF;}
+.entry table tfoot td button{ border: 1px solid #6EA1CF; color: #74D1F6; font-size: 10px; display: block; text-align: center; width: 90px; font-family: Arial, Helvetica, sans-serif; margin: 15px 50px 5px 0px; padding: 5px; font-weight: bold;	background-color: #FFFFFF;}
 
 /** WARNING MESSAGE **/
 .j_warning {border:solid 1px #CC3333!important; background-color:#FFCCCC!important; color:#CC3333!important;}
@@ -351,3 +351,5 @@ img.right { float: right;margin: 3px 0px 10px 30px;}
 }
 .j_delete {	background-image:url(../images/delete.png); background-repeat: no-repeat; background-position: center center; height: 24px; width: 24px; display: block;}
 .j_view {	background-image:url(../images/view.png); background-repeat: no-repeat; background-position: center center; height: 24px; width: 24px; display: block;}
+
+.noResults{ background-color: #FFFFCC; border: 1px solid #74949C; padding: 10px; }
