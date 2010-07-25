@@ -39,7 +39,7 @@
 		  	<td>
 				<?php 
 						$num = 0;
-						if(isset($params['id']) && !empty($params['id'])):?>
+				if(isset($params['id']) && !empty($params['id'])):?>
 				<?php if(isset($news['other']) && !empty($news['other'])):?>
 				<?php foreach($news['other'] as $o):?>
 				<div style="margin-left: 20px;" id="img-name-<?php echo $num; ?>"><b>[</b><?php echo @$o['image'];?><b>]</b></div>
@@ -52,6 +52,11 @@
 						$num++;
 						endforeach; ?>	
 				<input type="hidden" value="<?php echo $num;?>" id="number" />			
+				<div id="another"><!-- load --></div>
+				<?php else:?>
+				<input type="file" name="file[0]" style="margin-left: 20px;" />
+				<input type="hidden" value="1" id="number" />
+				<a href="javascript:;" id="add_image" >add another</a>
 				<div id="another"><!-- load --></div>
 				<?php endif;?>
 				<?php else:?>
