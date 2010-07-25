@@ -3,7 +3,7 @@ $(document).ready(function(){
 	$("#username").focus();
 	
 	//Required fields
-	$("button[type='button']").click(function(){
+	$("button[type='submit']").click(function(){
 		
 		var allOk = true;
 		//Go through all textarea

@@ -26,7 +26,7 @@
 				<tfoot>
 					<tr>
 						<td><!-- empty --></td>
-						<td><button type="button">Login</button></td>
+						<td><button type="submit">Login</button></td>
 					</tr>
 				</tfoot>
 			</table>
