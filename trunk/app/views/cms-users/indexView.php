@@ -1,8 +1,8 @@
-<link href="../../../public/css/cms.css" rel="stylesheet" type="text/css" />
+
 <div class="post">
 	<h2 class="title">System administration &raquo; View existing admins</h2>
 	<p class="byline"><small>All created admins in system</small></p>
-	<div class="back">&lt;&lt; Back</div>
+	
 <div class="entry">
 		<?php if(isset($users) && !empty($users)):?>
   		<table cellpadding="0" cellspacing="0" width="100%">
