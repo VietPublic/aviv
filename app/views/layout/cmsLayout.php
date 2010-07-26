@@ -16,6 +16,7 @@
         <?php echo js('cms.js');?>
 
         <?php if(isset($js)) echo js($js); ?>
+        <?php if(isset($js2)) echo js($js2); ?>
        
     </head>
     
