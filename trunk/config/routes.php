@@ -149,6 +149,11 @@ $routes = array(
 					  	'action' 		=> 'submit', 
 					  	'layout' 		=> 'empty'
 				),
+				array(	'url' 			=> '/^cms\/pages\/(?P<id>\d+)\/delete\/?$/', 
+						'controller' 	=> 'cms-pages', 
+					  	'action' 		=> 'delete', 
+					  	'layout' 		=> 'empty'
+				),
 				//CMS PROJECTS
 				array(	'url' 			=> '/^cms\/projects\/?$/', 
 						'controller' 	=> 'cms-projects', 
@@ -160,6 +165,11 @@ $routes = array(
 					  	'action' 		=> 'submit', 
 					  	'layout' 		=> 'empty'
 				),
+				array(	'url' 			=> '/^cms\/projects\/(?P<id>\d+)\/delete\/?$/', 
+						'controller' 	=> 'cms-projects', 
+					  	'action' 		=> 'delete', 
+					  	'layout' 		=> 'empty'
+				),
 				//CMS CONTACT
 				array(	'url' 			=> '/^cms\/contact\/?$/', 
 						'controller' 	=> 'cms-contact', 
@@ -169,6 +179,11 @@ $routes = array(
 				array(	'url' 			=> '/^cms\/contact\/submit\/?$/', 
 						'controller' 	=> 'cms-contact', 
 					  	'action' 		=> 'submit', 
+					  	'layout' 		=> 'empty'
+				),
+				array(	'url' 			=> '/^cms\/contact\/(?P<id>\d+)\/delete\/?$/', 
+						'controller' 	=> 'cms-contact', 
+					  	'action' 		=> 'delete', 
 					  	'layout' 		=> 'empty'
 				)
 );

@@ -17,7 +17,7 @@ switch($url['route']['action']){
 	case 'index': 
 				
 				$users = getUsers();
-				$subtitle = "";
+				$subtitle = "Users";
 				break;
 
 	/*****************************************************************/
@@ -34,7 +34,14 @@ switch($url['route']['action']){
 	case 'edit': 
 				
 				$user = getUser($params['id']);
-				$subtitle = "Edit";
+				$subtitle = "Edit user";
+				break;
+
+	/*****************************************************************/
+	/*			Home page											 */
+	case 'add': 
+				
+				$subtitle = "Add user";
 				break;
 				
 	/*****************************************************************/
