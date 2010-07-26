@@ -15,7 +15,7 @@ switch($url['route']['action']){
 	/*****************************************************************/
 	/*			Home page											 */
 	case 'index': 
-
+	
 				$contact = getContacts();
 				$subtitle = "Contacts";
 				break;
