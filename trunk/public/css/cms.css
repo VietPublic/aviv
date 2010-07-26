@@ -15,7 +15,7 @@ h1 {
 
 h2 {
 	letter-spacing: -1px;
-	font-size: 18px;
+	font-size: 22px;
 }
 
 h3 {
@@ -136,11 +136,11 @@ hr {
 	margin: 0px;
 	padding-bottom: 25px;
 	background: url(../images/img05.jpg) repeat-x left bottom;
-	color: #6ea1cf;
+	color: #819AB2;
 }
 
 .title a {
-	text-decoration: underline;	color: #6ea1cf;}
+	text-decoration: underline;	color: #819AB2;}
 
 .pagetitle {
 }
@@ -148,7 +148,7 @@ hr {
 .byline {
 	margin-top: -25px;
 	padding: 0px;
-	color: #6ea1cf;
+	color: #819AB2;
 }
 
 .meta {
@@ -358,14 +358,6 @@ img.right { float: right;margin: 3px 0px 10px 30px;}
 .error {border:solid 1px #cc3333; background:#fff; color:#cc3333; -moz-border-radius:3px;} /* red */
 .success {border:solid 1px #339900; background:#fff; color:#339900; -moz-border-radius:3px;} /* green */
 
-.post .back {
-	height: 20px;
-	width: 80px;
-	margin-left: 580px;
-	font-size: 14px;
-	font-weight: bold;
-	color: #6EA1CF;
-	text-align: center;
-	margin-bottom: 20px;
-	margin-top: -20px;
-}
+.post .back {height: 20px;width: 80px;	margin-left: 600px;	font-size: 14px;	font-weight: bold;	color: #819AB2;	text-align: center;	margin-bottom: 20px;	margin-top: -20px;	}
+.post .back a {text-decoration: none; color: #819AB2;}
+.post .back a:hover {text-decoration: underline; color: #819AB2;}

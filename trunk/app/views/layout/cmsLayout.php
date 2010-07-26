@@ -45,8 +45,7 @@
 						<ul>
 							<li>
 								<h2>
-									<a href="<?php echo BASE_PATH.'cms'.DS.'home'.DS; ?>">Home</a>
-								</h2>							
+									<a href="<?php echo BASE_PATH.'cms'.DS.'home'.DS; ?>"><img src="<?php echo IMAGE_PATH.'home_icon.png';?>" alt="Home" title="Home" /> Home</a>								</h2>							
 							</li>
 							<li>
 								<h2>System administration</h2>
@@ -62,7 +61,6 @@
 									<li><a href="<?php echo BASE_PATH.'cms'.DS.'news'.DS.'add'.DS; ?>">Add new</a></li>
 									<li><a href="<?php echo BASE_PATH.'cms'.DS.'news'.DS; ?>">View existing</a></li>
 								</ul>
-	
 							</li>
 							<li>
 								<h2>Page administration</h2>
@@ -77,7 +75,6 @@
 								<ul>
 									<li><a href="<?php echo BASE_PATH.'cms'.DS.'projects'.DS.'?p=zvezdara'; ?>">Zvezdara</a></li>
 									<li><a href="<?php echo BASE_PATH.'cms'.DS.'projects'.DS.'?p=retail-park-pancevo'; ?>">Retails Park Pancevo</a></li>
-	
 								</ul>
 							</li>
 							<li>
@@ -87,7 +84,7 @@
 								</ul>
 							</li>
 						</ul>
-					</div>
+				  </div>
 				<!-- end sidebar -->
 				<div style="clear:both">&nbsp;</div>
 			</div>
