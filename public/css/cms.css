@@ -358,3 +358,14 @@ img.right { float: right;margin: 3px 0px 10px 30px;}
 .error {border:solid 1px #cc3333; background:#fff; color:#cc3333; -moz-border-radius:3px;} /* red */
 .success {border:solid 1px #339900; background:#fff; color:#339900; -moz-border-radius:3px;} /* green */
 
+.post .back {
+	height: 20px;
+	width: 80px;
+	margin-left: 580px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #6EA1CF;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: -20px;
+}
