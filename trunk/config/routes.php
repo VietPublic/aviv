@@ -111,7 +111,7 @@ $routes = array(
 				array(	'url' 			=> '/^cms\/news\/submit\/?$/', 
 						'controller' 	=> 'cms-news', 
 					  	'action' 		=> 'submit', 
-					  	'layout' 		=> 'cms'
+					  	'layout' 		=> 'empty'
 				),
 				array(	'url' 			=> '/^cms\/news\/(?P<id>\d+)\/edit\/?$/', 
 						'controller' 	=> 'cms-news', 
@@ -122,6 +122,21 @@ $routes = array(
 						'controller' 	=> 'cms-news', 
 					  	'action' 		=> 'submit', 
 					  	'layout' 		=> 'empty'
+				),
+				array(	'url' 			=> '/^cms\/news\/(?P<id>\d+)\/delete\/?$/', 
+						'controller' 	=> 'cms-news', 
+					  	'action' 		=> 'delete', 
+					  	'layout' 		=> 'empty'
+				),
+				array(	'url' 			=> '/^cms\/news\/(?P<id>\d+)\/delete\/(?P<other_id>\d+)\/?$/', 
+						'controller' 	=> 'cms-news', 
+					  	'action' 		=> 'delete', 
+					  	'layout' 		=> 'empty'
+				),
+				array(	'url' 			=> '/^cms\/news\/(?P<id>\d+)\/show\/?$/', 
+						'controller' 	=> 'cms-news', 
+					  	'action' 		=> 'show', 
+					  	'layout' 		=> 'cms'
 				),
 				//CMS PAGES
 				array(	'url' 			=> '/^cms\/pages\/?$/', 
