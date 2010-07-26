@@ -23,6 +23,7 @@
 					<img src="<?php echo BASE_PATH.UPLOAD_PATH.'news'.DS.'thumb'.DS.$n['id']."-".$n['main_image']; ?>" alt="" title="" />
 				</td>
 				<td align="right" valign="middle">
+					<a href="<?php echo BASE_PATH.'cms'.DS.'news'.DS.$n['id'].DS.'show'.DS; ?>" class="j_view" title="View" ><!-- view --></a>
 					<a href="<?php echo BASE_PATH.'cms'.DS.'news'.DS.$n['id'].DS.'edit'.DS; ?>" class="j_edit" title="Edit"><!-- edit --></a>
 					<a href="<?php echo BASE_PATH.'cms'.DS.'news'.DS.$n['id'].DS.'delete'.DS; ?>" class="j_delete" title="Delete <?php echo $n['title_sr'];?>?" ><!-- delete --></a>	
 				</td>
