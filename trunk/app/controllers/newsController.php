@@ -11,18 +11,16 @@ switch($url['route']['action']){
 				//Current language
 				if(isset($params[1]) && !empty($params[1])){
 					
-					switch($params[1]){
+					switch(substr($params[1], 0, 2)){
 						default:
-						case 'srb': $lng = 'srb';
+						case 'sr': $lng = 'sr';
 									break;
-						case 'eng': $lng = 'eng';
+						case 'en': $lng = 'en';
 									break;
 					}
-				}else $lng = 'srb';
+				}else $lng = 'sr';
 				
-				//Get current language
-				//$currentLng = getCurrentLanguage($lng);
-				
+				$page = getSelectedPage('news');
 				
 				$subtitle = "News";
 				break;

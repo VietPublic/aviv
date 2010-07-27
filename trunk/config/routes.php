@@ -4,42 +4,42 @@ $routes = array(
 				*************************** Website **************************
 				*************************************************************/
 				//Homepage
-				array(	'url' 			=> '/^\/?(eng\/?|srb\/?)?$/', 
+				array(	'url' 			=> '/^\/?(en\/?|sr\/?)?$/', 
 						'controller' 	=> 'home', 
 					  	'action' 		=> 'index', 
 					  	'layout' 		=> 'user'
 				),
 				//Who we are
-				array(	'url' 			=> '/^who-we-are\/?(eng\/?|srb\/?)?$/', 
+				array(	'url' 			=> '/^who-we-are\/?(en\/?|sr\/?)?$/', 
 						'controller' 	=> 'who-we-are', 
 					  	'action' 		=> 'index', 
 					  	'layout' 		=> 'user'
 				),
 				//Our goals
-				array(	'url' 			=> '/^our-goals\/?(eng\/?|srb\/?)?$/', 
+				array(	'url' 			=> '/^our-goals\/?(en\/?|sr\/?)?$/', 
 						'controller' 	=> 'our-goals', 
 					  	'action' 		=> 'index', 
 					  	'layout' 		=> 'user'
 				),
 				//Our projects
-				array(	'url' 			=> '/^our-projects\/retail-park-pancevo\/?(eng\/?|srb\/?)?$/', 
+				array(	'url' 			=> '/^our-projects\/retail-park-pancevo\/?(en\/?|sr\/?)?$/', 
 						'controller' 	=> 'our-projects', 
 					  	'action' 		=> 'retailParkPancevo', 
 					  	'layout' 		=> 'user'
 				),
-				array(	'url' 			=> '/^our-projects\/zvezdara\/?(eng\/?|srb\/?)?$/', 
+				array(	'url' 			=> '/^our-projects\/zvezdara\/?(en\/?|sr\/?)?$/', 
 						'controller' 	=> 'our-projects', 
 					  	'action' 		=> 'zvezdara', 
 					  	'layout' 		=> 'user'
 				),
 				//News
-				array(	'url' 			=> '/^news\/?(eng\/?|srb\/?)?$/', 
+				array(	'url' 			=> '/^news\/?(en\/?|sr\/?)?$/', 
 						'controller' 	=> 'news', 
 					  	'action' 		=> 'index', 
 					  	'layout' 		=> 'user'
 				),
 				//Contact
-				array(	'url' 			=> '/^contact\/?(eng\/?|srb\/?)?$/', 
+				array(	'url' 			=> '/^contact\/?(en\/?|sr\/?)?$/', 
 						'controller' 	=> 'contact', 
 					  	'action' 		=> 'index', 
 					  	'layout' 		=> 'user'
