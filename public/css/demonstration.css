@@ -1,0 +1,51 @@
+
+/* Dirty Reset */
+ul, ul li {
+	display: block;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+/* Indicators */
+ul#billy_indicators {
+	width: 500px;
+	margin: 0 0 30px 0;
+}
+
+	ul#billy_indicators li {
+		display: block;
+		border: 1px solid black;
+		width: 5px;
+		height: 5px;
+		float: left;
+		margin: 0 5px 0 0;
+	}
+		
+		ul#billy_indicators li a {
+			display: block;
+			width: 5px;
+			height: 5px;
+		}	
+		
+		ul#billy_indicators li.active { background: black; }
+		
+/* Carousel */
+#billy_clip { 
+	width: 500px; 
+	position: relative; /* For IE */
+	overflow: hidden;
+	height: 200px;
+}
+
+ul#billy_scroller {
+	width: 5000px;
+	height: 200px;
+}
+	
+	ul#billy_scroller li {
+		width: 500px;
+		height: 200px;
+		float: left;
+	}
+		
