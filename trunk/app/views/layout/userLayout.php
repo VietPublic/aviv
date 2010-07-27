@@ -18,17 +18,41 @@
         <?php echo js('default.js');?>
 
         <?php if(isset($js)) echo js($js); ?>
+       
     </head>
     
     <body>
     <div class="main">
    	<div class="wraper">
-    		<div class="header">
+   		  <div class="header">
     			
     			<!-- Main header -->
     			<div class="logo"></div>
-    		    <div class="banner"></div>
-    		</div>
+    		    <div class="banner">
+                	<div class="bannerBtns">
+                    	<a href="#">01</a>
+                        <a href="#">02</a>                    </div>
+                    <ul>
+                    	<li class="pushBox">
+                        	<div class="pushImage"><img src="<?php echo IMAGE_PATH.'header_img01.jpg';?>" />                            </div>
+                        	<div class="pusMask1">
+                            	<div class="banner_text">*Plot size: 7,3 ha<br /> *30.000 m2  of gross retail area: fashion stores,  sports equipment, hypermarket, DIY, home décor and furnishing, children’s toy shops, electronic stores, furniture, food court, services...<br /><br />*690 parking places</div>
+                                <div class="banner_logo"><img src="<?php echo IMAGE_PATH.'rpp_logo.png';?>" /></div>
+                            </div>
+                         </li>   
+                		<li  class="pushBox">
+                        	<div class="pushImage"><img src="<?php echo IMAGE_PATH.'gar_logo.png';?>" />                            </div>
+                        	<div class="pushMask2">
+                            <div class="banner_logo"><img src="../../../public/images/gar_logo.png" /></div>
+                            	<div class="banner_text">*Plot size: 7,3 ha<br /> *30.000 m2  of gross retail area: fashion stores,  sports equipment, hypermarket, DIY, home décor and furnishing, children’s toy shops, electronic stores, furniture, food court, services...<br /><br />*690 parking places</div>
+                                <div class="more">read more</div>
+                              
+                            </div>
+                         </li>   
+                	</ul>
+                    
+              </div>
+	  </div>
             
 	        <div class="nav_corporate">
             
@@ -37,35 +61,30 @@
 <div class="nav">
     			<!-- Main navigation -->
     			<ul id="jsddm">
-				    <li><a href="<?php echo BASE_PATH.$lng.DS; ?>" title="Home" >Home</a></li>
-				    <li><a class="menu_border" href="<?php echo BASE_PATH.'who-we-are'.DS.$lng.DS; ?>" title="Who we are" >Who we are</a></li>
-				    <li><a class="menu_border" href="<?php echo BASE_PATH.'our-goals'.DS.$lng.DS; ?>" title="Our goals" >Our goals</a></li>
+				    <li><a href="<?php echo BASE_PATH.$lng.DS; ?>" title="<?php echo $lang['Home']; ?>" ><?php echo $lang['Home']; ?></a></li>
+				    <li><a class="menu_border" href="<?php echo BASE_PATH.'who-we-are'.DS.$lng.DS; ?>" title="<?php echo $lang['Who we are']; ?>" ><?php echo $lang['Who we are']; ?></a></li>
+				    <li><a class="menu_border" href="<?php echo BASE_PATH.'our-goals'.DS.$lng.DS; ?>" title="<?php echo $lang['Our goals']; ?>" ><?php echo $lang['Our goals']; ?></a></li>
 				    <li>
-				    	<a class="menu_border" href="javascript:;" title="Our projects" >Our projects</a>
+				    	<a class="menu_border" href="javascript:;" title="<?php echo $lang['Our projects']; ?>" ><?php echo $lang['Our projects']; ?></a>
 				    	<ul>
 				            <li><a href="<?php echo BASE_PATH.'our-projects'.DS.'retail-park-pancevo'.DS.$lng.DS; ?>">Retail Park Pancevo</a></li>
-				            <li><a href="<?php echo BASE_PATH.'our-projects'.DS.'zvezdara'.DS.$lng.DS; ?>">Zvezdara</a></li>
-				            
-				        </ul>
-			       </li>
-				    <li><a class="menu_border" href="<?php echo BASE_PATH.'news'.DS.$lng.DS; ?>" title="News" >News</a></li>
-					<li><a class="menu_border" href="<?php echo BASE_PATH.'contact'.DS.$lng.DS; ?>" title="Contact" >Contact</a></li>
+<li><a href="<?php echo BASE_PATH.'our-projects'.DS.'zvezdara'.DS.$lng.DS; ?>">Zvezdara</a></li>
+</ul>
+		          </li>
+				    <li><a class="menu_border" href="<?php echo BASE_PATH.'news'.DS.$lng.DS; ?>" title="<?php echo $lang['News']; ?>" ><?php echo $lang['News']; ?></a></li>
+					<li><a class="menu_border" href="<?php echo BASE_PATH.'contact'.DS.$lng.DS; ?>" title="<?php echo $lang['Contact']; ?>" ><?php echo $lang['Contact']; ?></a></li>
 				</ul>
 	  </div>
     			
 	  <div class="lang_srb">
 	  	<a href="<?php echo BASE_PATH.'sr'.DS;?>">
-	  		<img src="<?php echo IMAGE_PATH.'main_flag_srb.jpg';?>" alt="" title="" />
-	 	</a> 	
-	 </div>
-     <div class="lang_eng">
+	  		<img src="<?php echo IMAGE_PATH.'main_flag_srb.jpg';?>" alt="" border="0" title="" />	 	</a>	 </div>
+    <div class="lang_eng">
      	<a href="<?php echo BASE_PATH.'en'.DS;?>">
-     		<img src="<?php echo IMAGE_PATH.'main_flag_eng.jpg';?>" alt="" title="" />
-     	</a>
-     </div>
+     		<img src="<?php echo IMAGE_PATH.'main_flag_eng.jpg';?>" alt="" border="0" title="" />     	</a>     </div>
     		
             
-            <div class="content_bg">
+<div class="content_bg">
             	<div class="news">
             		<div class="news_title">
             			<span class="plavi_text">Latest</span> news</div>

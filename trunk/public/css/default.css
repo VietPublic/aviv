@@ -24,12 +24,13 @@ body {
 	background-repeat: repeat;
 }
 .wraper .header .banner {
-	background-image: url(../images/main_banner.jpg);
-	background-repeat: no-repeat;
 	float: left;
-	height: 263px;
+	height: 253px;
 	width: 642px;
 	margin-left: 3px;
+	padding-top: 10px;
+	background-color: #FFFFFF;
+	position: relative;
 }
 .main .wraper {
 	background-color: #FFFFFF;
@@ -922,7 +923,110 @@ body {
 	top: 1px;
 	right: 1px;
 }
+<<<<<<< .mine
+.main .wraper .header .banner .bannerBtns {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+	float: left;
+	height: 18px;
+	width: 40px;
+	margin-left: 10px;
+	margin-top: 5px;
+	position: absolute;
+	z-index: 100;
+}
+.main .wraper .header .banner .bannerBtns a {
+	text-decoration: none;
+	background-color: #211d70;
+	float: left;
+	height: 14px;
+	width: 16px;
+	border: 1px solid #38c3fd;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	margin: 1px;
+	text-align: center;
+}
+.main .wraper .header .banner .pushBox {
+	position: absolute;
+	height: 250px;
+	width: 642px;
+	top: 10px;
+	left: 0px;
+}
+.main .wraper .header .banner ul {
+	list-style-position: outside;
+	list-style-type: none;
+}
+.main  .wraper  .header  .banner  .pushBox  .pushMask1 {
+	background-color: #8dc63f;
+	height: 236px;
+	width: 161px;
+	position: absolute;
+	right: 20px;
+	bottom: 0px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	z-index: 99;
+}
+.main .wraper .header .banner .pushBox .pushMask2 .more {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #FFFFFF;
+	position: absolute;
+	bottom: 5px;
+	left: 120px;
+}
+
+.main   .wraper   .header   .banner   .pushBox   .pusMask1   .banner_text {
+	font-family: AkzidenzGrotesk, Arial;
+	font-size: 10px;
+	line-height: 14px;
+	color: #FFFFFF;
+	position: absolute;
+	bottom: 20px;
+	width: 150px;
+	right: 15px;
+}
+.main   .wraper   .header   .banner   .pushBox   .pusMask1   .banner_logo {
+	position: absolute;
+	top: 5px;
+	left: 20px;
+}
+.main .wraper .header .banner .pushBox .pushMask2 {
+	background-color: #f7941d;
+	height: 236px;
+	width: 161px;
+	position: absolute;
+	right: 20px;
+	bottom: 0px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	z-index: 70;
+}
+.main .wraper .header .banner .pushBox .pushMask2 .banner_text {
+	font-family: AkzidenzGrotesk, Arial;
+	font-size: 10px;
+	line-height: 14px;
+	color: #FFFFFF;
+	position: absolute;
+	bottom: 20px;
+	width: 150px;
+	left: 15px;
+}
+.main .wraper .header .banner .pushBox .pushMask2 .banner_logo {
+	position: absolute;
+	top: 5px;
+	left: 20px;
+}
+=======
 
 .zoom{
 	
 }
+>>>>>>> .r86
