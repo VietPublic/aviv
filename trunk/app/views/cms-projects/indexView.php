@@ -97,7 +97,7 @@
 	 theme : "advanced",
 	 plugins : "safari,pagebreak,style,layer,table,save,advhr,advimage,advlink,emotions,iespell,insertdatetime,preview,media,searchreplace,print,contextmenu,paste,directionality,fullscreen,noneditable,visualchars,nonbreaking,xhtmlxtras,template",
 	 theme_advanced_buttons1 : "save,newdocument,|,bold,italic,underline,strikethrough,|,justifyleft,justifycenter,justifyright,justifyfull,|,fontselect,fontsizeselect",
-	 theme_advanced_buttons2 : "cut,copy,paste,|,bullist,numlist,|,undo,redo,|,link,unlink,anchor,image,cleanup,help,code,|,insertdate,inserttime,preview,",
+	 theme_advanced_buttons2 : "cut,copy,paste,|,bullist,numlist,|,undo,redo,|,link,unlink,anchor,image,cleanup,help,code,|forecolor,backcolor",
 	 theme_advanced_buttons3 : "tablecontrols,|,hr,removeformat,visualaid,|,media,|,ltr,rtl,|,fullscreen",
 	 theme_advanced_toolbar_location : "top",
 	 theme_advanced_toolbar_align : "left",

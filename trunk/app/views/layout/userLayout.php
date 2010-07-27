@@ -31,7 +31,8 @@
     		    <div class="banner">
                 	<div class="bannerBtns">
                     	<a href="#">01</a>
-                        <a href="#">02</a>                    </div>
+                        <a href="#">02</a>
+</div>
                     <ul>
                     	<li class="pushBox">
                         	<div class="pushImage"><img src="<?php echo IMAGE_PATH.'header_img01.jpg';?>" />                            </div>
@@ -56,7 +57,7 @@
             
 	        <div class="nav_corporate">
             
-            <div class="nnav_corporate_text"><a href="#">&gt;&gt; click here to visit our global web site &lt;&lt;</a></div>
+            <div class="nnav_corporate_text"><a href="#">&gt;&gt; <?php echo $lang['click here to visit our global web site'];?> &lt;&lt;</a></div>
             </div>
 <div class="nav">
     			<!-- Main navigation -->
@@ -87,7 +88,7 @@
 <div class="content_bg">
             	<div class="news">
             		<div class="news_title">
-            			<span class="plavi_text">Latest</span> news</div>
+            			<span class="plavi_text"><?php echo $lang['Latest'];?></span> <?php echo $lang['news'];?></div>
             			<?php 
             			$latest = getLatestNews();
             			if(isset($latest) && !empty($latest)):

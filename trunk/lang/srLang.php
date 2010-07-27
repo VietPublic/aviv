@@ -10,6 +10,7 @@ $lang = array(
 	'Retail Park Pancevo'		=>				'Tržni centar Pančevo',
 	'Zvezdara'					=>				'Zvezdara',
 	'Contact'					=>				'Kontakt',
+	'Latest'					=>				'Najnovije',
 	'news'						=>				'news',
 	'More'						=>				'detaljnije'
 );
