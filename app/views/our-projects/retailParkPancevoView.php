@@ -18,8 +18,8 @@
   	<div class="projects_imgs">
   		<?php foreach($page['other'] as $o):?>
   		<div class="imgs">
-  			<a href="<?php echo BASE_PATH.UPLOAD_PATH.'our-goals'.DS.$o['id']."-".$o['image'];?>" title="<?php echo $o['image'];?>">
-  				<img src="<?php echo BASE_PATH.UPLOAD_PATH.'our-goals'.DS.'thumb'.DS.$o['id']."-".$o['image'];?>" border="0" />
+  			<a href="<?php echo BASE_PATH.UPLOAD_PATH.'retail-park-pancevo'.DS.$o['id']."-".$o['image'];?>" title="<?php echo $o['image'];?>">
+  				<img src="<?php echo BASE_PATH.UPLOAD_PATH.'retail-park-pancevo'.DS.'thumb'.DS.$o['id']."-".$o['image'];?>" border="0" />
   			</a>
   		</div>
   		<?php endforeach;?>

@@ -44,6 +44,11 @@ $routes = array(
 					  	'action' 		=> 'index', 
 					  	'layout' 		=> 'user'
 				),
+				array(	'url' 			=> '/^contact\/submit\/?$/', 
+						'controller' 	=> 'contact', 
+					  	'action' 		=> 'submit', 
+					  	'layout' 		=> 'empty'
+				),
 				//CMS system
 				array(	'url' 			=> '/^login\/?$/', 
 						'controller' 	=> 'cms-home', 

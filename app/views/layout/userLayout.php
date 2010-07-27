@@ -80,7 +80,7 @@
                 			<div class="news_text_title"><?php echo $l['title_'.$lng];?></div>
                 			<div class="news_text">
                 				<?php echo $l['content_'.$lng];?>
-                				<a href="<?php echo BASE_PATH.'news'.DS.$l['id'].DS.'view'.DS; ?>">More...</a>
+                				<a href="<?php echo BASE_PATH.'news'.DS.$lng.DS.'#news-'.$l['id']; ?>">More...</a>
                 			</div>
                 			<?php if($newsNum == 1):?><div class="news_break"></div><?php endif;?>
                 		</div>
