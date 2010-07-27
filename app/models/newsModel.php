@@ -3,7 +3,7 @@ function getAllNews(){
 	db_connect();
 	$other = array();
 	
-	$query = sprintf("SELECT * FROM `news`");
+	$query = sprintf("SELECT * FROM `news` ORDER BY `id` DESC");
 	$res = mysql_query($query);
 	if(mysql_num_rows($res) <= 0) return false;
 	
