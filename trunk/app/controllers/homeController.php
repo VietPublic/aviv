@@ -20,7 +20,7 @@ switch($url['route']['action']){
 					}
 				}else $lng = 'sr';
 				
-				$page = getSelectedPage('home');
+				//$page = getSelectedPage('home');
 				
 				$subtitle = "Welcome";
 				break;
