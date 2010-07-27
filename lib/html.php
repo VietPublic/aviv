@@ -23,14 +23,14 @@ function css($file){
  * @param string $tmpFile
  * @return boolean
  */
-function uploadFile($file, $type, $id){
+function uploadFile($file, $type, $id, $w, $h){
 	
 	$allOk = true;
 	
 	$path = UPLOAD_PATH.$type.DS.$id."-".$file['name'];
 
 	//Upload file
-	if(!resizeImage(100, 100, UPLOAD_PATH.$type.DS, $file, $id)) $allOk = false;
+	if(!resizeImage($w, $h, UPLOAD_PATH.$type.DS, $file, $id)) $allOk = false;
 
 	if(!move_uploaded_file($file['tmp_name'], $path)) $allOk = false;
 	

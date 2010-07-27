@@ -32,7 +32,7 @@ switch($url['route']['action']){
 				
 				$other = setProject($params);
 				if(isset($other) && !empty($other)){
-					foreach($other as $o) uploadFile($o['file'], $params['p'], $o['id']);
+					foreach($other as $o) uploadFile($o['file'], $params['p'], $o['id'], 150, 89);
 				}
 				header("Location: ".BASE_PATH.'cms'.DS.'projects'.DS.'?p='.$params['p'].'&q=success');
 				$subtitle = "";
