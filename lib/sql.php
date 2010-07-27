@@ -72,5 +72,68 @@ function getCurrentLanguage($lng=''){
 	return mysql_fetch_assoc($res);
 }
 
+function getLatestNews(){
+	db_connect();
+	
+	$query = sprintf("SELECT * FROM `news` 
+						ORDER BY `id` DESC LIMIT 0, 2");
+	$res = mysql_query($query);
+	
+	if(mysql_num_rows($res) <= 0) return false;
+	$output = array();
+	
+	while($row = mysql_fetch_assoc($res)) $output[] = $row;
+	return $output;
+	
+}
+
+function getSelectedPage($page){
+	db_connect();
+	
+	$query = sprintf("SELECT * FROM `pages` WHERE `page`='%s'",
+					mysql_real_escape_string($page)
+					);
+	$res = mysql_query($query);
+	if(mysql_num_rows($res) <= 0) return false;
+	
+	$row = mysql_fetch_assoc($res);
+	
+	//Other
+	$query = sprintf("SELECT * FROM `pages_images` WHERE `page_id`='%s'",
+					mysql_real_escape_string($row['id'])
+					);
+	$res_other = mysql_query($query);
+	$other = array();
+	if(mysql_num_rows($res_other) > 0)
+		while($row_other = mysql_fetch_assoc($res_other)) $other[] = $row_other;
+		
+	$row['other'] = $other;
+	return $row;
+}
+
+function getSelectedProject($page){
+	db_connect();
+	
+	$query = sprintf("SELECT * FROM `projects` WHERE `page`='%s'",
+					mysql_real_escape_string($page)
+					);
+	$res = mysql_query($query);
+	if(mysql_num_rows($res) <= 0) return false;
+	
+	$row = mysql_fetch_assoc($res);
+	
+	//Other
+	$query = sprintf("SELECT * FROM `projects_images` WHERE `project_id`='%s'",
+					mysql_real_escape_string($row['id'])
+					);
+	$res_other = mysql_query($query);
+	$other = array();
+	if(mysql_num_rows($res_other) > 0)
+		while($row_other = mysql_fetch_assoc($res_other)) $other[] = $row_other;
+		
+	$row['other'] = $other;
+	return $row;
+}
+
 
 

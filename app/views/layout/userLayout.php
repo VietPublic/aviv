@@ -37,41 +37,58 @@
 <div class="nav">
     			<!-- Main navigation -->
     			<ul id="jsddm">
-				    <li><a href="<?php echo BASE_PATH.'home'.DS; ?>" title="Home" >Home</a></li>
-				    <li><a class="menu_border" href="<?php echo BASE_PATH.'who-we-are'.DS; ?>" title="Who we are" >Who we are</a></li>
-				    <li><a class="menu_border" href="<?php echo BASE_PATH.'our-goals'.DS; ?>" title="Our goals" >Our goals</a></li>
+				    <li><a href="<?php echo BASE_PATH.$lng.DS; ?>" title="Home" >Home</a></li>
+				    <li><a class="menu_border" href="<?php echo BASE_PATH.'who-we-are'.DS.$lng.DS; ?>" title="Who we are" >Who we are</a></li>
+				    <li><a class="menu_border" href="<?php echo BASE_PATH.'our-goals'.DS.$lng.DS; ?>" title="Our goals" >Our goals</a></li>
 				    <li>
 				    	<a class="menu_border" href="javascript:;" title="Our projects" >Our projects</a>
 				    	<ul>
-				            <li><a href="<?php echo BASE_PATH.'our-projects'.DS.'retail-park-pancevo'.DS; ?>">Retail Park Pancevo</a></li>
-				            <li><a href="<?php echo BASE_PATH.'our-projects'.DS.'zvezdara'.DS; ?>">Zvezdara</a></li>
+				            <li><a href="<?php echo BASE_PATH.'our-projects'.DS.'retail-park-pancevo'.DS.$lng.DS; ?>">Retail Park Pancevo</a></li>
+				            <li><a href="<?php echo BASE_PATH.'our-projects'.DS.'zvezdara'.DS.$lng.DS; ?>">Zvezdara</a></li>
 				            
 				        </ul>
 			       </li>
-				    <li><a class="menu_border" href="<?php echo BASE_PATH.'news'.DS; ?>" title="News" >News</a></li>
-					<li><a class="menu_border" href="<?php echo BASE_PATH.'contact'.DS; ?>" title="Contact" >Contact</a></li>
+				    <li><a class="menu_border" href="<?php echo BASE_PATH.'news'.DS.$lng.DS; ?>" title="News" >News</a></li>
+					<li><a class="menu_border" href="<?php echo BASE_PATH.'contact'.DS.$lng.DS; ?>" title="Contact" >Contact</a></li>
 				</ul>
 	  </div>
     			
-	  <div class="lang_srb"><img src="<?php echo IMAGE_PATH.'main_flag_srb.jpg';?>" alt="" title="" /></div>
-            <div class="lang_eng"><img src="<?php echo IMAGE_PATH.'main_flag_eng.jpg';?>" alt="" title="" /></div>
+	  <div class="lang_srb">
+	  	<a href="<?php echo BASE_PATH.'sr'.DS;?>">
+	  		<img src="<?php echo IMAGE_PATH.'main_flag_srb.jpg';?>" alt="" title="" />
+	 	</a> 	
+	 </div>
+     <div class="lang_eng">
+     	<a href="<?php echo BASE_PATH.'en'.DS;?>">
+     		<img src="<?php echo IMAGE_PATH.'main_flag_eng.jpg';?>" alt="" title="" />
+     	</a>
+     </div>
     		
             
             <div class="content_bg">
             	<div class="news">
-            		<div class="news_title"><span class="plavi_text">Latest</span> news</div>
+            		<div class="news_title">
+            			<span class="plavi_text">Latest</span> news</div>
+            			<?php 
+            			$latest = getLatestNews();
+            			if(isset($latest) && !empty($latest)):
+            			$newsNum = 0;
+            			foreach($latest as $l):
+            			?>
                 		<div class="latest_news">
-                			<div class="news_date">24-05-2010</div>
-                			<div class="news_text_title">Zvezdara</div>
-                			<div class="news_text">Residential and commercial project, 250 apartments. Construction starts in September 2010! <a href="#">More...</a></div>
-                        
-                	    	<div class="news_break"></div>
+                			<div class="news_date"><?php echo $l['modif'];?></div>
+                			<div class="news_text_title"><?php echo $l['title_'.$lng];?></div>
+                			<div class="news_text">
+                				<?php echo $l['content_'.$lng];?>
+                				<a href="<?php echo BASE_PATH.'news'.DS.$l['id'].DS.'view'.DS; ?>">More...</a>
+                			</div>
+                			<?php if($newsNum == 1):?><div class="news_break"></div><?php endif;?>
                 		</div>
-                        <div class="latest_news">
-                			<div class="news_date">24-05-2010</div>
-                			<div class="news_text_title">First Retail Park in Serbia</div>
-                			<div class="news_text">Located on 7,3 ha, envisaged construction of total 30.000 m2 GBA with 700 parking places <a href="#">More...</a></div>
-                		</div>
+                		<?php 
+                		$newsNum++;
+                		endforeach;
+                		endif;
+                		?>
 			  </div>
               
     		
