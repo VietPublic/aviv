@@ -1,6 +1,7 @@
 <div class="post">
 	<h2 class="title">System administration &raquo; View details</h2>
 	<p class="byline"><small>All about this news</small></p>
+	<div class="back"> &lt;&lt; <a href="<?php echo BASE_PATH.'cms'.DS.'news'.DS; ?>">Back</a></div>
 	<div class="entry">
     <table cellpadding="0" cellspacing="0" width="100%">
 		<tbody>
