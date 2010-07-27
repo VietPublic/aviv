@@ -1,28 +1,21 @@
 <div class="main_content">
-  	
-  	<div class="page_title">
-		<?php echo $page['title_'.$lng];?>
-	</div>
-	
-  	<div style="clear: both;"><!-- empty --><br/></div>
-  	
-  	<div class="text_box_regular">
-		<?php echo $page['content_'.$lng];?>
-	</div>
+  <div class="page_title"><span class="plavi_text"><?php echo $lang['Our'];?></span> <?php echo $lang['Goals'];?></div>
   
-  	<div style="clear: both;"><!-- empty --><br/></div>
-  	
-  	<?php if(isset($page['other']) && !empty($page['other'])):?>
-  	<div class="text_break"></div>
-  	
-  	<div class="projects_imgs">
-  		<?php foreach($page['other'] as $o):?>
-  		<div class="imgs">
-  			<a href="<?php echo BASE_PATH.UPLOAD_PATH.'our-goals'.DS.$o['id']."-".$o['image'];?>" title="<?php echo $o['image'];?>">
-  				<img src="<?php echo BASE_PATH.UPLOAD_PATH.'our-goals'.DS.'thumb'.DS.$o['id']."-".$o['image'];?>" border="0" />
-  			</a>
-  		</div>
-  		<?php endforeach;?>
-  	</div>
-  	<?php endif;?>
+<div class="text_box_regular_small">
+  <?php echo $lang['subtext1_our-goals'];?><br />
+<br />
+  <span class="text_bold"><?php echo $lang['subtext2_our-goals'];?></span><br />
+  <br />
+  <?php echo $lang['subtext3_our-goals'];?>
+</div>
+<div class="movie"><object width="370" height="226"><param name="movie" value="http://www.youtube.com/v/NNohtbMFkeA&amp;hl=en_US&amp;fs=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/NNohtbMFkeA&amp;hl=en_US&amp;fs=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="370" height="226"></embed></object></div>
+  
+
+<div class="text_break"></div>
+
+  
+  
+<div class="text_box_regular" ><span class="text_bold"><?php echo $lang['OUR STRENGTHS'];?></span><br />
+	<?php echo $lang['bottom_our-goals'];?>
+</div>
 </div>
