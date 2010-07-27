@@ -486,6 +486,7 @@ body {
 	margin-left: 2px;
 	float: left;
 	margin-bottom: 5px;
+	z-index: 100;
 }
 .main_content .image_box_projects {
 	width: 396px;
@@ -908,4 +909,16 @@ body {
 
 .main_content .contact {
 	margin-left: 5px;
+}
+.main_content .projects_imgs .imgs .zoom {
+	background-attachment: fixed;
+	background-image: url(../images/zoom.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 30px;
+	width: 30px;
+	position: relative;
+	z-index: 20000;
+	top: 1px;
+	right: 1px;
 }
