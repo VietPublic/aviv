@@ -54,24 +54,24 @@ switch($url['route']['action']){
 						//Update
 						
 						//Upload original & thumb
-						if(isset($params['main_image']) && !empty($params['main_image'])) uploadFile($params['main_image'], 'news', $response['news_id']);
+						if(isset($params['main_image']) && !empty($params['main_image'])) uploadFile($params['main_image'], 'news', $response['news_id'], 220, 122);
 						
 						if(isset($response['other']) && !empty($response['other'])){
 							
 							foreach($response['other'] as $img){
-								uploadFile($img['file'], 'news', $response['news_id']."-".$img['id']);
+								uploadFile($img['file'], 'news', $response['news_id']."-".$img['id'], 150, 89);
 							}
 						}
 					}else{
 						//Insert
 						
 						//Upload original & thumb
-						uploadFile($params['main_image'], 'news', $response['news_id']);
+						uploadFile($params['main_image'], 'news', $response['news_id'], 220, 122);
 						
 						if(isset($response['other']) && !empty($response['other'])){
 							
 							foreach($response['other'] as $img){
-								uploadFile($img['file'], 'news', $response['news_id']."-".$img['id']);
+								uploadFile($img['file'], 'news', $response['news_id']."-".$img['id'], 150, 89);
 							}
 						}
 					}

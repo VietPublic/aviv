@@ -31,7 +31,7 @@ switch($url['route']['action']){
 				
 				$other = setPage($params);
 				if(isset($other) && !empty($other)){
-					foreach($other as $o) uploadFile($o['file'], $params['p'], $o['id']);
+					foreach($other as $o) uploadFile($o['file'], $params['p'], $o['id'], 100, 100);
 				}
 				header("Location: ".BASE_PATH.'cms'.DS.'pages'.DS.'?p='.$params['p'].'&q=success');
 				$subtitle = "";

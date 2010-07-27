@@ -63,6 +63,7 @@
 									<li><a href="<?php echo BASE_PATH.'cms'.DS.'news'.DS; ?>">View existing</a></li>
 								</ul>
 							</li>
+							<?php /*?>
 							<li>
 								<h2>Page administration</h2>
 								<ul>
@@ -71,6 +72,7 @@
 									<li><a href="<?php echo BASE_PATH.'cms'.DS.'pages'.DS.'?p=our-goals'; ?>">Our goals</a></li>
 								</ul>
 							</li>
+							<? */?>
 							<li>
 								<h2>Our projects</h2>
 								<ul>
