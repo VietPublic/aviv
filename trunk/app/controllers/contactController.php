@@ -27,6 +27,9 @@ switch($url['route']['action']){
 	/*			Home page											 */
 	case 'submit': 
 				
+				if(saveContact($params)) header("Location: ".BASE_PATH.'contact'.DS.$params['lng'].DS."?q=success");
+				else header("Location: ".BASE_PATH.'contact'.DS.$params['lng'].DS."?q=error");
+				
 				$subtitle = "";
 				break;				
 				
@@ -36,6 +39,9 @@ switch($url['route']['action']){
 				$subtitle = "";
 				break;
 }
+//Load language from file
+if(file_exists(LANG_PATH.$lng."Lang.php")) include(LANG_PATH.$lng."Lang.php");
+else include(LANG_PATH."srLang.php");
 
 //Current possition on front page
 $currPos = "app".DS;

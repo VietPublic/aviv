@@ -17,7 +17,7 @@
 				        e-mail: office@avivarlon.rs<br />
 		          www.avivarlon.com  				</span></div></th>
 <td  style="width: 60%;" class="inputs">
-  					<form name="form" action="<?php echo BASE_PATH.'submit'.DS; ?>" method="post">
+  					<form name="form" action="<?php echo BASE_PATH.'contact'.DS.'submit'.DS; ?>" method="post">
 	  					<table cellpadding="0" cellspacing="0" width="89%">
 <tbody>
 	  							<tr>
@@ -57,6 +57,7 @@
   							  	</tr>
 	  						</tfoot>
 	  					</table>
+	  					<input type="hidden" name="lng" value="<?php echo $lng; ?>" />
   					</form>
   				</td>
   			</tr>
