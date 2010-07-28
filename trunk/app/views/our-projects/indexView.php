@@ -5,7 +5,7 @@
   		$tmpTitle = explode(" ", @$project['title_'.$lng]);
   		echo "<span class='plavi_text'>".$tmpTitle[0]."</span>";
   		//Show rest
-  		for($i=1; $i<count($tmpTitle); $i++) echo $tmpTitle[i];
+  		for($i=1; $i<count($tmpTitle); $i++) echo $tmpTitle[$i];
   		?>
   	</span>
   </div>
