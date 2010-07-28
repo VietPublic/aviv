@@ -97,11 +97,16 @@
             			foreach($latest as $l):
             			?>
                 		<div class="latest_news">
-                			<div class="news_date"><?php echo $l['modif'];?></div>
+                			<div class="news_date">
+                				<?php 
+                				$date = explode(" ", $l['modif']);
+                				echo $date[0];
+                				?>
+                			</div>
                 			<div class="news_text_title"><?php echo $l['title_'.$lng];?></div>
                 			<div class="news_text">
-                				<?php echo $l['content_'.$lng];?>
-                				<a href="<?php echo BASE_PATH.'news'.DS.$lng.DS.'#news-'.$l['id']; ?>">More...</a>
+                				<?php echo substr($l['content_'.$lng], 0, 200)."...";?>
+                				<a href="<?php echo BASE_PATH.'news'.DS.$l['id'].DS.$lng.DS; ?>">More...</a>
                 			</div>
                 			<?php if($newsNum == 1):?><div class="news_break"></div><?php endif;?>
                 		</div>
