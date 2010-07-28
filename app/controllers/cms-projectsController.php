@@ -76,6 +76,22 @@ switch($url['route']['action']){
 	case 'delete': 
 				
 				$project = deleteProject($params);
+				
+				if ($handle = opendir($_SERVER['DOCUMENT_ROOT'].UPLOAD_PATH.$project['link'].DS.'thumb')) {
+				    /* This is the correct way to loop over the directory. */
+				    while (false !== ($file = readdir($handle)))
+				        unlink($_SERVER['DOCUMENT_ROOT'].UPLOAD_PATH.$project['link'].DS.'thumb'.DS.$file);
+				    closedir($handle);
+				}
+				
+				if ($handle = opendir($_SERVER['DOCUMENT_ROOT'].UPLOAD_PATH.$project['link'])) {
+				    /* This is the correct way to loop over the directory. */
+				    while (false !== ($file = readdir($handle)))
+				        unlink($_SERVER['DOCUMENT_ROOT'].UPLOAD_PATH.$project['link'].DS.$file);
+				    closedir($handle);
+				}
+				@rmdir($_SERVER['DOCUMENT_ROOT'].UPLOAD_PATH.$project['link'].DS.'thumb');
+				@rmdir($_SERVER['DOCUMENT_ROOT'].UPLOAD_PATH.$project['link']);
 				header("Location: ".BASE_PATH.'cms'.DS.'projects'.DS.'?q=success');	
 				$subtitle = "";
 				break;
