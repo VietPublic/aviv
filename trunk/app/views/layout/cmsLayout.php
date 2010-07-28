@@ -94,7 +94,7 @@
 		</div>
 	</div>
 <div id="footer">
-	<p>&copy;2007 All Rights Reserved &nbsp;&bull;&nbsp; Design by <a href="http://www.freecsstemplates.org/">Free CSS Templates</a> &nbsp;&bull;&nbsp; Icons by <a href="http://www.famfamfam.com/">FAMFAMFAM</a>.</p>
+	<p>&copy;2010 All Rights Reserved </p>
 </div>
 		<!-- Status msg -->
         <?php
