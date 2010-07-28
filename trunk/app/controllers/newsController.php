@@ -40,7 +40,7 @@ switch($url['route']['action']){
                 $offset = ($page - 1) * $rowsperpage;
                             
 			    //Get contact(s) from selected list(s)
-			    $news = getAllCreatedNews($offset, $rowsperpage);
+			    $news = getAllCreatedNews((isset($params['page']) && !empty($params['page'])?$params['page']:null), $offset, $rowsperpage);
 
 				$subtitle = "News";
 				

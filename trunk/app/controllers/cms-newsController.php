@@ -9,7 +9,7 @@ if(!isset($_SESSION['cms'])){
 	header("Location: ".BASE_PATH.'login'.DS);
 	exit;
 }
-
+$js2 = "tiny_mce".DS."tiny_mce.js";
 switch($url['route']['action']){
 	
 	/*****************************************************************/
