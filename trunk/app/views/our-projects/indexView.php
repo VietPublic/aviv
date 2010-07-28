@@ -27,7 +27,6 @@
   		</a>
   	</div>
 	<div class="projects_img_description"><?php echo $project['title_'.$lng];?></div>
-	<div class="projects_img_description"><?php echo $project['title_'.$lng];?></div>
 	<?php endforeach;?>
     <?php endif;?>
     </div>
