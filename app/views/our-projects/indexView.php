@@ -1,13 +1,11 @@
 <div class="main_content">
   <div class="page_title">
-  	<span class="plavi_text">
   		<?php 
   		$tmpTitle = explode(" ", @$project['title_'.$lng]);
-  		echo "<span class='plavi_text'>".$tmpTitle[0]."</span>";
+  		echo "<span class='plavi_text'>".$tmpTitle[0]."</span> ";
   		//Show rest
-  		for($i=1; $i<count($tmpTitle); $i++) echo $tmpTitle[$i];
+  		for($i=1; $i<count($tmpTitle); $i++) echo $tmpTitle[$i]." ";
   		?>
-  	</span>
   </div>
   
   <div class="text_box_regular_small">
