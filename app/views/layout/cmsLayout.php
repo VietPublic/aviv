@@ -76,8 +76,8 @@
 							<li>
 								<h2>Our projects</h2>
 								<ul>
-									<li><a href="<?php echo BASE_PATH.'cms'.DS.'projects'.DS.'?p=zvezdara'; ?>">Zvezdara</a></li>
-									<li><a href="<?php echo BASE_PATH.'cms'.DS.'projects'.DS.'?p=retail-park-pancevo'; ?>">Retails Park Pancevo</a></li>
+									<li><a href="<?php echo BASE_PATH.'cms'.DS.'projects'.DS.'add'.DS; ?>">Add project</a></li>
+									<li><a href="<?php echo BASE_PATH.'cms'.DS.'projects'.DS; ?>">View projects</a></li>
 								</ul>
 							</li>
 							<li>

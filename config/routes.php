@@ -165,6 +165,11 @@ $routes = array(
 					  	'action' 		=> 'index', 
 					  	'layout' 		=> 'cms'
 				),
+				array(	'url' 			=> '/^cms\/projects\/add\/?$/', 
+						'controller' 	=> 'cms-projects', 
+					  	'action' 		=> 'add', 
+					  	'layout' 		=> 'cms'
+				),
 				array(	'url' 			=> '/^cms\/projects\/submit\/?$/', 
 						'controller' 	=> 'cms-projects', 
 					  	'action' 		=> 'submit', 
