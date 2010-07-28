@@ -19,7 +19,7 @@
 
         <?php if(isset($js)) echo js($js); ?>
        
-    </head>
+</head>
     
     <body>
     <div class="main">
@@ -29,30 +29,12 @@
     			<!-- Main header -->
     			<div class="logo"></div>
     		    <div class="banner">
-                	<div class="bannerBtns">
-                    	<a href="#">01</a>
-                        <a href="#">02</a>
-</div>
-                    <ul>
-                    	<li class="pushBox">
-                        	<div class="pushImage"><img src="<?php echo IMAGE_PATH.'header_img01.jpg';?>" />                            </div>
-                        	<div class="pusMask1">
-                            	<div class="banner_text">*Plot size: 7,3 ha<br /> *30.000 m2  of gross retail area: fashion stores,  sports equipment, hypermarket, DIY, home décor and furnishing, children’s toy shops, electronic stores, furniture, food court, services...<br /><br />*690 parking places</div>
-                                <div class="banner_logo"><img src="<?php echo IMAGE_PATH.'rpp_logo.png';?>" /></div>
-                            </div>
-                         </li>   
-                		<li  class="pushBox">
-                        	<div class="pushImage"><img src="<?php echo IMAGE_PATH.'gar_logo.png';?>" />                            </div>
-                        	<div class="pushMask2">
-                            <div class="banner_logo"><img src="../../../public/images/gar_logo.png" /></div>
-                            	<div class="banner_text">*Plot size: 7,3 ha<br /> *30.000 m2  of gross retail area: fashion stores,  sports equipment, hypermarket, DIY, home décor and furnishing, children’s toy shops, electronic stores, furniture, food court, services...<br /><br />*690 parking places</div>
-                                <div class="more">read more</div>
-                              
-                            </div>
-                         </li>   
-                	</ul>
-                    
-              </div>
+    		      <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" width="642" height="250">
+                    <param name="movie" value="../../../public/images/header.swf" />
+                    <param name="quality" value="high" />
+                    <embed src="../../../public/images/header.swf" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="642" height="250"></embed>
+  		        </object>
+    		    </div>
 	  </div>
             
 	        <div class="nav_corporate">
@@ -122,14 +104,14 @@
     			<div class="content">
     				<?php include('app'.DS.VIEW_PATH.DS.$controller.DS.$action.'View.php'); ?>	
     			</div>
-            </div>
+      </div>
    	</div>
 <div class="footer">
             	<div class="footer_copyright">Content copyright ©2010 Aviv Arlon Serbia</div>
                 <div class="designBy">site by:
                   <br />
                   <span class="bluedesigns">Blue Designs</span></div>
-		    </div>
+      </div>
     </div>
 </body>
 </html>
