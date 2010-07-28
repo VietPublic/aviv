@@ -2,7 +2,7 @@
 /**
  * Service Controller - all actions on service  <page
  */
-
+$active = 'our-projects';
 switch($url['route']['action']){
 	
 	/*****************************************************************/
