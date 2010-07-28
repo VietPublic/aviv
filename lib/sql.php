@@ -111,11 +111,25 @@ function getSelectedPage($page){
 	return $row;
 }
 
-function getSelectedProject($page){
+function getFrontProjects(){
 	db_connect();
 	
-	$query = sprintf("SELECT * FROM `projects` WHERE `page`='%s'",
-					mysql_real_escape_string($page)
+	$query = sprintf("SELECT * FROM `projects`");
+	
+	$res = mysql_query($query);
+	if(mysql_num_rows($res) <= 0) return false;
+	
+	$output = array();
+	
+	while($row = mysql_fetch_assoc($res)) $output[] = $row;
+	return $output;
+}
+
+function getSelectedProject($projectLink){
+	db_connect();
+	
+	$query = sprintf("SELECT * FROM `projects` WHERE `link`='%s'",
+					mysql_real_escape_string($projectLink)
 					);
 	$res = mysql_query($query);
 	if(mysql_num_rows($res) <= 0) return false;
@@ -134,6 +148,5 @@ function getSelectedProject($page){
 	$row['other'] = $other;
 	return $row;
 }
-
 
 
