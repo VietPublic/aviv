@@ -3,7 +3,7 @@
 		<tr>
 			<th style="width: 100px; vertical-align: top;">Link name:</th>
 			<td>
-			  	<input style="margin-left: 20px; width: 330px;" type="text" name="project[link]" value="<?php echo @$news['link'];?>" class="j_required" style="width: 330px;" />
+			  	<input style="margin-left: 20px; width: 330px;" type="text" name="project[link]" <?php if(isset($params['id'])):?>disabled="disabled"<?php endif;?> value="<?php echo @$project['link'];?>" class="j_required" style="width: 330px;" />
 			  	<span>*</span>
 			</td>
 		</tr>
@@ -11,11 +11,11 @@
 			<th style="width: 100px; vertical-align: top;">Project name:</th>
 			<td>
 				<img src="<?php echo IMAGE_PATH.'sr.png'; ?>" alt="" title="" />
-			  	<input type="text" name="project[sr][name]" value="<?php echo @$news['title_sr'];?>" class="j_required" style="width: 330px;" />
+			  	<input type="text" name="project[title_sr]" value="<?php echo @$project['title_sr'];?>" class="j_required" style="width: 330px;" />
 			  	<span>*</span>
 			  	<div style="clear: both;" ><br/></div>
 			  	<img src="<?php echo IMAGE_PATH.'en.png'; ?>" alt="" title="" />
-			  	<input type="text" name="project[en][name]" value="<?php echo @$news['title_en'];?>" class="j_required" style="width: 330px;" />
+			  	<input type="text" name="project[title_en]" value="<?php echo @$project['title_en'];?>" class="j_required" style="width: 330px;" />
 			  	<span>*</span>
 			</td>
 		</tr>
@@ -23,18 +23,16 @@
 			<th style="vertical-align: top;">First text box:</th>			
 		  	<td>
 		  		<img src="<?php echo IMAGE_PATH.'sr.png'; ?>" alt="" title="" />
-				<textarea name="project[sr][content]" rows="" cols="" style="width: 343px; height: 50px;" ><?php echo @$news['content_sr'];?></textarea>
-				<span>*</span>
+				<textarea name="project[content_sr]" rows="" cols="" style="width: 343px; height: 50px;" ><?php echo @$project['content_sr'];?></textarea>
 				<div style="clear: both;" ><br/></div>
 			  	<img src="<?php echo IMAGE_PATH.'en.png'; ?>" alt="" title="" />
-			  	<textarea name="project[en][content]" rows="" cols="" style="width: 343px; height: 50px;" ><?php echo @$news['content_en'];?></textarea>
-			  	<span>*</span>
+			  	<textarea name="project[content_en]" rows="" cols="" style="width: 343px; height: 50px;" ><?php echo @$project['content_en'];?></textarea>
 	     	</td>
 	     </tr>
 	     <tr>
 			<th style="width: 100px; vertical-align: top;">Link for video:</th>
 			<td>
-			  	<input style="margin-left: 20px; width: 330px;" type="text" name="project[video]" value="<?php echo @$news['link'];?>" class="j_required" style="width: 330px;" />
+			  	<input style="margin-left: 20px; width: 330px;" type="text" name="project[video]" value="<?php echo @$project['video'];?>" class="j_required" style="width: 330px;" />
 			  	<span>*</span>
 			</td>
 		</tr>
@@ -42,12 +40,10 @@
 			<th style="vertical-align: top;">Second text box:</th>			
 		  	<td>
 		  		<img src="<?php echo IMAGE_PATH.'sr.png'; ?>" alt="" title="" />
-				<textarea name="project[sr][content2]" rows="" cols="" style="width: 343px; height: 50px;" ><?php echo @$news['content2_sr'];?></textarea>
-				<span>*</span>
+				<textarea name="project[content2_sr]" rows="" cols="" style="width: 343px; height: 50px;" ><?php echo @$project['content2_sr'];?></textarea>
 				<div style="clear: both;" ><br/></div>
 			  	<img src="<?php echo IMAGE_PATH.'en.png'; ?>" alt="" title="" />
-			  	<textarea name="project[en][content2]" rows="" cols="" style="width: 343px; height: 50px;" ><?php echo @$news['content2_en'];?></textarea>
-			  	<span>*</span>
+			  	<textarea name="project[content2_en]" rows="" cols="" style="width: 343px; height: 50px;" ><?php echo @$project['content2_en'];?></textarea>
 	     	</td>
 	     </tr>
 		 <tr>
@@ -59,10 +55,10 @@
 		  				<?php foreach($project['other'] as $p):?>
 		  				<tr>
 		  					<td>
-		  						<img src="<?php echo BASE_PATH.UPLOAD_PATH.$_GET['p'].DS.'thumb'.DS.$p['id']."-".$p['image']; ?>" alt="" title="" />
+		  						<img src="<?php echo BASE_PATH.UPLOAD_PATH.$project['link'].DS.'thumb'.DS.$p['id']."-".$p['image']; ?>" alt="" title="" />
 		  					</td>
 		  					<td>
-		  						<a href="<?php echo BASE_PATH.'cms'.DS.'projects'.DS.$p['id'].DS.'delete'.DS.'?p='.$_GET['p'];?>" class="j_delete" title="Delete <?php echo $p['image']; ?>?"><!-- delete --></a>
+		  						<a href="<?php echo BASE_PATH.'cms'.DS.'projects'.DS.$p['id'].DS.'delete-image'.DS;?>" class="j_delete" title="Delete <?php echo $p['image']; ?>?"><!-- delete --></a>
 		  					</td>
 		  				</tr>
 		  				<?php endforeach; ?>
