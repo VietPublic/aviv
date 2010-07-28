@@ -18,7 +18,7 @@ switch($url['route']['action']){
 	/*****************************************************************/
 	/*			Home page											 */
 	case 'index': 
-				$project = getProject();
+				$projects = getProjects();
 				$subtitle = "Projects";
 				
 				break;
@@ -26,12 +26,16 @@ switch($url['route']['action']){
 	/*****************************************************************/
 	/*			Home page											 */
 	case 'submit': 
+				if(isset($params['id']) && !empty($params['id'])) $other = updateProject($params);
+				else $other = createProject($params);
 				
-				if(isset($params['id']) && !empty($params['id'])) $other = createProject($params);
-				else $other = updateProject($params);
-				
-				if(isset($other) && !empty($other)){
-					foreach($other as $o) uploadFile($o['file'], $params['link'], $o['id'], 150, 89);
+				//Make folders if don't exists
+				if(!is_dir(UPLOAD_PATH.$other['link'])){
+					mkdir(UPLOAD_PATH.$other['link']);
+					mkdir(UPLOAD_PATH.$other['link'].DS.'thumb');	
+				}
+				if(isset($other['set']) && !empty($other['set'])){
+					foreach($other['set'] as $o) uploadFile($o['file'], $other['link'], $o['id'], 183, 108);
 				}
 				header("Location: ".BASE_PATH.'cms'.DS.'projects'.DS.'?q=success');
 				$subtitle = "";
@@ -39,25 +43,43 @@ switch($url['route']['action']){
 			
 	/*****************************************************************/
 	/*			Home page											 */
-	case 'delete': 
+	case 'deleteImage': 
 
-				if(!isset($params['p']) || empty($params['p'])) header("Location: ".BASE_PATH.'cms'.DS.'home'.DS.'?q=error');
+				$image = deleteProjectImage($params);
 				
-				$image = deleteProject($params);
-				unlink($_SERVER['DOCUMENT_ROOT'].UPLOAD_PATH.$params['p'].DS.$image['id']."-".$image['image']);
-				unlink($_SERVER['DOCUMENT_ROOT'].UPLOAD_PATH.$params['p'].DS.'thumb'.DS.$image['id']."-".$image['image']);
-				header("Location: ".BASE_PATH.'cms'.DS.'projects'.DS.'?p='.$params['p'].'&q=success');
+				unlink($_SERVER['DOCUMENT_ROOT'].UPLOAD_PATH.$image['link'].DS.$image['id']."-".$image['image']);
+				unlink($_SERVER['DOCUMENT_ROOT'].UPLOAD_PATH.$image['link'].DS.'thumb'.DS.$image['id']."-".$image['image']);
+				header("Location: ".BASE_PATH.'cms'.DS.'projects'.DS.$image['project_id'].DS.'edit'.DS.'?q=success');
 				$subtitle = "";
 				break;
 
 	/*****************************************************************/
 	/*			Home page											 */
-	case 'submit': 
+	case 'edit': 
 				
-				createProject($params);
-				header("Location: ".BASE_PATH.'cms'.DS.'projects'.DS.'?q=success');
+				$project = getProject($params['id']);
+
+				$subtitle = "Edit project";
+				break;
+			
+	/*****************************************************************/
+	/*			Home page											 */
+	case 'show': 
+				
+				$project = getProject($params['id']);
+
+				$subtitle = "Details about project";
+				break;
+
+	/*****************************************************************/
+	/*			Home page											 */
+	case 'delete': 
+				
+				$project = deleteProject($params);
+				header("Location: ".BASE_PATH.'cms'.DS.'projects'.DS.'?q=success');	
 				$subtitle = "";
 				break;
+				
 	/*****************************************************************/
 	/*			Default page if no action							 */
 	default: 

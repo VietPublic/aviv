@@ -170,7 +170,22 @@ $routes = array(
 					  	'action' 		=> 'add', 
 					  	'layout' 		=> 'cms'
 				),
+				array(	'url' 			=> '/^cms\/projects\/(?P<id>\d+)\/edit\/?$/', 
+						'controller' 	=> 'cms-projects', 
+					  	'action' 		=> 'edit', 
+					  	'layout' 		=> 'cms'
+				),
+				array(	'url' 			=> '/^cms\/projects\/(?P<id>\d+)\/show\/?$/', 
+						'controller' 	=> 'cms-projects', 
+					  	'action' 		=> 'show', 
+					  	'layout' 		=> 'cms'
+				),
 				array(	'url' 			=> '/^cms\/projects\/submit\/?$/', 
+						'controller' 	=> 'cms-projects', 
+					  	'action' 		=> 'submit', 
+					  	'layout' 		=> 'empty'
+				),
+				array(	'url' 			=> '/^cms\/projects\/(?P<id>\d+)\/submit\/?$/', 
 						'controller' 	=> 'cms-projects', 
 					  	'action' 		=> 'submit', 
 					  	'layout' 		=> 'empty'
@@ -178,6 +193,11 @@ $routes = array(
 				array(	'url' 			=> '/^cms\/projects\/(?P<id>\d+)\/delete\/?$/', 
 						'controller' 	=> 'cms-projects', 
 					  	'action' 		=> 'delete', 
+					  	'layout' 		=> 'empty'
+				),
+				array(	'url' 			=> '/^cms\/projects\/(?P<id>\d+)\/delete-image\/?$/', 
+						'controller' 	=> 'cms-projects', 
+					  	'action' 		=> 'deleteImage', 
 					  	'layout' 		=> 'empty'
 				),
 				//CMS CONTACT
