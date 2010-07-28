@@ -7,7 +7,7 @@ $lang = array(
 	'Who we are'				=>				'Ko smo mi',
 	'Our goals'					=>				'Naši ciljevi',
 	'Our projects'				=>				'Naši projekti',
-	'Retail Park Pancevo'		=>				'Tržni centar Pančevo',
+	'Retail Park Pancevo'		=>				'Retail Park Pančevo',
 	'Zvezdara'					=>				'Zvezdara',
 	'Contact'					=>				'Kontakt',
 	'Latest'					=>				'Najnovije',
@@ -15,22 +15,22 @@ $lang = array(
 	'More'						=>				'detaljnije',
 
 	//Home
-	'Welcome'					=>				'Welcome',
-	'to Aviv Arlon Serbia'		=>				'to Aviv Arlon Serbia',
+	'Welcome'					=>				'Dobrodošli',
+	'to Aviv Arlon Serbia'		=>				'u Aviv Arlon Srbija',
 	'subtitle_home'				=>				'Aviv Arlon group is one of the largest real-estate companies in Israel engaged into top-grade real estate development and construction since 1963.',
 	'text_home'					=>				'<p>The company is well-experienced in planning, developing, initiating and marketing of residential and commercial projects, civil engineering works and infrastructure projects. The strength, excellence and innovative thinking, which serve as the basis for the Group&rsquo;s vision, ensure superior technical construction and peace of mind for years to come.</p>
     												<p>The company specializes in advanced building techniques and developed more than 50 projects over Israel, USA and Europe.</p>',
 	
 	//Who we are
-   	'Who'						=>				'Who',
-	'We Are'					=>				'We Are',
+   	'Who'						=>				'Ko',
+	'We Are'					=>				'smo mi',
 	'text_who-we-are'			=>				'<p>We are a highly experienced team of real estate professionals with decades of joint experience in all aspects of real estate development and investment.</p>
     												<p>Adding to the mix is the wide range of partnerships in areas of acquisition, development, management and financing that we have cultivated over the many years through our multiple projects.</p>',
 	'Selected Projects'			=>				'Selected Projects',
 
 	//Our goals
-	'Our'						=>				'Our',
-	'Goals'						=>				'Goals',
+	'Our'						=>				'Naši',
+	'Goals'						=>				'ciljevi',
 	'subtext1_our-goals'		=>				'To initiate and develop real estate projects with high yield while minimizing risks and drawing upon the experience and added value of our partners and their organizations.',
 	'subtext2_our-goals'		=>				'INVESTMENT AND RISK<br />MANAGEMENT PARAMETERS',
 	'subtext3_our-goals'		=>				'* A focus on countries, regions or cities with high economic growth
@@ -47,8 +47,8 @@ $lang = array(
 												* A strong operations background in both emerging countries and international markets<br /><br />
 												* Experts in raising funds and financing projects',
 	//News
-	'First'						=>				'First',
-	'Previous'					=>				'Previous',
-	'Next'						=>				'Next',
-	'Last'						=>				'Last'
+	'First'						=>				'Prva',
+	'Previous'					=>				'Prethodna',
+	'Next'						=>				'Sledeća',
+	'Last'						=>				'Poslednja'
 );
