@@ -44,11 +44,11 @@
 <div class="nav">
     			<!-- Main navigation -->
     			<ul id="jsddm">
-				    <li><a href="<?php echo BASE_PATH.$lng.DS; ?>" title="<?php echo $lang['Home']; ?>" ><?php echo $lang['Home']; ?></a></li>
-				    <li><a class="menu_border" href="<?php echo BASE_PATH.'who-we-are'.DS.$lng.DS; ?>" title="<?php echo $lang['Who we are']; ?>" ><?php echo $lang['Who we are']; ?></a></li>
-				    <li><a class="menu_border" href="<?php echo BASE_PATH.'our-goals'.DS.$lng.DS; ?>" title="<?php echo $lang['Our goals']; ?>" ><?php echo $lang['Our goals']; ?></a></li>
+				    <li><a class="<?php if($active == 'home'):?>active<?php endif;?>" href="<?php echo BASE_PATH.$lng.DS; ?>" title="<?php echo $lang['Home']; ?>" ><?php echo $lang['Home']; ?></a></li>
+				    <li><a class="<?php if($active == 'who-we-are'):?>active<?php endif;?> menu_border" href="<?php echo BASE_PATH.'who-we-are'.DS.$lng.DS; ?>" title="<?php echo $lang['Who we are']; ?>" ><?php echo $lang['Who we are']; ?></a></li>
+				    <li><a class="<?php if($active == 'our-goals'):?>active<?php endif;?> menu_border" href="<?php echo BASE_PATH.'our-goals'.DS.$lng.DS; ?>" title="<?php echo $lang['Our goals']; ?>" ><?php echo $lang['Our goals']; ?></a></li>
 				    <li>
-				    	<a class="menu_border" href="javascript:;" title="<?php echo $lang['Our projects']; ?>" ><?php echo $lang['Our projects']; ?></a>
+				    	<a class="<?php if($active == 'our-projects'):?>active<?php endif;?> menu_border" href="javascript:;" title="<?php echo $lang['Our projects']; ?>" ><?php echo $lang['Our projects']; ?></a>
 				    	<?php 
 				    		$projects = getFrontProjects();
 				    		if(isset($projects) && !empty($projects)):?>
@@ -59,8 +59,8 @@
 						</ul>
 						<?php endif;?>
 		          </li>
-				    <li><a class="menu_border" href="<?php echo BASE_PATH.'news'.DS.$lng.DS; ?>" title="<?php echo $lang['News']; ?>" ><?php echo $lang['News']; ?></a></li>
-					<li><a class="menu_border" href="<?php echo BASE_PATH.'contact'.DS.$lng.DS; ?>" title="<?php echo $lang['Contact']; ?>" ><?php echo $lang['Contact']; ?></a></li>
+				    <li><a class="<?php if($active == 'news'):?>active<?php endif;?> menu_border" href="<?php echo BASE_PATH.'news'.DS.$lng.DS; ?>" title="<?php echo $lang['News']; ?>" ><?php echo $lang['News']; ?></a></li>
+					<li><a class="<?php if($active == 'contact'):?>active<?php endif;?> menu_border" href="<?php echo BASE_PATH.'contact'.DS.$lng.DS; ?>" title="<?php echo $lang['Contact']; ?>" ><?php echo $lang['Contact']; ?></a></li>
 				</ul>
 	  </div>
     			
