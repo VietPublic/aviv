@@ -46,5 +46,9 @@ $lang = array(
 												favorable markets<br /><br />
 												* A strong operations background in both emerging countries and international markets<br /><br />
 												* Experts in raising funds and financing projects',
-	''
+	//News
+	'First'						=>				'First',
+	'Previous'					=>				'Previous',
+	'Next'						=>				'Next',
+	'Last'						=>				'Last'
 );

@@ -20,9 +20,31 @@ switch($url['route']['action']){
 					}
 				}else $lng = 'sr';
 				
-				$news = getAllNews();
+				// number of rows to show per page
+			    $rowsperpage = PER_PAGE;
+		
+			    $page = (isset($params['page']) && ctype_digit($params['page'])) ? $params['page'] : 1;
+			    
+			    $numOfLists = getNumOfNews();
+			                
+			    // find out total pages
+                $totalpages = ($numOfLists <= $rowsperpage) ? 1 : ceil($numOfLists / $rowsperpage);
+                            
+			    // if current page is greater than total pages...
+                if ($page > $totalpages) $page = $totalpages;
+                            
+                // if current page is less than first page...
+                if ($page < 1) $page = 1;
+                            
+			    // the offset of the list, based on current page 
+                $offset = ($page - 1) * $rowsperpage;
+                            
+			    //Get contact(s) from selected list(s)
+			    $news = getAllCreatedNews($offset, $rowsperpage);
 
 				$subtitle = "News";
+				
+				$dontShow = true;
 				break;
 
 	/*****************************************************************/

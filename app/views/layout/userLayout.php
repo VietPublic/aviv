@@ -87,6 +87,7 @@
             
 <div class="content_bg">
             	<div class="news">
+					<?php if(!isset($dontShow)):?>
             		<div class="news_title">
             			<span class="plavi_text"><?php echo $lang['Latest'];?></span> <?php echo $lang['news'];?></div>
             			<?php 
@@ -109,6 +110,7 @@
                 		endforeach;
                 		endif;
                 		?>
+                	<?php endif;?>
 			  </div>
               
     		

@@ -1024,9 +1024,8 @@ body {
 	top: 5px;
 	left: 20px;
 }
-=======
-
-.zoom{
-	
-}
->>>>>>> .r86
+/*pagination*/
+.pagination {margin:20px 0 ;text-align:center; font-family: AkzidenzGrotesk, Arial; font-size: 10px;}
+.link {text-decoration:none; border:solid 1px #789298; padding:2px 5px;}
+.current {background:#789298; color:#FFF;}
+a.link:hover {background:#a1bdc4; color:#333;}

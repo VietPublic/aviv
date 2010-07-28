@@ -27,3 +27,9 @@ define('JS_PATH', BASE_PATH.'public'.DS.'js'.DS);
 define('UPLOAD_PATH', 'public'.DS.'images'.DS.'uploads'.DS);
 
 define('LANG_PATH', 'lang'.DS);
+
+//How many elements per page will be retrived from DB
+define('PER_PAGE', 1);
+//How many links will be visible on navigation bar
+define('SHOW_PER_PAGE', 2);
+

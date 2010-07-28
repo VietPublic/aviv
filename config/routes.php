@@ -33,7 +33,7 @@ $routes = array(
 					  	'layout' 		=> 'user'
 				),
 				//News
-				array(	'url' 			=> '/^news\/?(en\/?|sr\/?)?$/', 
+				array(	'url' 			=> '/^news\/((?P<page>\d*)\/)?\/?(en\/?|sr\/?)?$/', 
 						'controller' 	=> 'news', 
 					  	'action' 		=> 'index', 
 					  	'layout' 		=> 'user'
