@@ -11,14 +11,13 @@
         <?php echo js('jquery-1.3.1.js');?>
         <!-- Default js -->
         <?php echo js('login.js');?>
-        <link href="../../../public/css/cms.css" rel="stylesheet" type="text/css" />
     </head>
     
     <body>
 	   	<!-- start header -->
 		<div id="header">
 			<h1>CMS admin panel</h1>
-			<p>design by Dusan Novakovic :-)</p>
+			<p>Aviv.com</p>
 		</div>
 		<!-- end header -->
 	
