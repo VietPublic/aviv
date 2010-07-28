@@ -1,9 +1,12 @@
 <?php
-function getAllNews(){
+function getAllCreatedNews($start = null, $per_page = null){
 	db_connect();
 	$other = array();
 	
-	$query = sprintf("SELECT * FROM `news` ORDER BY `id` DESC");
+	$query = sprintf("SELECT * FROM `news` ORDER BY `id` DESC LIMIT %s, %s",
+					mysql_real_escape_string($start),
+					mysql_real_escape_string($per_page)
+					);
 	$res = mysql_query($query);
 	if(mysql_num_rows($res) <= 0) return false;
 	
@@ -22,5 +25,14 @@ function getAllNews(){
 		$other[] = $row;
 	}
 	return $other;
+	
+}
+
+function getNumOfNews(){
+	db_connect();
+	
+	$query = sprintf("SELECT * FROM `news`");
+	$res = mysql_query($query);
+	return mysql_num_rows($res);
 	
 }

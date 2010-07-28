@@ -180,3 +180,4 @@ function deleteNews($newsId){
 	mysql_query($query);
 	return $output;
 }
+

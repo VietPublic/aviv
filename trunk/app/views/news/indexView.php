@@ -38,4 +38,55 @@
    	</div>
    	<?php endforeach;?>
    	<?php endif;?>
+   	
+   	<div style="clear: both; "></div>
+   	
+   	<!-- Start Navigation menu -->
+    <div class="pagination">
+    <?php
+	/*****************************************************************************************************/
+    //						START NAVIGATION																//
+    $range = SHOW_PER_PAGE/2;
+   // if not on page 1, don't show back links
+   if ($page > 1):?>
+
+   	<!-- Link to first page -->
+   	<a class="link first" href="<?php echo BASE_PATH.'news'.DS.$lng.DS.'1'.DS;?>"><?php echo $lang['First'];?></a>
+	<?php $prevpage = $page - 1;?>
+
+   	<!-- Link to previous page (from current) -->
+    <a class="link previous" href="<?php echo BASE_PATH.'news'.DS.$prevpage.DS; ?>"><?php echo $lang['Previous'];?></a>
+	<?php
+    endif;
+
+    // loop to show links to range of pages around current page
+    for ($x = ($page - $range); $x < (($page + $range) + 1); $x++):
+	    // if it's a valid page number...
+	    if (($x > 0) && ($x <= $totalpages)):
+		    // if we're on current page...
+		    if ($x == $page):?>
+		
+		    <!-- Current page -->
+		    <strong class="link current"><?php echo $x;?></strong>
+		    <?php else: ?>
+		    <!-- Other links -->
+		    <a class="link other" href="<?php echo BASE_PATH.'new'.DS.$x.DS;?>"><?php echo $x;?></a>
+		    <?php endif;?>
+	   	<?php endif;
+	endfor;
+
+	// if not on last page, show forward and last page links
+    if ($page != $totalpages):
+    // get next page
+    $nextpage = $page + 1;?>
+
+    <!-- Link to next page -->
+    <a class="link next" href="<?php echo BASE_PATH.'news'.DS.$nextpage.DS;?>"><?php echo $lang['Next'];?></a>
+
+    <!-- Link to last page -->
+    <a class="link last" href="<?php echo BASE_PATH.'news'.DS.$totalpages.DS;?>"><?php echo $lang['Last'];?></a>
+
+    <?php endif; ?>
+
+    </div>
 </div>
