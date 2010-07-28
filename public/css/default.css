@@ -401,7 +401,7 @@ body {
 	margin-top: 40px;
 	margin-left: 3px;
 	font-size: 18px;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 	float: left;
 }
 .main_content .text_box_bold {
@@ -468,7 +468,7 @@ body {
 	float: left;
 	height: 40px;
 	width: 285px;
-	margin-left: 0px;
+	margin-left: 40px;
 }
 
 
@@ -477,7 +477,7 @@ body {
 	background-repeat: repeat-x;
 	height: 1px;
 	width: 605px;
-	margin: 20px 10px 15px 3px;
+	margin: 10px 10px 5px 3px;
 	float: left;
 }
 .main_content .projects_imgs .imgs {
@@ -488,6 +488,7 @@ body {
 	float: left;
 	margin-bottom: 5px;
 	z-index: 100;
+	
 }
 .main_content .image_box_projects {
 	width: 396px;
@@ -1029,3 +1030,4 @@ body {
 .link {text-decoration:none; border:solid 1px #789298; padding:2px 5px;}
 .current {background:#789298; color:#FFF;}
 a.link:hover {background:#a1bdc4; color:#333;}
+
