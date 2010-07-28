@@ -18,8 +18,7 @@ switch($url['route']['action']){
 	/*****************************************************************/
 	/*			Home page											 */
 	case 'index': 
-				if(!isset($params['p']) || empty($params['p'])) header("Location: ".BASE_PATH.'cms'.DS.'home'.DS.'?q=error');
-				$project = getProject($params['p']);
+				$project = getProject();
 				$subtitle = "Projects";
 				
 				break;
@@ -27,14 +26,14 @@ switch($url['route']['action']){
 	/*****************************************************************/
 	/*			Home page											 */
 	case 'submit': 
-
-				if(!isset($params['p']) || empty($params['p'])) header("Location: ".BASE_PATH.'cms'.DS.'home'.DS.'?q=error');
 				
-				$other = setProject($params);
+				if(isset($params['id']) && !empty($params['id'])) $other = createProject($params);
+				else $other = updateProject($params);
+				
 				if(isset($other) && !empty($other)){
-					foreach($other as $o) uploadFile($o['file'], $params['p'], $o['id'], 150, 89);
+					foreach($other as $o) uploadFile($o['file'], $params['link'], $o['id'], 150, 89);
 				}
-				header("Location: ".BASE_PATH.'cms'.DS.'projects'.DS.'?p='.$params['p'].'&q=success');
+				header("Location: ".BASE_PATH.'cms'.DS.'projects'.DS.'?q=success');
 				$subtitle = "";
 				break;
 			
@@ -50,7 +49,15 @@ switch($url['route']['action']){
 				header("Location: ".BASE_PATH.'cms'.DS.'projects'.DS.'?p='.$params['p'].'&q=success');
 				$subtitle = "";
 				break;
+
+	/*****************************************************************/
+	/*			Home page											 */
+	case 'submit': 
 				
+				createProject($params);
+				header("Location: ".BASE_PATH.'cms'.DS.'projects'.DS.'?q=success');
+				$subtitle = "";
+				break;
 	/*****************************************************************/
 	/*			Default page if no action							 */
 	default: 
