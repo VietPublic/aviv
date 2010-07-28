@@ -22,18 +22,13 @@ $routes = array(
 					  	'layout' 		=> 'user'
 				),
 				//Our projects
-				array(	'url' 			=> '/^our-projects\/retail-park-pancevo\/?(en\/?|sr\/?)?$/', 
+				array(	'url' 			=> '/^our-projects\/?(en\/?|sr\/?)?$/', 
 						'controller' 	=> 'our-projects', 
-					  	'action' 		=> 'retailParkPancevo', 
-					  	'layout' 		=> 'user'
-				),
-				array(	'url' 			=> '/^our-projects\/zvezdara\/?(en\/?|sr\/?)?$/', 
-						'controller' 	=> 'our-projects', 
-					  	'action' 		=> 'zvezdara', 
+					  	'action' 		=> 'index', 
 					  	'layout' 		=> 'user'
 				),
 				//News
-				array(	'url' 			=> '/^news\/((?P<page>\d*)\/)?\/?(en\/?|sr\/?)?$/', 
+				array(	'url' 			=> '/^news\/(en\/?|sr\/?)?\/?((?P<page>\d*)\/)?$/', 
 						'controller' 	=> 'news', 
 					  	'action' 		=> 'index', 
 					  	'layout' 		=> 'user'

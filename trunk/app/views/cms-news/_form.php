@@ -16,12 +16,10 @@
 			<th style="vertical-align: top;">Content:</th>			
 		  	<td>
 		  		<img src="<?php echo IMAGE_PATH.'sr.png'; ?>" alt="" title="" />
-				<textarea name="news[sr][content]" rows="" cols="" class="j_required" style="width: 343px; height: 50px;" ><?php echo @$news['content_sr'];?></textarea>
-				<span>*</span>
+				<textarea name="news[sr][content]" rows="" cols="" style="width: 343px; height: 50px;" ><?php echo @$news['content_sr'];?></textarea>
 				<div style="clear: both;" ><br/></div>
 			  	<img src="<?php echo IMAGE_PATH.'en.png'; ?>" alt="" title="" />
-			  	<textarea name="news[en][content]" rows="" cols="" class="j_required" style="width: 343px; height: 50px;" ><?php echo @$news['content_en'];?></textarea>
-			  	<span>*</span>
+			  	<textarea name="news[en][content]" rows="" cols="" style="width: 343px; height: 50px;" ><?php echo @$news['content_en'];?></textarea>
 	     	</td>
 	     </tr>
 	     <tr>

@@ -7,8 +7,8 @@
 		<tbody>
 			<tr>
 				<th width="15%">Date</th>
-				<th width="21%">Title</th>
-				<th width="35%">Content</th>
+				<th width="21%">Title <img src="<?php echo IMAGE_PATH.'sr.png';?>" alt="" title="" /></th>
+				<th width="35%">Content <img src="<?php echo IMAGE_PATH.'sr.png';?>" alt="" title="" /></th>
 				<th width="16%">Main image</th>
 				<th width="13%" align="right" valign="middle">Action</th>
 			</tr>
@@ -18,7 +18,7 @@
 			<tr class="<?php echo (++$num%2==0?"even":"odd");?>">
 				<td valign="middle"><?php echo $n['modif'];?></td>
 				<td valign="middle"><?php echo $n['title_sr'];?></td>
-				<td><?php echo (strlen($n['content_sr'] > 50)? substr($n['content_sr'], 0, 50)."..." : $n['content_sr']);?></td>
+				<td><?php echo (count($n['content_sr'] > 200)? substr($n['content_sr'], 0, 200)."..." : $n['content_sr']);?></td>
 				<td align="center" valign="middle">
 					<img src="<?php echo BASE_PATH.UPLOAD_PATH.'news'.DS.'thumb'.DS.$n['id']."-".$n['main_image']; ?>" alt="" title="" />
 				</td>

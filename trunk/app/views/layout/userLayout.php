@@ -30,9 +30,9 @@
     			<div class="logo"></div>
     		    <div class="banner">
     		      <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" width="642" height="250">
-                    <param name="movie" value="../../../public/images/header.swf" />
+                    <param name="movie" value="<?php echo IMAGE_PATH;?>header.swf" />
                     <param name="quality" value="high" />
-                    <embed src="../../../public/images/header.swf" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="642" height="250"></embed>
+                    <embed src="<?php echo IMAGE_PATH;?>header.swf" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="642" height="250"></embed>
   		        </object>
     		    </div>
 	  </div>
@@ -49,10 +49,15 @@
 				    <li><a class="menu_border" href="<?php echo BASE_PATH.'our-goals'.DS.$lng.DS; ?>" title="<?php echo $lang['Our goals']; ?>" ><?php echo $lang['Our goals']; ?></a></li>
 				    <li>
 				    	<a class="menu_border" href="javascript:;" title="<?php echo $lang['Our projects']; ?>" ><?php echo $lang['Our projects']; ?></a>
+				    	<?php 
+				    		$projects = getFrontProjects();
+				    		if(isset($projects) && !empty($projects)):?>
 				    	<ul>
-				            <li><a href="<?php echo BASE_PATH.'our-projects'.DS.'retail-park-pancevo'.DS.$lng.DS; ?>">Retail Park Pancevo</a></li>
-<li><a href="<?php echo BASE_PATH.'our-projects'.DS.'zvezdara'.DS.$lng.DS; ?>">Zvezdara</a></li>
-</ul>
+				    		<?php foreach($projects as $pr):?>
+				            <li><a href="<?php echo BASE_PATH.'our-projects'.DS.$lng.DS.'?p='.$pr['link']; ?>">Retail Park Pancevo</a></li>
+							<?php endforeach; ?>
+						</ul>
+						<?php endif;?>
 		          </li>
 				    <li><a class="menu_border" href="<?php echo BASE_PATH.'news'.DS.$lng.DS; ?>" title="<?php echo $lang['News']; ?>" ><?php echo $lang['News']; ?></a></li>
 					<li><a class="menu_border" href="<?php echo BASE_PATH.'contact'.DS.$lng.DS; ?>" title="<?php echo $lang['Contact']; ?>" ><?php echo $lang['Contact']; ?></a></li>

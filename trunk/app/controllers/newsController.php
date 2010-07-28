@@ -8,6 +8,7 @@ switch($url['route']['action']){
 	/*****************************************************************/
 	/*			Home page											 */
 	case 'index': 
+		
 				//Current language
 				if(isset($params[1]) && !empty($params[1])){
 					

@@ -7,7 +7,7 @@ switch($url['route']['action']){
 	
 	/*****************************************************************/
 	/*			Home page											 */
-	case 'zvezdara': 
+	case 'index': 
 				//Current language
 				if(isset($params[1]) && !empty($params[1])){
 					
@@ -20,9 +20,9 @@ switch($url['route']['action']){
 					}
 				}else $lng = 'sr';
 				
-				$page = getSelectedProject('zvezdara');
+				$project = getSelectedProject($params['p']);
 
-				$subtitle = "Our projects - Zvezdara";
+				$subtitle = "Our projects";
 				break;
 
 	case 'retailParkPancevo': 
