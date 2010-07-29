@@ -29,10 +29,10 @@
     			<!-- Main header -->
     			<div class="logo"></div>
     		    <div class="banner">
-    		      <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" width="642" height="250">
-                    <param name="movie" value="<?php echo IMAGE_PATH;?>header.swf" />
+    		     <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" width="642" height="250">
+                    <param name="movie" value="../../../public/images/header.swf" />
                     <param name="quality" value="high" />
-                    <embed src="<?php echo IMAGE_PATH;?>header.swf" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="642" height="250"></embed>
+                    <embed src="../../../public/images/header.swf" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="642" height="250"></embed>
   		        </object>
     		    </div>
 	  </div>
@@ -92,7 +92,7 @@
                 			</div>
                 			<div class="news_text_title"><?php echo $l['title_'.$lng];?></div>
                 			<div class="news_text">
-                				<?php echo substr($l['content_'.$lng], 0, 200)."...";?>
+                				<?php echo substr($l['content_'.$lng], 0, 100)."...";?>
                 				<a href="<?php echo BASE_PATH.'news'.DS.$l['id'].DS.$lng.DS; ?>">More...</a>
                 			</div>
                 			<?php if($newsNum == 1):?><div class="news_break"></div><?php endif;?>
