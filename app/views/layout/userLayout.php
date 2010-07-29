@@ -19,7 +19,7 @@
 
         <?php if(isset($js)) echo js($js); ?>
        
-</head>
+    </head>
     
     <body>
     <div class="main">
@@ -57,7 +57,7 @@
 				            <li><a href="<?php echo BASE_PATH.'our-projects'.DS.$lng.DS.'?p='.$pr['link']; ?>">Retail Park Pancevo</a></li>
 							<?php endforeach; ?>
 						</ul>
-						<?php endif;?>
+					  <?php endif;?>
 		          </li>
 				    <li><a class="<?php if($active == 'news'):?>active<?php endif;?> menu_border" href="<?php echo BASE_PATH.'news'.DS.$lng.DS; ?>" title="<?php echo $lang['News']; ?>" ><?php echo $lang['News']; ?></a></li>
 					<li><a class="<?php if($active == 'contact'):?>active<?php endif;?> menu_border" href="<?php echo BASE_PATH.'contact'.DS.$lng.DS; ?>" title="<?php echo $lang['Contact']; ?>" ><?php echo $lang['Contact']; ?></a></li>
