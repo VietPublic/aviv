@@ -93,9 +93,9 @@
                 			<div class="news_text_title"><?php echo $l['title_'.$lng];?></div>
                 			<div class="news_text">
                 				<?php echo substr($l['content_'.$lng], 0, 100)."...";?>
-                				<a href="<?php echo BASE_PATH.'news'.DS.$l['id'].DS.$lng.DS; ?>">More...</a>
+                				<a href="<?php echo BASE_PATH.'news'.DS.$lng.DS.$l['id'].DS; ?>">More...</a>
                 			</div>
-                			<?php if($newsNum == 1):?><div class="news_break"></div><?php endif;?>
+                			<?php if($newsNum == 0):?><div class="news_break"></div><?php endif;?>
                 		</div>
                 		<?php 
                 		$newsNum++;
