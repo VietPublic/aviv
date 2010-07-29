@@ -51,11 +51,11 @@
    if ($page > 1):?>
 
    	<!-- Link to first page -->
-   	<a class="link first" href="<?php echo BASE_PATH.'news'.DS.$lng.DS.'1'.DS;?>"><?php echo $lang['First'];?></a>
+   	<a class="link first" href="<?php echo BASE_PATH.'news'.DS.$lng.DS.'?page=1';?>"><?php echo $lang['First'];?></a>
 	<?php $prevpage = $page - 1;?>
 
    	<!-- Link to previous page (from current) -->
-    <a class="link previous" href="<?php echo BASE_PATH.'news'.DS.$prevpage.DS; ?>"><?php echo $lang['Previous'];?></a>
+    <a class="link previous" href="<?php echo BASE_PATH.'news'.DS.$lng.DS.'?page='.$prevpage; ?>"><?php echo $lang['Previous'];?></a>
 	<?php
     endif;
 
@@ -70,7 +70,7 @@
 		    <strong class="link current"><?php echo $x;?></strong>
 		    <?php else: ?>
 		    <!-- Other links -->
-		    <a class="link other" href="<?php echo BASE_PATH.'new'.DS.$x.DS;?>"><?php echo $x;?></a>
+		    <a class="link other" href="<?php echo BASE_PATH.'news'.DS.$lng.DS.'?page='.$x;?>"><?php echo $x;?></a>
 		    <?php endif;?>
 	   	<?php endif;
 	endfor;
@@ -81,10 +81,10 @@
     $nextpage = $page + 1;?>
 
     <!-- Link to next page -->
-    <a class="link next" href="<?php echo BASE_PATH.'news'.DS.$nextpage.DS;?>"><?php echo $lang['Next'];?></a>
+    <a class="link next" href="<?php echo BASE_PATH.'news'.DS.$lng.DS.'?page='.$nextpage;?>"><?php echo $lang['Next'];?></a>
 
     <!-- Link to last page -->
-    <a class="link last" href="<?php echo BASE_PATH.'news'.DS.$totalpages.DS;?>"><?php echo $lang['Last'];?></a>
+    <a class="link last" href="<?php echo BASE_PATH.'news'.DS.$lng.DS.'?page='.$totalpages;?>"><?php echo $lang['Last'];?></a>
 
     <?php endif; ?>
 
