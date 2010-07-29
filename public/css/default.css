@@ -127,8 +127,8 @@ body {
 	line-height: 16px;
 	color: #000000;
 	text-decoration: none;
-	width: 180px;
-	margin-left: 88px;
+	width: 185px;
+	margin-left: 77px;
 	float: left;
 }
 .wraper .news .latest_news {
@@ -1044,4 +1044,9 @@ a.link:hover {background:#98e0fd; color:#333;}
 	width: 183px;
 	margin-right: 5px;
 	margin-left: 5px;
+}
+.main_content .placeholder {
+	height: 10px;
+	width: 20px;
+	margin-bottom: 50px;
 }
