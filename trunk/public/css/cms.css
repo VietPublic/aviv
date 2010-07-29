@@ -74,7 +74,7 @@ hr {
 
 #header h1 {
 	font-size: 20px;
-	color: #211d70;
+	color: #819AB2;
 	font-family: Arial, Helvetica, sans-serif;
 	letter-spacing: 2px;
 }
@@ -83,7 +83,7 @@ hr {
 	margin-top: -7px;
 	font-size: 14px;
 	font-weight: normal;
-	color: #211d70;
+	color: #819AB2;
 	text-transform: lowercase;
 	padding-top: 0px;
 	padding-right: 0px;
@@ -314,7 +314,7 @@ hr {
 
 /* Footer */
 
-#footer { width: 800px; margin: 0 auto;	height: 50px; text-align: center; font-size: 11px; font-family: Arial, Helvetica, sans-serif; color: #86EA66; margin-bottom: 27px;}
+#footer { width: 800px; margin: 0 auto;	height: 50px; text-align: center; font-size: 11px; font-family: Arial, Helvetica, sans-serif; color: #819AB2; margin-bottom: 27px;}
 #footer p { padding-top: 15px;}
 #footer p a { color: #86EA66;}
 img { border: none; }
