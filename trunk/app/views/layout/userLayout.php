@@ -19,6 +19,15 @@
 
         <?php if(isset($js)) echo js($js); ?>
        
+        <!-- Include cufon -->
+        <?php echo js('cufon.js'); ?>
+        <?php echo js('AkzidenzGrotesk_400.font.js'); ?>
+       	<!-- cufon -->
+       	<script type="text/javascript">
+            $(document).ready(function(){
+                Cufon.replace('.cufon', { fontFamily: 'AkzidenzGrotesk', hover:true});
+            });
+        </script>
     </head>
     
     <body>
@@ -30,9 +39,9 @@
     			<div class="logo"></div>
     		    <div class="banner">
     		     <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" width="642" height="250">
-                    <param name="movie" value="../../../public/images/header.swf" />
+                    <param name="movie" value="<?php echo IMAGE_PATH; ?>header.swf" />
                     <param name="quality" value="high" />
-                    <embed src="../../../public/images/header.swf" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="642" height="250"></embed>
+                    <embed src="<?php echo IMAGE_PATH; ?>header.swf" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="642" height="250"></embed>
   		        </object>
     		    </div>
 	  </div>
@@ -44,23 +53,23 @@
 <div class="nav">
     			<!-- Main navigation -->
     			<ul id="jsddm">
-				    <li><a class="<?php if($active == 'home'):?>active<?php endif;?>" href="<?php echo BASE_PATH.$lng.DS; ?>" title="<?php echo $lang['Home']; ?>" ><?php echo $lang['Home']; ?></a></li>
-				    <li><a class="<?php if($active == 'who-we-are'):?>active<?php endif;?> menu_border" href="<?php echo BASE_PATH.'who-we-are'.DS.$lng.DS; ?>" title="<?php echo $lang['Who we are']; ?>" ><?php echo $lang['Who we are']; ?></a></li>
-				    <li><a class="<?php if($active == 'our-goals'):?>active<?php endif;?> menu_border" href="<?php echo BASE_PATH.'our-goals'.DS.$lng.DS; ?>" title="<?php echo $lang['Our goals']; ?>" ><?php echo $lang['Our goals']; ?></a></li>
+				    <li><a class="<?php if($active == 'home'):?>active<?php endif;?>" href="<?php echo BASE_PATH.$lng.DS; ?>" title="<?php echo $lang['Home']; ?>" ><span class="cufon"><?php echo $lang['Who we are']; ?></span></a></li>
+				    <li><a class="<?php if($active == 'who-we-are'):?>active<?php endif;?> menu_border" href="<?php echo BASE_PATH.'who-we-are'.DS.$lng.DS; ?>" title="<?php echo $lang['Who we are']; ?>" ><span class="cufon"><?php echo $lang['Who we are']; ?></span></a></li>
+				    <li><a class="<?php if($active == 'our-goals'):?>active<?php endif;?> menu_border" href="<?php echo BASE_PATH.'our-goals'.DS.$lng.DS; ?>" title="<?php echo $lang['Our goals']; ?>" ><span class="cufon"><?php echo $lang['Our goals']; ?></span></a></li>
 				    <li>
-				    	<a class="<?php if($active == 'our-projects'):?>active<?php endif;?> menu_border" href="javascript:;" title="<?php echo $lang['Our projects']; ?>" ><?php echo $lang['Our projects']; ?></a>
+				    	<a class="<?php if($active == 'our-projects'):?>active<?php endif;?> menu_border" href="javascript:;" title="<?php echo $lang['Our projects']; ?>" ><span class="cufon"><?php echo $lang['Our projects']; ?></span></a>
 				    	<?php 
 				    		$projects = getFrontProjects();
 				    		if(isset($projects) && !empty($projects)):?>
 				    	<ul>
 				    		<?php foreach($projects as $pr):?>
-				            <li><a href="<?php echo BASE_PATH.'our-projects'.DS.$lng.DS.'?p='.$pr['link']; ?>">Retail Park Pancevo</a></li>
+				            <li><a href="<?php echo BASE_PATH.'our-projects'.DS.$lng.DS.'?p='.$pr['link']; ?>"><span class="cufon">Retail Park Pancevo</span></a></li>
 							<?php endforeach; ?>
 						</ul>
 					  <?php endif;?>
 		          </li>
-				    <li><a class="<?php if($active == 'news'):?>active<?php endif;?> menu_border" href="<?php echo BASE_PATH.'news'.DS.$lng.DS; ?>" title="<?php echo $lang['News']; ?>" ><?php echo $lang['News']; ?></a></li>
-					<li><a class="<?php if($active == 'contact'):?>active<?php endif;?> menu_border" href="<?php echo BASE_PATH.'contact'.DS.$lng.DS; ?>" title="<?php echo $lang['Contact']; ?>" ><?php echo $lang['Contact']; ?></a></li>
+				    <li><a class="<?php if($active == 'news'):?>active<?php endif;?> menu_border" href="<?php echo BASE_PATH.'news'.DS.$lng.DS; ?>" title="<?php echo $lang['News']; ?>" ><span class="cufon"><?php echo $lang['News']; ?></span></a></li>
+					<li><a class="<?php if($active == 'contact'):?>active<?php endif;?> menu_border" href="<?php echo BASE_PATH.'contact'.DS.$lng.DS; ?>" title="<?php echo $lang['Contact']; ?>" ><span class="cufon"><?php echo $lang['Contact']; ?></span></a></li>
 				</ul>
 	  </div>
     			
