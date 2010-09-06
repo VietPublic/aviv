@@ -19,6 +19,9 @@
 
         <?php if(isset($js)) echo js($js); ?>
        
+<<<<<<< .mine
+        <link href="../../../public/css/default.css" rel="stylesheet" type="text/css" />
+=======
         <!-- Include cufon -->
         <?php echo js('cufon.js'); ?>
         <?php echo js('AkzidenzGrotesk_400.font.js'); ?>
@@ -28,6 +31,7 @@
                 Cufon.replace('.cufon', { fontFamily: 'AkzidenzGrotesk', hover:true});
             });
         </script>
+>>>>>>> .r122
     </head>
     
     <body>
@@ -39,9 +43,17 @@
     			<div class="logo"></div>
     		    <div class="banner">
     		     <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" width="642" height="250">
+<<<<<<< .mine
+                    <param name="movie" value="<?php echo  IMAGE_PATH; ?>header.swf" />
+=======
                     <param name="movie" value="<?php echo IMAGE_PATH; ?>header.swf" />
+>>>>>>> .r122
                     <param name="quality" value="high" />
+<<<<<<< .mine
+                    <embed src="<?php echo  IMAGE_PATH; ?>header.swf" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="642" height="250"></embed>
+=======
                     <embed src="<?php echo IMAGE_PATH; ?>header.swf" quality="high" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="642" height="250"></embed>
+>>>>>>> .r122
   		        </object>
     		    </div>
 	  </div>
