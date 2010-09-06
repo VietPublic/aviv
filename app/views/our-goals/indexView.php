@@ -8,7 +8,7 @@
   <br />
   <?php echo $lang['subtext3_our-goals'];?>
 </div>
-<div class="movie"><object width="370" height="226"><param name="movie" value="http://www.youtube.com/v/NNohtbMFkeA&amp;hl=en_US&amp;fs=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/NNohtbMFkeA&amp;hl=en_US&amp;fs=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="370" height="226"></embed></object></div>
+<div class="movie"><object width="370" height="226"><param name="movie" value="http://www.youtube.com/v/T7CMWp2S_Zo?fs=1&amp;hl=en_US"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/T7CMWp2S_Zo?fs=1&amp;hl=en_US" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="370" height="226"></embed></object></div>
   
 
 <div class="text_break"></div>

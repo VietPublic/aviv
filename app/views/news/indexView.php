@@ -1,3 +1,4 @@
+<link href="../../../public/css/default.css" rel="stylesheet" type="text/css" />
 
 <div class="main_content">
 

@@ -1,17 +1,17 @@
 <?php
 //Site
-define('SITE', 'http://aviv');//http://localhost
+define('SITE', 'http://www.avivarlon.rs/dev');//http://localhost
 
 //App root
 define('APP_ROOT', '');//
 
-define('IN_DEV', true);
+define('IN_DEV', false);
 
 //DB params
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'aviv');
-define('DB_USER', 'root');
-define('DB_PASS', '');
+define('DB_NAME', 'avivarlon');
+define('DB_USER', 'avivarlon');
+define('DB_PASS', 'd83ErTQ3');
 
 define('BASE_PATH', SITE.DS.APP_ROOT);
 
