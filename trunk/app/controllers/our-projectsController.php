@@ -21,7 +21,7 @@ switch($url['route']['action']){
 				}else $lng = 'sr';
 				
 				$project = getSelectedProject($params['p']);
-
+				
 				$subtitle = "Our projects";
 				break;
 
@@ -50,6 +50,9 @@ switch($url['route']['action']){
 				$subtitle = "";
 				break;
 }
+
+$currentPage = "our-projects";
+
 //Load language from file
 if(file_exists(LANG_PATH.$lng."Lang.php")) include(LANG_PATH.$lng."Lang.php");
 else include(LANG_PATH."srLang.php");

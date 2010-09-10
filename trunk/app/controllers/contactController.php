@@ -39,6 +39,9 @@ switch($url['route']['action']){
 				$subtitle = "";
 				break;
 }
+
+$currentPage = "contact";
+
 //Load language from file
 if(file_exists(LANG_PATH.$lng."Lang.php")) include(LANG_PATH.$lng."Lang.php");
 else include(LANG_PATH."srLang.php");

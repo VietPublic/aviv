@@ -23,6 +23,7 @@ switch($url['route']['action']){
 				$page = getSelectedPage('our-goals');
 				
 				$subtitle = "Our goals";
+				
 				break;
 
 	/*****************************************************************/
@@ -31,6 +32,9 @@ switch($url['route']['action']){
 				$subtitle = "";
 				break;
 }
+
+$currentPage = "our-goals";
+
 //Load language from file
 if(file_exists(LANG_PATH.$lng."Lang.php")) include(LANG_PATH.$lng."Lang.php");
 else include(LANG_PATH."srLang.php");

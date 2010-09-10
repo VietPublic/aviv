@@ -63,7 +63,7 @@
                                                 if(isset($projects) && !empty($projects)):?>
                                         <ul>
                                                 <?php foreach($projects as $pr):?>
-                                            <li><a href="<?php echo BASE_PATH.'our-projects'.DS.$lng.DS.'?p='.$pr['link']; ?>"><span class="cufon">Retail Park Pancevo</span></a></li>
+                                            <li><a href="<?php echo BASE_PATH.'our-projects'.DS.$lng.DS.'?p='.$pr['link']; ?>"><span class="cufon"><?php echo $pr['title_'.$lng]?></span></a></li>
                                                         <?php endforeach; ?>
                                                 </ul>
                                           <?php endif;?>
@@ -74,10 +74,10 @@
           </div>
                         
           <div class="lang_srb">
-                <a href="<?php echo BASE_PATH.'sr'.DS;?>">
+                <a href="<?php echo BASE_PATH.$currentPage.DS.'sr'.DS.((isset($_GET['p']) && !empty($_GET['p'])) ? "?p=".$_GET['p'] : "");?>">
                         <img src="<?php echo IMAGE_PATH.'main_flag_srb.jpg';?>" alt="" border="0" title="" />           </a>     </div>
     <div class="lang_eng">
-        <a href="<?php echo BASE_PATH.'en'.DS;?>">
+        <a href="<?php echo BASE_PATH.$currentPage.DS.'en'.DS;?>">
                 <img src="<?php echo IMAGE_PATH.'main_flag_eng.jpg';?>" alt="" border="0" title="" />           </a>     </div>
                 
             

@@ -137,7 +137,7 @@ function getSelectedProject($projectLink){
 	$row = mysql_fetch_assoc($res);
 	
 	//Other
-	$query = sprintf("SELECT * FROM `projects_images` WHERE `project_id`='%s'",
+	$query = sprintf("SELECT * FROM `projects_images` WHERE `project_id`='%s' ORDER BY `image` ASC",
 					mysql_real_escape_string($row['id'])
 					);
 	$res_other = mysql_query($query);
