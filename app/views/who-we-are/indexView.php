@@ -8,7 +8,7 @@
   </div>
   
   <div class="text_break"></div>
-  <div class="page_title"><span class="plavi_text">Aviv Arlon</span>  <?php echo $lang['Selected Projects'];?></div>
+  <div class="page_title"><span class="plavi_text"><?php echo $lang['Aviv Arlon`s'];?></span> <?php echo $lang['Selected Projects'];?></div>
   
   <div class="projects_imgs">
   	<div class="imgs"><a href="<?php echo IMAGE_PATH.'pic_who_we_are_01_big.jpg';?>" title="Moshe Aviv Tower,<br /> Ramat Gan"><img src="<?php echo IMAGE_PATH.'pic_who_we_are_01.jpg';?>" border="0" /></a></div>

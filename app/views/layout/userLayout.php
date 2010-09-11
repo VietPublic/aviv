@@ -48,12 +48,12 @@
             
                 <div class="nav_corporate">
             
-            <div class="nnav_corporate_text"><a href="#">&gt;&gt; <?php echo $lang['click here to visit our global web site'];?> &lt;&lt;</a></div>
-            </div>
+            <div class="nnav_corporate_text"><a href="http://www.avivcomp.co.il/" target="_blank">&gt;&gt; <?php echo $lang['click here to visit our global web site'];?> &lt;&lt;</a></div>
+          </div>
 <div class="nav">
                         <!-- Main navigation -->
                         <ul id="jsddm">
-                                    <li><a class="<?php if($active == 'home'):?>active<?php endif;?>" href="<?php echo BASE_PATH.$lng.DS; ?>" title="<?php echo $lang['Home']; ?>" ><span class="cufon"><?php echo $lang['Who we are']; ?></span></a></li>
+                                    <li><a class="<?php if($active == 'home'):?>active<?php endif;?>" href="<?php echo BASE_PATH.$lng.DS; ?>" title="<?php echo $lang['Home']; ?>" ><span class="cufon"><?php echo $lang['Home']; ?></span></a></li>
                                     <li><a class="<?php if($active == 'who-we-are'):?>active<?php endif;?> menu_border" href="<?php echo BASE_PATH.'who-we-are'.DS.$lng.DS; ?>" title="<?php echo $lang['Who we are']; ?>" ><span class="cufon"><?php echo $lang['Who we are']; ?></span></a></li>
                                     <li><a class="<?php if($active == 'our-goals'):?>active<?php endif;?> menu_border" href="<?php echo BASE_PATH.'our-goals'.DS.$lng.DS; ?>" title="<?php echo $lang['Our goals']; ?>" ><span class="cufon"><?php echo $lang['Our goals']; ?></span></a></li>
                                     <li>
