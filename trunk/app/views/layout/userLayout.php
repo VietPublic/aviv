@@ -21,7 +21,7 @@
        
         <!-- Include cufon -->
         <?php echo js('cufon.js'); ?>
-        <?php echo js('AkzidenzGrotesk_400.font.js'); ?>
+        <?php echo js('Myriad_Pro_400-Myriad_Pro_600.font.js'); ?>
         <!-- cufon -->
         <script type="text/javascript">
             $(document).ready(function(){
