@@ -69,7 +69,7 @@
                                           <?php endif;?>
                           </li>
                                     <li><a class="<?php if($active == 'news'):?>active<?php endif;?> menu_border" href="<?php echo BASE_PATH.'news'.DS.$lng.DS; ?>" title="<?php echo $lang['News']; ?>" ><span class="cufon"><?php echo $lang['News']; ?></span></a></li>
-                                        <li><a class="<?php if($active == 'contact'):?>active<?php endif;?> menu_border" href="<?php echo BASE_PATH.'contact'.DS.$lng.DS; ?>" title="<?php echo $lang['Contact']; ?>" ><span class="cufon"><?php echo $lang['Contact']; ?></span></a></li>
+                                        <li><a class="<?php if($active == 'contact'):?>active<?php endif;?> menu_border" href="<?php echo BASE_PATH.'contact'.DS.$lng.DS; ?>" title="<?php echo $lang['Contact']; ?>" style="padding-left:23px!important;" ><span class="cufon"><?php echo $lang['Contact']; ?></span></a></li>
                                 </ul>
           </div>
                         
