@@ -51,6 +51,12 @@ $lang = array(
 												
 	//Contact
 	'Contact'					=>				'Kontakt',
+	'adresa'					=>				'Beograd, Srbija',
+	'full name'					=>				'ime i prezime',
+	'email'						=>				'el.adresa',
+	'company'					=>				'kompanija',
+	'phone'						=>				'telefon',
+	'message'					=>				'poruka',		
 
 	//News
 	'First'						=>				'Prva',
