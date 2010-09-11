@@ -48,9 +48,9 @@ Plovdiv, Bulgaria"><img src="<?php echo IMAGE_PATH.'pic_who_we_are_10.jpg';?>" b
     <div class="imgs"></div>
     <div class="imgs"></div>
     <div class="who_we_are_img_description">Mall of Sofia,<br />
-Sofia, Bulgaria</div>
+Sofia, <?php echo ($lng == 'sr' ? "Bugarska" : "Bulgaria")?></div>
     <div class="who_we_are_img_description">Mall of Plovdiv,<br />
-Plovdiv, Bulgaria</div>
+Plovdiv, <?php echo ($lng == 'sr' ? "Bugarska" : "Bulgaria")?></div>
 
   </div>
 </div>

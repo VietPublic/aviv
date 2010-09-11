@@ -10,7 +10,7 @@
   				<th style="width: 40%;">
   					<div align="left"><span class="text_news_bold"><strong>Aviv Arlon Holding d.o.o.</strong></span><br/>
   					    <span class="text_news_regular">Vladimira Popovica 6,<br/>
-				        Belgrade, Serbia<br/>
+				        <?php echo $lang['adresa'];?><br/>
 				        <br/>
 				        tel: +381 11 3121 608, 3121 609<br />
 				        fax: +381 11 3121 610<br />
@@ -23,36 +23,36 @@
 	  							<tr>
 	  							<td>
 	  								<span class="contact_star">*</span>
-								    <input name="contact[name]" type="text" value="full name" id="name"/>
+								    <input name="contact[name]" type="text" value="<?php echo $lang['full name'];?>" id="name"/>
 						 		</td>
   							  </tr>
 	  						  <tr>
 	  							<td>
 	  								<span class="contact_star">*</span>
-							      	<input name="contact[email]" type="text" value="email" id="email"/>
+							      	<input name="contact[email]" type="text" value="<?php echo $lang['email'];?>" id="email"/>
 							    </td>
 							  </tr>
   							  <tr>
 	  							<td>
-  								  	<input name="contact[company]" type="text" value="company" style="margin-left: 12px; width: 300px;"/>
+  								  	<input name="contact[company]" type="text" value="<?php echo $lang['company'];?>" style="margin-left: 12px; width: 300px;"/>
   								</td>
   							  </tr>
   							  <tr>
 	  							<td>
-  								  	<input name="contact[plone]" type="text" value="phone" style="margin-left: 12px; width: 300px;"/>
+  								  	<input name="contact[plone]" type="text" value="<?php echo $lang['phone'];?>" style="margin-left: 12px; width: 300px;"/>
   								</td>
   							  </tr>
 	  						  <tr>
 	  							<td valign="top">
 	  								<span class="contact_star" style="vertical-align: top;">*</span>
-							    	<textarea name="contact[message]" cols="" rows="" id="message">message</textarea>	  								
+							    	<textarea name="contact[message]" cols="" rows="" id="message"><?php echo $lang['message'];?></textarea>	  								
 							    </td>
   							  </tr>
 	  						</tbody>
 	  						<tfoot>
 	  							<tr>
 	  								<td align="center">
-  										<input name="" type="button" value="send"/>
+  										<input name="" type="button" value="<?php echo $lang['send'];?>"/>
 									</td>
   							  	</tr>
 	  						</tfoot>
