@@ -1,6 +1,6 @@
 <div class="main_content">
   <div class="page_title">
-  	<span class="plavi_text">Contact</span> Us
+  	<span class="plavi_text"><?php echo $lang['Contact'];?></span> 
   </div>
   <div style="clear: both;"><!-- empty --></div>
   <div class="contact">

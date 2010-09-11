@@ -404,7 +404,7 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	font-weight: bold;
-	margin-top: 0px;
+	margin-top: 13px;
 	line-height: 16px;
 	width: 580px;
 	text-align: justify;
@@ -419,7 +419,7 @@ body {
 	margin-left: 3px;
 	width: 580px;
 	text-align: justify;
-	margin-top: 15px;
+	margin-top: 0px;
 	margin-bottom: 10px;
 	float: left;
 }
@@ -469,9 +469,9 @@ body {
 
 
 .main_content .text_break {
-	background-image: url(../../../public/images/main_border.jpg);
+	background-image: url(../images/main_border.jpg);
 	background-repeat: repeat-x;
-	height: 1px;
+	height: 2px;
 	width: 605px;
 	margin: 10px 10px 5px 3px;
 	float: left;
@@ -717,7 +717,7 @@ body {
 	height: 18px;
 	color: #ffffff;
 	margin-top: 2px;
-	font-size: 13pt;
+	font-size: 13px;
 }
 
 #jsddm li ul{

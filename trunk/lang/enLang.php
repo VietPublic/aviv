@@ -9,7 +9,7 @@ $lang = array(
 	'Our projects'				=>				'Our projects',
 	'Retail Park Pancevo'		=>				'Retail Park Pancevo',
 	'Zvezdara'					=>				'Zvezdara',
-	'Contact'					=>				'Contact',
+	'Contact '					=>				'Contact',
 	'Latest'					=>				'Latest',
 	'news'						=>				'news',
 	'More'						=>				'More',
@@ -26,6 +26,7 @@ $lang = array(
 	'We Are'					=>				'We Are',
 	'text_who-we-are'			=>				'<p>We are a highly experienced team of real estate professionals with decades of joint experience in all aspects of real estate development and investment.</p>
     												<p>Adding to the mix is the wide range of partnerships in areas of acquisition, development, management and financing that we have cultivated over the many years through our multiple projects.</p>',
+	'Aviv Arlon`s'				=>				'Aviv Arlon`s',
 	'Selected Projects'			=>				'Selected Projects',
 
 	//Our goals
@@ -46,6 +47,10 @@ $lang = array(
 												favorable markets<br /><br />
 												* A strong operations background in both emerging countries and international markets<br /><br />
 												* Experts in raising funds and financing projects',
+												
+	//Contact
+	'Contact'					=>				'Contact',
+	'Us'						=>				'Us',
 	//News
 	'First'						=>				'First',
 	'Previous'					=>				'Previous',

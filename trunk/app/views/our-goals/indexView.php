@@ -1,3 +1,4 @@
+
 <div class="main_content">
   <div class="page_title"><span class="plavi_text"><?php echo $lang['Our'];?></span> <?php echo $lang['Goals'];?></div>
   
