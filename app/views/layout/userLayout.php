@@ -25,7 +25,7 @@
         <!-- cufon -->
         <script type="text/javascript">
             $(document).ready(function(){
-                Cufon.replace('.cufon', { fontFamily: 'AkzidenzGrotesk', hover:true});
+                Cufon.replace('.cufon', { fontFamily: 'Myriad Pro', hover:true});
             });
         </script>
     </head>
