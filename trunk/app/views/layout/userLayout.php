@@ -99,10 +99,10 @@
                                                 echo $date[0];
                                                 ?>
                                         </div>
-                                        <div class="news_text_title"><?php echo $l['title_'.$lng];?></div>
+                                        <div class="news_text_title"><?php echo utf8_encode($l['title_'.$lng]);?></div>
                                         <div class="news_text">
-                                                <?php echo substr($l['content_'.$lng], 0, 100)."...";?>
-                                                <a href="<?php echo BASE_PATH.'news'.DS.$lng.DS.$l['id'].DS; ?>">More...</a>
+                                                <?php echo utf8_encode(substr($l['content_'.$lng], 0, 100)."...");?>
+                                                <a href="<?php echo BASE_PATH.'news'.DS.$lng.DS.$l['id'].DS; ?>"><?php echo ($lng == 'sr' ? 'Detaljnije' : 'More');?>...</a>
                                         </div>
                                         <?php if($newsNum == 0):?><div class="news_break"></div><?php endif;?>
                                 </div>
