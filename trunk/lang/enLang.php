@@ -57,6 +57,7 @@ $lang = array(
 	'company'					=>				'company',
 	'phone'						=>				'phone',
 	'message'					=>				'message',
+	'send'						=>				'send',	
 
 	//News
 	'First'						=>				'First',

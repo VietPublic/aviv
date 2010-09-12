@@ -56,7 +56,8 @@ $lang = array(
 	'email'						=>				'el.adresa',
 	'company'					=>				'kompanija',
 	'phone'						=>				'telefon',
-	'message'					=>				'poruka',		
+	'message'					=>				'poruka',
+	'send'						=>				'pošalji',		
 
 	//News
 	'First'						=>				'Prva',
