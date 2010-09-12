@@ -77,7 +77,7 @@
                 <a href="<?php echo BASE_PATH.$currentPage.DS.'sr'.DS.((isset($_GET['p']) && !empty($_GET['p'])) ? "?p=".$_GET['p'] : "");?>">
                         <img src="<?php echo IMAGE_PATH.'main_flag_srb.jpg';?>" alt="" border="0" title="" />           </a>     </div>
     <div class="lang_eng">
-        <a href="<?php echo BASE_PATH.$currentPage.DS.'en'.DS;?>">
+        <a href="<?php echo BASE_PATH.$currentPage.DS.'en'.DS.((isset($_GET['p']) && !empty($_GET['p'])) ? "?p=".$_GET['p'] : "");?>">
                 <img src="<?php echo IMAGE_PATH.'main_flag_eng.jpg';?>" alt="" border="0" title="" />           </a>     </div>
                 
             
