@@ -13,6 +13,9 @@ function saveContact($params){
 					mysql_real_escape_string($string)
 					);
 	mysql_query($query);
+	
+	//Send email
+	@mail("office@avivarlon.rs", "Form", $string, "From: noreplay@avivarlon.rs");
 	return true;
 	
 }
